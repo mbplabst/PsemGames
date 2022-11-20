@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;400&family=Comfortaa:wght@400;500;600;700&family=Indie+Flower&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color: #12181B;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: darkkhaki;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10%;
+}
+
+.display {
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    background-color: #292929;
+    border: 1px solid whitesmoke;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    font-family: 'Comfortaa', cursive;
+    color: aqua;
+}
+
+.playerO {
+    font-family: 'Comfortaa', cursive;
+    color: blueviolet;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background-color: rgb(180, 53, 53);
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
