@@ -6,9 +6,45 @@
     <link rel="icon" href="/img/icon.ico">
     <link rel="stylesheet" href="/games/ttt-style.css">
     <script src="/games/ttt-script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
+
+
+    <div id="menu-nav">
+        <div id="navigation-bar">
+            <ul>
+
+                <li>
+                    <a href="../home.html">
+                        <i class="fa fa-home fa-beat"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../games.html">
+                        <i class="fa-solid fa-chess-knight fa-bounce"></i>
+                        <span>Spielen</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-info fa-spin"></i>
+                        <span>Infos</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
     <main class="background">
         <section class="title">
             <h1>Tic Tac Toe</h1>
@@ -30,6 +66,17 @@
         <section class="display announcer hide">Klicke auf eines der Felder, um das Spiel zu starten!</section>
         <section class="controls">
             <button id="reset">Zurücksetzen</button>
+        </section>
+
+        <section class="statistics">
+            <!--COUNTER FÜR UNENTSCHIEDEN-->
+            UNENTSCHIEDEN 🙌: <span class="total-tie">0</span><br />
+            <!--COUNTER FÜR SIEGE VON X-->
+            SIEGE 🏆 VON X: <span class="total-winsX">0</span><br />
+            <!--COUNTER FÜR SIEGE VON O-->
+            SIEGE 🥇 VON O: <span class="total-winsO">0</span><br />
+            <!--COUNTER FÜR SPIELABBRÜCHE-->
+            ABGEBROCHENE SPIELE 😟: <span class="total-abortions">0</span>
         </section>
     </main>
 </body>

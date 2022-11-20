@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    margin: 0;
+    background: #1b1b1b;
+    font-family: 'Itim', cursive;
+}
+
+#menu-nav {
+    background-color: #141414;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#navigation-bar ul {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation-bar li {
+    text-align: center;
+    float: left;
+    width: 10rem;
+}
+
+#navigation-bar i {
+    display: block;
+}
+
+#navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+}
+
+#navigation-bar a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#navigation-bar a:hover {
+    color: #e74c3c;
+}
+
+#navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #e74c3c;
+}
+
+#navigation-bar a:hover::before {
+    right: 0;
+    left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (min-width: 1000px) {
+    #navigation-bar ul {
+        justify-content: center;
+    }
+}
+
+h1 {
+    color:#ffffff;
+    display: flex;
+    align-self: center;
+}

@@ -1,13 +1,21 @@
 window.addEventListener('DOMContentLoaded', () => {
     const tiles = Array.from(document.querySelectorAll('.tile'));
-    const playerDisplay = document.querySelector('.display-player');
+    let playerDisplay = document.querySelector('.display-player');
     const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.announcer');
-    //const display = document.querySelector('.display');
+    const display = document.querySelector('.display');
+    const winCountX = document.querySelector('.total-winsX');
+    const winCountO = document.querySelector('.total-winsO');
+    const surrenderCount = document.querySelector('.total-abortions');
+    const tieCount = document.querySelector('.total-tie');
 
     let board = ['', '', '', '', '', '', '', '', ''];
     let currentPlayer = 'X';
     let isGameActive = true;
+    let statsTotalWinsX = 0;
+    let statsTotalWinsO = 0;
+    let statsTotalFF = -1;
+    let statsTotalTies = 0;
 
     const PLAYERX_WON = 'PLAYERX_WON';
     const PLAYERO_WON = 'PLAYERO_WON';
@@ -61,16 +69,20 @@ window.addEventListener('DOMContentLoaded', () => {
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
+                winCountO.innerHTML = ++statsTotalWinsO;
                 announcer.innerHTML = 'Der Spieler <span class="playerO">O</span> gewinnt!';
                 break;
             case PLAYERX_WON:
+                winCountX.innerHTML = ++statsTotalWinsX;
                 announcer.innerHTML = 'Der Spieler <span class="playerX">X</span> gewinnt!';
                 break;
             case TIE:
+                tieCount.innerHTML = ++statsTotalTies;
                 announcer.innerText = 'Spiel endet Unentschieden!';
         }
-        // display.innerHTML = 'Das Spiel ist beendet!';
+        display.innerHTML = 'Das Spiel ist beendet!';
         announcer.classList.remove('hide');
+        resetButton.innerHTML = "Neues Spiel";
     };
 
     const isValidAction = (tile) => {
@@ -116,6 +128,14 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
         });
+
+        display.innerHTML = 'Spieler <span class="display-player playerX">X</span> ist dran!';
+        playerDisplay = document.querySelector('.display-player');
+        if (resetButton.innerHTML === "Zurücksetzen") {
+            surrenderCount.innerHTML = ++statsTotalFF;
+        }
+
+        resetButton.innerHTML = "Zurücksetzen";
     }
 
     tiles.forEach( (tile, index) => {
@@ -123,4 +143,6 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     resetButton.addEventListener('click', resetBoard);
+
+    resetBoard();
 });

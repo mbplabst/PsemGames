@@ -3,13 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Itim', cursive;
-}
-
-.background {
-    background-color: #12181B;
-    height: 100vh;
-    padding-top: 1px;
 }
 
 .title {
@@ -72,12 +65,15 @@
 #reset {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
-    background-color: rgb(180, 53, 53);
+    background-color: #e74c3c;
     color: whitesmoke;
     padding: 8px;
     border-radius: 8px;
     border: none;
     font-size: 20px;
-    margin-left: 1em;
     cursor: pointer;
+}
+
+.statistics {
+    color: whitesmoke;
 }
