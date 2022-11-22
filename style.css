@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     margin: 0;
     background: #1b1b1b;
-    font-family: 'Itim', cursive;
+    /* font-family: 'Itim', cursive; */
 }
 
 #menu-nav {
     background-color: #141414;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 #navigation-bar ul {
@@ -76,8 +79,16 @@ li {
     }
 }
 
-h1 {
-    color:#ffffff;
-    display: flex;
-    align-self: center;
+.content-text {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.bodenfraesäää {
+    color: gold;
+    font-weight: bold;
+}
+
+.maggus {
+    width: 500px;
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;400&family=Comfortaa:wght@400;500;600;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 * {
     padding: 0;
@@ -6,10 +7,10 @@
 }
 
 .title {
-    color: darkkhaki;
+    color: whitesmoke;
+    font-family: 'Luckiest Guy', cursive;
     text-align: center;
     font-size: 35px;
-    margin-top: 10%;
 }
 
 .display {
