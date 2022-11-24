@@ -1,9 +1,12 @@
+<!DOCTYPE html>
+<html lang="de">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PsemGames - Tic Tac Toe</title>
-    <link rel="icon" href="/img/icon.ico">
+    <link rel="icon" href="/img/PsemGames.ico">
     <link rel="stylesheet" href="/games/ttt-style.css">
     <script src="/games/ttt-script.js"></script>
 
@@ -21,21 +24,21 @@
                 <ul>
 
                     <li>
-                        <a href="./home.html">
+                        <a href="../home.html">
                             <i class="fa fa-home"></i>
                             <span>Home</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./games.html">
+                        <a href="../games.html">
                             <i class="fa-solid fa-chess-knight"></i>
                             <span>Spielen</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./infos.html">
+                        <a href="../infos.html">
                             <i class="fa-solid fa-circle-info"></i>
                             <span>Infos</span>
                         </a>
@@ -64,20 +67,19 @@
             <div class="tile"></div>
             <div class="tile"></div>
         </section>
-        <section class="display announcer hide">Klicke auf eines der Felder, um das Spiel zu starten!</section>
+        <section class="display announcer hide"></section>
         <section class="controls">
             <button id="reset">Zurücksetzen</button>
         </section>
 
         <section class="statistics">
-            <!--COUNTER FÜR UNENTSCHIEDEN-->
-            UNENTSCHIEDEN 🙌: <span class="total-tie">0</span><br />
-            <!--COUNTER FÜR SIEGE VON X-->
-            SIEGE 🏆 VON X: <span class="total-winsX">0</span><br />
-            <!--COUNTER FÜR SIEGE VON O-->
-            SIEGE 🥇 VON O: <span class="total-winsO">0</span><br />
-            <!--COUNTER FÜR SPIELABBRÜCHE-->
-            ABGEBROCHENE SPIELE 😟: <span class="total-abortions">0</span>
+            <p>Siege Spieler <span class="display-player playerX">X</span> = <span class="total-winsX">0</span></p>
+
+            <p>Unentschieden = <span class="total-tie">0</span></p>
+
+            <p>Siege Spieler <span class="display-player playerO">O</span> = <span class="total-winsO">0</span></p>
+
+            <p class="hide">Abgebrochene Spiele = <span class="total-abortions">0</span></p>
         </section>
     </main>
 </body>

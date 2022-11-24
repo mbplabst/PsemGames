@@ -79,16 +79,12 @@ li {
     }
 }
 
-.content-text {
+.header {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    text-align: center;
 }
 
-.bodenfraesäää {
-    color: gold;
-    font-weight: bold;
-}
-
-.maggus {
-    width: 500px;
+a {
+    color: #e74c3c;
 }

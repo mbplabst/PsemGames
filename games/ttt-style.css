@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;400&family=Comfortaa:wght@400;500;600;700&family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
 * {
     padding: 0;
@@ -7,21 +7,28 @@
 }
 
 .title {
-    color: whitesmoke;
-    font-family: 'Luckiest Guy', cursive;
-    text-align: center;
+    color: #e74c3c;
+    font-family: 'Comfortaa', cursive;
     font-size: 35px;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .display {
     color: whitesmoke;
-    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
+    font-weight: bolder;
 }
 
 .hide {
+    display: none;
+}
+
+.hide-cancelled-games {
     display: none;
 }
 
@@ -34,10 +41,11 @@
 }
 
 .tile {
-    background-color: #292929;
-    border: 1px solid whitesmoke;
+    background-color: #202020;
+    border: 1px solid rgb(255, 255, 255);
     min-width: 100px;
     min-height: 100px;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +61,12 @@
 .playerO {
     font-family: 'Comfortaa', cursive;
     color: blueviolet;
+
+}
+
+.announcer {
+    margin-top: 20px;
+    font-weight: 900;
 }
 
 .controls {
@@ -60,7 +74,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 #reset {
@@ -68,6 +82,7 @@
     font-weight: bold;
     background-color: #e74c3c;
     color: whitesmoke;
+    margin-bottom: 20px;
     padding: 8px;
     border-radius: 8px;
     border: none;
@@ -77,4 +92,8 @@
 
 .statistics {
     color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
 }
