@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background: #1a1919;
+    background: #141414;
 }
 
 
@@ -97,7 +97,7 @@ li {
 
 .header {
     font-family: 'Alexandria', sans-serif;
-    color: #ffffff;
+    color: aliceblue;
     text-align: center;
     font-size: 20px;
     font-weight: 100;
@@ -107,19 +107,12 @@ a {
     color: #e74c3c;
 }
 
-
-.icons {
-    width: 40px;
-    color: aliceblue;
-}
-
 strong {
     position: relative;
 }
 
 strong::before {
-    background-color: #46b96c;
-
+    background-color: #e74c3c;
     content: "";
     position: absolute;
     width: calc(100% + 4px);
