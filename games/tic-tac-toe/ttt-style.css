@@ -104,7 +104,14 @@
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
     font-size: 22px;
-    text-align: center;
     margin-bottom: 20px;
     font-weight: bolder;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.content-bottom {
+    display: flex;
+    margin: 10px;
+    padding: 5%;
 }
