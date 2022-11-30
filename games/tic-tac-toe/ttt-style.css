@@ -84,6 +84,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -100,18 +101,55 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) {
+    .statistics {
+        justify-content: center;
+    }
+}
+
+
 .statistics {
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
-    font-size: 22px;
-    margin-bottom: 20px;
-    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
     justify-content: space-between;
+    border-radius: 4px;
+    margin-right: 25px;
+    margin-left: 25px;
     text-align: center;
+    font-weight: bolder;
+    size: 18px;
 }
+
+
+
+
+
+
+
+
+
+
 
 .content-bottom {
     display: flex;
     margin: 10px;
     padding: 5%;
+}
+
+
+
+.end {
+    background: rgba(255, 255, 255, .8);
+    bottom: 5px;
+    color: #3d4250;
+    display: none;
+    left: 5px;
+    padding-top: 55px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    z-index: 11;
 }

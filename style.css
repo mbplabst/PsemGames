@@ -8,10 +8,15 @@
 
 body {
     margin: 0;
-    /* background: #161616; */
     background: #1a1818;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+main {
+    flex: 1;
+}
 
 /*****************************************/
 /*               NAVBAR                  */
@@ -123,9 +128,11 @@ strong::before {
     transform: rotate(-2deg);
 }
 
+
 /*****************************************/
 /*               FOOTER                  */
 /*****************************************/
+
 
 #menu-footer {
     background-color: #111111;
@@ -133,13 +140,10 @@ strong::before {
     font-weight: 300;
     color: aliceblue;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 514);
+    min-height:50px;
 }
-
 
 .footer-style {
     padding: 15px;
