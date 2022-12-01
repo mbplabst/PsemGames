@@ -15,6 +15,7 @@
 
 .title {
     color: #e74c3c;
+    /* color: #e74c3c; */
     /* color: #4c00ff; */
     font-family: 'Sriracha', cursive;
     font-size: 45px;
@@ -107,7 +108,6 @@
     }
 }
 
-
 .statistics {
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
@@ -122,23 +122,11 @@
     size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .content-bottom {
     display: flex;
     margin: 10px;
     padding: 5%;
 }
-
-
 
 .end {
     background: rgba(255, 255, 255, .8);

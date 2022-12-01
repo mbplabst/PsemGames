@@ -131,9 +131,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
         display.innerHTML = 'Spieler <span class="display-player playerX">X</span> ist dran!';
         playerDisplay = document.querySelector('.display-player');
-        if (resetButton.innerHTML === "Zurücksetzen") {
-            surrenderCount.innerHTML = ++statsTotalFF;
-        }
 
         resetButton.innerHTML = "Zurücksetzen";
     }
