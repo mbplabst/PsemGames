@@ -94,7 +94,7 @@ li {
 /*****************************************/
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 500px) {
     #navigation-bar ul {
         justify-content: center;
     }

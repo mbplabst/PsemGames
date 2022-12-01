@@ -87,6 +87,7 @@
     align-items: center;
     text-align: center;
     margin-top: 20px;
+    text-align: center;
 }
 
 #reset {
@@ -102,9 +103,11 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) {
-    .statistics {
+@media screen and (min-width: 500px) {
+    .statistics p {
+        display: flex;
         justify-content: center;
+        text-align: center;
     }
 }
 
@@ -113,13 +116,16 @@
     font-family: 'Alexandria', sans-serif;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
-    border-radius: 4px;
-    margin-right: 25px;
-    margin-left: 25px;
-    text-align: center;
+    /*margin-right: 15px;
+    margin-left: 15px; */
     font-weight: bolder;
-    size: 18px;
+    justify-content: center;
+}
+
+.stat {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .content-bottom {
