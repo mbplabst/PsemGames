@@ -40,6 +40,13 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6]
     ];
 
+    //AUDIO
+    function playSound(audioName) {
+        //audio.loop == true;
+        let audio = new Audio(audioName);
+        audio.play();
+    }
+
     function handleResultValidation() {
         let roundWon = false;
         for (let i = 0; i <= 7; i++) {
@@ -56,29 +63,32 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-    if (roundWon) {
+        if (roundWon) {
             announce(currentPlayer === 'X' ? PLAYERX_WON : PLAYERO_WON);
             isGameActive = false;
             return;
         }
 
-    if (!board.includes(''))
-        announce(TIE);
+        if (!board.includes(''))
+            announce(TIE);
     }
 
     const announce = (type) => {
-        switch(type){
+        switch (type) {
             case PLAYERO_WON:
                 winCountO.innerHTML = ++statsTotalWinsO;
                 announcer.innerHTML = 'Der Spieler <span class="playerO">O</span> gewinnt!';
+                playSound("/assets/sounds/winO.mp3");
                 break;
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
                 announcer.innerHTML = 'Der Spieler <span class="playerX">X</span> gewinnt!';
+                playSound("/assets/sounds/winX.mp3");
                 break;
             case TIE:
                 tieCount.innerHTML = ++statsTotalTies;
                 announcer.innerText = 'Spiel endet Unentschieden!';
+                playSound("/assets/sounds/tie.mp3");
         }
         display.innerHTML = 'Das Spiel ist beendet!';
         announcer.classList.remove('hide');
@@ -86,14 +96,14 @@ window.addEventListener('DOMContentLoaded', () => {
     };
 
     const isValidAction = (tile) => {
-        if (tile.innerText === 'X' || tile.innerText === 'O'){
+        if (tile.innerText === 'X' || tile.innerText === 'O') {
             return false;
         }
 
         return true;
     };
 
-    const updateBoard =  (index) => {
+    const updateBoard = (index) => {
         board[index] = currentPlayer;
     }
 
@@ -105,15 +115,16 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     const userAction = (tile, index) => {
-        if(isValidAction(tile) && isGameActive) {
+        if (isValidAction(tile) && isGameActive) {
             tile.innerText = currentPlayer;
             tile.classList.add(`player${currentPlayer}`);
             updateBoard(index);
             handleResultValidation();
             changePlayer();
+            playSound("/assets/sounds/click.mp3");
         }
     }
-    
+
     const resetBoard = () => {
         board = ['', '', '', '', '', '', '', '', ''];
         isGameActive = true;
@@ -135,7 +146,7 @@ window.addEventListener('DOMContentLoaded', () => {
         resetButton.innerHTML = "Zurücksetzen";
     }
 
-    tiles.forEach( (tile, index) => {
+    tiles.forEach((tile, index) => {
         tile.addEventListener('click', () => userAction(tile, index));
     });
 
