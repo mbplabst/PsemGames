@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="test.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="/assets/icons/favicon.ico">
-    <title>PsemGames - Testing</title>
+    <title>Responsive Card Slider</title>
+
+    <link rel="stylesheet" href="/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="/test.css">
+
+    <script src="https://kit.fontawesome.com/5a99d1260f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,28 +52,83 @@
         </div>
     </nav>
 
-    <div class="header">
-        <h1>TIC <strong>TAC</strong> TOE</h1>
-    </div>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <!--<div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>-->
+                        <span class="overlay"></span>
 
-    <div class="header">
-        <h1><strong>TIC TAC TOE</strong></h1>
-    </div>
+                        <div class="card-image">
+                            <img src="/assets/images/tictactoe.png" alt="" class="card-img">
+                        </div>
+                    </div>
 
-    <div class="header">
-        <h1>COOL<strong>HIGHLIGHT</strong>TEXT</h1>
-    </div>
+                    <div class="card-content">
+                        <h2 class="name">Tic Tac Toe</h2>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. sapiente.</p>
+                        <button class="button"><a id="button-play" href="/games/tic-tac-toe/tic-tac-toe.html">Hier
+                                Spielen</a></button>
+                    </div>
+                </div>
 
-    <p class="header">https://codepen.io/ziga-miklic/pen/QWrGyW?editors=0100</p>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <!--<div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>-->
+                        <span class="overlay"></span>
 
-    <footer>
-        <div id="menu-footer">
-            <div class="footer-style">
-                <p>© 2022 PsemGames <a href="https://github.com/MaxPlabst/PsemGames" target="_blank"><i
-                            class=" fa-brands fa-github green"></i></a></p>
+                        <div class="card-image">
+                            <img src="/assets/images/fortnite.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Fortnite</h2>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. sapiente.</p>
+                        <button class="button"><a id="button-play" href="https://www.epicgames.com/fortnite/">Hier
+                                Spielen</a></button>
+                    </div>
+                </div>
+
             </div>
+
         </div>
-    </footer>
+
+
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <!--<div class="swiper-pagination"></div>-->
+
+
+    </div>
+
+
+</body>
+
+<!-- Swiper JS -->
+<script src="/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="/script.js"></script>
+
+<footer>
+    <div id="menu-footer">
+        <div class="footer-style">
+            <p>© 2022 PsemGames <a href="https://github.com/MaxPlabst/PsemGames" target="_blank"><i
+                        class=" fa-brands fa-github green"></i></a></p>
+        </div>
+    </div>
+</footer>
 
 </body>
 

@@ -46,6 +46,12 @@ window.addEventListener('DOMContentLoaded', () => {
         let audio = new Audio(audioName);
         audio.play();
     }
+    
+    document.getElementById("background-music").addEventListener("click", displayDate);
+
+    function displayDate() {
+        document.getElementById("background-music").playLoopSound("/assets/sounds/winO.mp3")
+    }
 
     function handleResultValidation() {
         let roundWon = false;
