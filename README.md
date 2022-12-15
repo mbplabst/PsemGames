@@ -1,2 +1,2 @@
 # PsemGames
-Erreichbar über https://psemgames.netlify.app/home.html
+Erreichbar über https://psemgames.netlify.app
