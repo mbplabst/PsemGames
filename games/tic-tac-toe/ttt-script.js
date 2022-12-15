@@ -49,6 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const toggleMusicButton = document.getElementById('toggle-music');
     const backgroundMusicPlayer = document.getElementById('background-music');
     toggleMusicButton.addEventListener('click', () => !backgroundMusicPlayer.paused ? backgroundMusicPlayer.pause() : backgroundMusicPlayer.play());
+    
 
     // document.getElementById("background-music").addEventListener("click", displayDate);
 
