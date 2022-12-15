@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
         audio.play();
     }
     
-    document.getElementById("background-music").addEventListener("click", displayDate);
+    // document.getElementById("background-music").addEventListener("click", displayDate);
 
     function displayDate() {
         document.getElementById("background-music").playLoopSound("/assets/sounds/winO.mp3")
