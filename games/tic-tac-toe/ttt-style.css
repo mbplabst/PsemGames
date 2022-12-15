@@ -79,16 +79,24 @@
 }
 
 .controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-top: 20px;
     text-align: center;
 }
 
 #reset {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background-color: #e74c3c;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#toggle-music {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     background-color: #e74c3c;
