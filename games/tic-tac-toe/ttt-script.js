@@ -6,7 +6,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const display = document.querySelector('.display');
     const winCountX = document.querySelector('.total-winsX');
     const winCountO = document.querySelector('.total-winsO');
-    const surrenderCount = document.querySelector('.total-abortions');
     const tieCount = document.querySelector('.total-tie');
 
     let board = ['', '', '', '', '', '', '', '', ''];
@@ -20,7 +19,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const PLAYERX_WON = 'PLAYERX_WON';
     const PLAYERO_WON = 'PLAYERO_WON';
     const TIE = 'TIE';
-
 
     /*
         Indexes within the board
@@ -40,18 +38,10 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6]
     ];
 
-    //AUDIO
     function playSound(audioName) {
         let audio = new Audio(audioName);
         audio.play();
     }
-    
-    const toggleMusicButton = document.getElementById('toggle-music');
-    const backgroundMusicPlayer = document.getElementById('background-music');
-    toggleMusicButton.addEventListener('click', () => !backgroundMusicPlayer.paused ? backgroundMusicPlayer.pause() : backgroundMusicPlayer.play());
-    
-
-    // document.getElementById("background-music").addEventListener("click", displayDate);
 
     function displayDate() {
         document.getElementById("background-music").playLoopSound("/assets/sounds/winO.mp3")
@@ -93,7 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
                 announcer.innerHTML = 'Der Spieler <span class="playerX">X</span> gewinnt!';
-                playSound("/assets/sounds/winX.mp3");
+                playSound("/assets/sounds/tie.mp3");
                 break;
             case TIE:
                 tieCount.innerHTML = ++statsTotalTies;

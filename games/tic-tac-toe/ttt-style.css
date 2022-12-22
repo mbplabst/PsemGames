@@ -15,10 +15,9 @@
 
 .title {
     color: #e74c3c;
-    /* color: #e74c3c; */
     /* color: #4c00ff; */
     font-family: 'Sriracha', cursive;
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -76,6 +75,10 @@
     margin-top: 20px;
     font-weight: 900;
     font-size: 29px;
+    background-color: #0f0e0e;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 0;
 }
 
 .controls {
@@ -88,20 +91,7 @@
     font-weight: bold;
     background-color: #e74c3c;
     color: whitesmoke;
-    margin-bottom: 20px;
-    padding: 8px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-#toggle-music {
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-    background-color: #161616;
-    color: whitesmoke;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     padding: 8px;
     border-radius: 8px;
     border: none;
@@ -111,42 +101,32 @@
 
 @media screen and (min-width: 500px) {
     .statistics p {
-        display: flex;
         justify-content: center;
         text-align: center;
     }
 }
 
 .scoreboard {
-    color: whitesmoke;
-    font-family: 'Alexandria', sans-serif;
-    font-size: 20px;
-    display: flex;
-    margin-right: 15px;
-    margin-left: 15px;
     font-weight: bolder;
-    justify-content: center;
+    font-size: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .statistics {
     color: whitesmoke;
-    font-family: 'Alexandria', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 20px;
-    display: flex;
     font-weight: bolder;
+    display: flex;
     justify-content: center;
 }
 
 .stat {
-    margin-right: 10px;
-    margin-left: 10px;
-    text-align: center;
-}
-
-.content-bottom {
-    display: flex;
-    margin: 10px;
-    padding: 5%;
+    margin: 5px;
+    background-color: #111111;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .end {
