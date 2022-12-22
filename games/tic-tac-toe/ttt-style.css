@@ -6,7 +6,7 @@
 
 /* FONT SPECIAL TEXT*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&display=swap');
 
 * {
     padding: 0;
@@ -71,6 +71,20 @@
 
 }
 
+.colorX {
+    color: aqua;
+}
+
+.colorTie {
+    color: dimgray;
+}
+
+.colorO {
+    color: blueviolet;
+}
+
+
+
 .announcer {
     margin-top: 20px;
     font-weight: 900;
@@ -115,7 +129,7 @@
 
 .statistics {
     color: whitesmoke;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Alexandria', monospace;
     font-size: 20px;
     font-weight: bolder;
     display: flex;
