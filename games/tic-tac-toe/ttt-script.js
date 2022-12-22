@@ -77,12 +77,12 @@ window.addEventListener('DOMContentLoaded', () => {
         switch (type) {
             case PLAYERO_WON:
                 winCountO.innerHTML = ++statsTotalWinsO;
-                announcer.innerHTML = 'Der Spieler <span class="playerO">O</span> gewinnt!';
+                announcer.innerHTML = 'Spieler <span class="playerO">O</span> gewinnt!';
                 playSound("/assets/sounds/winO.mp3");
                 break;
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
-                announcer.innerHTML = 'Der Spieler <span class="playerX">X</span> gewinnt!';
+                announcer.innerHTML = 'Spieler <span class="playerX">X</span> gewinnt!';
                 playSound("/assets/sounds/tie.mp3");
                 break;
             case TIE:
