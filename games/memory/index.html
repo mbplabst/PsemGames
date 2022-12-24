@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsemGames - Memory</title>
+    <link rel="icon" href="/assets/icons/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+</head>
+
+<body>
+    <main>
+        <div class="memory-game" id="memoryGame">
+            <div class="memory-board"></div>
+            <div class="memory-ui">
+                <span class="memory-moves">Moves: <span id="memoryMoves">0</span></span>
+                <span class="memory-matches">Matches: <span id="memoryMatches">0</span>
+                    <span class="memory-matches-cards" id="memoryMatchesCards"></span>
+                </span>
+            </div>
+        </div>
+        <div class="memory-card-item" data-card="1">
+            <div class="memory-card-item-inner">
+                <div class="memory-card-item-front"></div>
+                <div class="memory-card-item-back">
+                    <img src="/assets/images/wood-bg.jpg"/>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

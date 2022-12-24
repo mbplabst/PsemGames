@@ -24,18 +24,13 @@
 .display {
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    font-weight: 100;
     font-weight: bolder;
 }
 
 .hide {
-    display: none;
-}
-
-.hide-cancelled-games {
     display: none;
 }
 
@@ -71,24 +66,9 @@
 
 }
 
-.colorX {
-    color: aqua;
-}
-
-.colorTie {
-    color: rgb(172, 152, 152);
-}
-
-.colorO {
-    color: blueviolet;
-}
-
-
-
 .announcer {
     margin-top: 20px;
     font-weight: 900;
-    font-size: 29px;
     background-color: #0f0e0e;
     padding: 8px;
     border-radius: 8px;
@@ -121,10 +101,10 @@
 }
 
 .scoreboard {
-    font-weight: bolder;
     font-size: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 52px;
+    margin-left: 52px;
+    font-family: 'Chivo Mono', cursive;
 }
 
 .statistics {
@@ -141,18 +121,4 @@
     background-color: #111111;
     padding: 8px;
     border-radius: 8px;
-}
-
-.end {
-    background: rgba(255, 255, 255, .8);
-    bottom: 5px;
-    color: #3d4250;
-    display: none;
-    left: 5px;
-    padding-top: 55px;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    text-align: center;
-    z-index: 11;
 }
