@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsemGames - Quizz</title>
+    <link rel="icon" href="/assets/icons/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div id="menu-nav">
+            <div id="navigation-bar">
+                <ul>
+
+                    <li>
+                        <a href="/home">
+                            <i class="fa fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/games">
+                            <i class="fa-solid fa-chess-knight"></i>
+                            <span>Spielen</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/infos">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span>Infos</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question Text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Answer</label>
+                </li>
+            </ul>
+        </div>
+
+        <button id="submit">Submit</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div id="menu-footer">
+            <div class="footer-style">
+                <p>© 2023 PsemGames <a href="https://github.com/MaxPlabst/PsemGames" target="_blank"><i
+                            class=" fa-brands fa-github green"></i></a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
