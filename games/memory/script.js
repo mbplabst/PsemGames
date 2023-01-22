@@ -27,7 +27,9 @@ function matchCards(img1, img2) {
             }, 1000);
         }
         cardOne.removeEventListener("click", flipCard);
+        cardOne.classList.add("foundPair");
         cardTwo.removeEventListener("click", flipCard);
+        cardTwo.classList.add("foundPair");
         cardOne = cardTwo = "";
         return disableDeck = false;
     }
@@ -53,7 +55,7 @@ function shuffleCard() {
         arr.sort(() => Math.random() > 0.5 ? 1 : -1);
     }
     cards.forEach((card, i) => {
-        card.classList.remove("flip");
+        card.classList.remove("flip", "foundPair");
         let imgTag = card.querySelector(".back-view img");
         imgTag.src = `/assets/images/memory/img-${arr[i]}.png`;
         card.addEventListener("click", flipCard);

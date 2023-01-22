@@ -16,7 +16,6 @@ main {
 .wrapper {
     padding: 25px;
     border-radius: 10px;
-    background: #F8F8F8;
     background: #111111;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -46,6 +45,9 @@ main {
     transform-style: preserve-3d;
     height: calc(100% / 4 - 10px);
     width: calc(100% / 4 - 10px);
+}
+.card.foundPair >.view {
+    background-color: silver !important;
 }
 
 .card.shake {
@@ -81,11 +83,11 @@ main {
     height: 100%;
     position: absolute;
     border-radius: 7px;
-    background: #fff;
     pointer-events: none;
     backface-visibility: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.25s linear;
+    background: aliceblue;
 }
 
 .card .front-view img {
@@ -93,7 +95,7 @@ main {
 }
 
 .card .back-view img {
-    max-width: 45px;
+    max-width: 65px;
 }
 
 .card .back-view {
