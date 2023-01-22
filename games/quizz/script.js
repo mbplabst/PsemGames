@@ -1,60 +1,65 @@
-const quizData = [
-    {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "javascript",
-        correct: "d",
-    },
-];
+const cards = document.querySelectorAll(".card");
 
-const quiz = document.getElementById('quiz')
-const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
-const a_text = document.getElementById('a_text')
-const b_text = document.getElementById('b_text')
-const c_text = document.getElementById('c_text')
-const d_text = document.getElementById('d_text')
-const submitBtn = document.getElementById('submit')
-let currentQuiz = 0
-let score = 0
-loadQuiz()
-function loadQuiz() {
-    deselectAnswers()
-    const currentQuizData = quizData[currentQuiz]
-    questionEl.innerText = currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
-}
-function deselectAnswers() {
-    answerEls.forEach(answerEl => answerEl.checked = false)
-}
-function getSelected() {
-    let answer
-    answerEls.forEach(answerEl => {
-        if (answerEl.checked) {
-            answer = answerEl.id
+let matched = 0;
+let cardOne, cardTwo;
+let disableDeck = false;
+
+function flipCard({ target: clickedCard }) {
+    if (cardOne !== clickedCard && !disableDeck) {
+        clickedCard.classList.add("flip");
+        if (!cardOne) {
+            return cardOne = clickedCard;
         }
-    })
-    return answer
-}
-submitBtn.addEventListener('click', () => {
-    const answer = getSelected()
-    if (answer) {
-        if (answer === quizData[currentQuiz].correct) {
-            score++
-        }
-        currentQuiz++
-        if (currentQuiz < quizData.length) {
-            loadQuiz()
-        } else {
-            quiz.innerHTML = `
-           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-           <button onclick="location.reload()">Reload</button>
-           `
-        }
+        cardTwo = clickedCard;
+        disableDeck = true;
+        let cardOneImg = cardOne.querySelector(".back-view img").src,
+            cardTwoImg = cardTwo.querySelector(".back-view img").src;
+        matchCards(cardOneImg, cardTwoImg);
     }
-})
+}
+
+function matchCards(img1, img2) {
+    if (img1 === img2) {
+        matched++;
+        if (matched == 8) {
+            setTimeout(() => {
+                return shuffleCard();
+            }, 1000);
+        }
+        cardOne.removeEventListener("click", flipCard);
+        cardTwo.removeEventListener("click", flipCard);
+        cardOne = cardTwo = "";
+        return disableDeck = false;
+    }
+    setTimeout(() => {
+        cardOne.classList.add("shake");
+        cardTwo.classList.add("shake");
+    }, 400);
+
+    setTimeout(() => {
+        cardOne.classList.remove("shake", "flip");
+        cardTwo.classList.remove("shake", "flip");
+        cardOne = cardTwo = "";
+        disableDeck = false;
+    }, 1200);
+}
+
+function shuffleCard() {
+    matched = 0;
+    disableDeck = false;
+    cardOne = cardTwo = "";
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8];
+    arr.sort(() => Math.random() > 0.5 ? 1 : -1);
+    cards.forEach((card, i) => {
+        card.classList.remove("flip");
+        let imgTag = card.querySelector(".back-view img");
+        imgTag.src = `images/img-${arr[i]}.png`;
+        card.addEventListener("click", flipCard);
+    });
+}
+
+shuffleCard();
+
+cards.forEach(card => {
+    card.addEventListener("click", flipCard);
+});
