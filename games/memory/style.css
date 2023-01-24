@@ -1,4 +1,7 @@
-/* Import Google Font - Poppins */
+/* FONT HEADER*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* FONT CARDS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 main *{
@@ -11,6 +14,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.title {
+    color: #e74c3c;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    text-align: center;
 }
 
 .wrapper {
@@ -32,6 +42,7 @@ main {
     height: 400px;
     width: 400px;
     flex-wrap: wrap;
+    display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
 }
