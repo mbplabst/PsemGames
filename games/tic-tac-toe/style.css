@@ -14,7 +14,8 @@
 }
 
 .title {
-    color: #e74c3c;
+    /* color: #e74c3c; */
+    color: cadetblue;
     font-family: 'Rubik Vinyl', cursive;
     font-size: 43px;
     text-align: center;
@@ -24,15 +25,13 @@
 .display {
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px;
     background-color: #0f0e0e;
-    margin-top: 10px;
     font-weight: 900;
     padding: 8px;
     border-radius: 8px;
-    margin-left: 0;
 }
 
 .hide {
@@ -48,7 +47,7 @@
 }
 
 .tile {
-    background-color: #0f0f0f;
+    background-color: #131212;
     border: 1px solid rgb(196, 194, 194);
     min-width: 100px;
     min-height: 100px;
@@ -62,7 +61,8 @@
 
 .playerX {
     font-family: 'Comfortaa', cursive;
-    color: aqua;
+    /* color: aqua; */
+    color:darkkhaki;
 }
 
 .playerO {
@@ -72,12 +72,10 @@
 }
 
 .announcer {
-    margin-top: 20px;
     font-weight: 900;
     background-color: #0f0e0e;
     padding: 8px;
     border-radius: 8px;
-    margin-left: 0;
 }
 
 .controls {
@@ -106,11 +104,10 @@
 }
 
 .scoreboard {
-    font-size: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    font-size: 40px;
     font-family: 'Chivo Mono', cursive;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 .statistics {
@@ -123,8 +120,10 @@
 }
 
 .stat {
-    margin: 2px;
+    margin: 5px;
     background-color: #111111;
-    padding: 8px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
     border-radius: 8px;
 }
