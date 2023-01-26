@@ -18,6 +18,4 @@ RewriteRule ^ (.*)$ $1.html[NC, L] */
     RewriteRule ^([^\.]+)$ $1.html [NC,L] 
 </IfModule>
 
-ErrorDocument 404 404_not_found.html
-
 
