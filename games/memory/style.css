@@ -1,33 +1,40 @@
 /* FONT HEADER*/
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 
 /* FONT CARDS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-main *{
+main * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main {
+/* main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .title {
     color: #e74c3c;
-    font-family: 'Sriracha', cursive;
-    font-size: 50px;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 47px;
+    display: block;
     text-align: center;
+
+}
+
+.header {
+    padding: 5px;
 }
 
 .wrapper {
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
     border-radius: 10px;
     background: #111111;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .cards,
@@ -56,8 +63,10 @@ main {
     transform-style: preserve-3d;
     height: calc(100% / 4 - 10px);
     width: calc(100% / 4 - 10px);
+    margin-bottom: 15px;
 }
-.card.foundPair >.view {
+
+.card.foundPair>.view {
     background-color: silver !important;
 }
 

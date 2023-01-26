@@ -46,6 +46,11 @@ function matchCards(img1, img2) {
     }, 1200);
 }
 
+function playSound(audioName) {
+    let audio = new Audio(audioName);
+    audio.play();
+}
+
 function shuffleCard() {
     matched = 0;
     disableDeck = false;
