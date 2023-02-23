@@ -27,14 +27,12 @@
     font-family: 'Alexandria', sans-serif;
     font-size: 25px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
     background-color: #0f0e0e;
     font-weight: 800;
     padding: 8px;
     border-radius: 10px;
+    max-width: 400px;
+    margin: 10px auto;
 }
 
 .hide {
@@ -142,7 +140,6 @@ h1 {
 }
 
 .wrapper-text {
-    justify-content: center;
     background: #111111;
     padding: 10px;
     margin-right: 10px;
@@ -152,4 +149,12 @@ h1 {
 
 .statistic-fix { 
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    max-width: 320px;
+    /* margin-left: 10px; */
+    margin: 10px auto;
 }
