@@ -104,7 +104,7 @@ li {
     font-family: 'Alexandria', sans-serif;
     color: aliceblue;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
 }
 
@@ -117,7 +117,7 @@ strong {
 }
 
 strong::before {
-    background-color: #e74c3c;
+    background-color: #e74c3c ;
     content: "";
     position: absolute;
     width: calc(100% + 4px);

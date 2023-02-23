@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="/assets/icons/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PsemGames - Spielübersicht</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id="menu-nav">
+            <div id="navigation-bar">
+                <ul>
+                    <li>
+                        <a href="/home.html">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/games.html">
+                            <i class="fa-solid fa-chess-knight"></i>
+                            <span>Spielen</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/infos.html">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span>Infos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="title">
+            <h1>Musik Quiz</h1>
+        </section>
+
+        <section class="wrapper">
+
+            <div>
+                <h1 class="question">Hier steht die zu beantwortende Quiz-Frage</h1>
+            </div>
+
+            <div class="grid-container">
+                <button type="button" class="wrapper-questions">
+                    <h1 class="answer">Antwort 1</h1>
+                </button>
+                <button type="button" class="wrapper-questions">
+                    <h1 class="answer">Antwort 2</h1>
+                </button>
+                <button type="button" class="wrapper-questions">
+                    <h1 class="answer">Antwort 3</h1>
+                </button>
+                <button type="button" class="wrapper-questions">
+                    <h1 class="answer">Antwort 4</h1>
+                </button>
+            </div>
+
+            <button type="button" class="next-question">
+                <p>Weiter <i class="fa-solid fa-arrow-right"></i></p>
+            </button>
+
+        </section>
+
+        <section class="wrapper">
+
+            <div>
+                <h1 class="question">Hier steht die zu beantwortende Quiz-Frage</h1>
+            </div>
+
+            <section class="statistics">
+                <p class="stat">Siege <span class="display-player playerX">X</span><br><span
+                        class="total-winsX scoreboard">0</span></p>
+                <p class="stat">Unentschieden<br><span class="total-tie scoreboard">0</span></p>
+                <p class="stat">Siege <span class="display-player playerO">O</span><br><span
+                        class="total-winsO scoreboard">0</span></p>
+            </section>
+
+        </section>
+
+        <section class="wrapper content-below">
+            <div class="header">
+                <h2><strong><i class="fa-solid fa-book"></i> Die Regeln</strong></h2>
+                <br>
+                Zwei Spieler (X und O) setzen ihre<br>
+                    Zeichen jeweils abwechselnd in<br>
+                    die Felder eines 3×3 Rasters.<br>
+                <br>
+                Wer zuerst drei der Zeichen in eine<br>
+                Zeile, in eine Spalte oder diagonal<br>
+                setzen kann, gewinnt das Spiel!
+            </div>
+            <br>
+            <br>
+
+            <div class="header">
+                <h1><strong><i class="fa-solid fa-wand-magic-sparkles"></i> Fun Fact</strong></h1>
+                <br>
+                Wusstest du, dass frühe Variationen<br>
+                von Tic Tac Toe schon von den<br>
+                Römern gespielt wurden?<br>
+                <br>
+                Das Spielprinzip "3 in einer Reihe"<br>
+                kann sogar bis ins Zeitalter der<br>
+                Ägypter zurückverfolgt werden!
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <div id="menu-footer">
+            <div class="footer-style">
+                <p>© 2023 PsemGames <a href="https://github.com/MaxPlabst/PsemGames" target="_blank"><i
+                            class=" fa-brands fa-github green"></i></a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -45,19 +45,18 @@
         </div>
     </nav>
 
-    <main class="background">
-
+    <main>
         <section class="title">
             <h1>TicTacToe</h1>
         </section>
-
+        
         <section class="display">
             <div class="statistics">
-                Spieler <span class="display-player playerX">X</span> ist dran!
+                <p>Spieler <span class="display-player playerX">X</span> ist dran!</p>
             </div>
         </section>
 
-        <section class="container">
+        <section class="container wrapper">
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile"></div>
@@ -69,57 +68,52 @@
             <div class="tile"></div>
         </section>
 
-        <section class="display announcer hide"></section>
+        <section class="display announcer hide">
+        </section>
 
         <section class="controls">
             <button id="reset" type="button">Zurücksetzen</button>
         </section>
 
-        <section class="statistics">
-            <p class="stat">Siege <span class="display-player playerX">X</span><br><span
-                    class="total-winsX scoreboard">0</span></p>
-            <p class="stat">Unentschieden<br><span class="total-tie scoreboard">0</span></p>
-            <p class="stat">Siege <span class="display-player playerO">O</span><br><span
-                    class="total-winsO scoreboard">0</span></p>
+        <section class="header wrapper-text statistic-fix">
+            <h1>Spiel Statistik</h2>
+                <div class="statistics">
+                    <p class="stat">Siege <span class="display-player playerX">X</span><br><span
+                            class="total-winsX scoreboard">0</span></p>
+                    <p class="stat">Unentschieden<br><span class="total-tie scoreboard">0</span></p>
+                    <p class="stat">Siege <span class="display-player playerO">O</span><br><span
+                            class="total-winsO scoreboard">0</span></p>
+                </div>
         </section>
 
-        <br>
-
-        <section class="content-below">
-            <div class="header">
-                <h2><strong><i class="fa-solid fa-book"></i> Die Regeln</strong></h2>
-                <br>
-                <p class="header content-text">
-                    Zwei Spieler (<span class="display-player playerX">X</span> und
-                    <span class="display-player playerO">O</span>) setzen ihre<br>
-                    Zeichen jeweils abwechselnd in<br>
+        <section>
+            <div class="header wrapper-text statistic-fix">
+                <h1 class="statistic-fix">Die Regeln</h1>
+                <p> Je zwei Spieler (<span class="display-player playerX">X</span>
+                    und <span class="display-player playerO">O</span>) setzen<br>
+                    ihre Zeichen abwechselnd in<br>
                     die Felder eines 3×3 Rasters.<br>
                     <br>
-                    Wer zuerst drei der Zeichen in eine<br>
+                    Wer zuerst drei Zeichen in eine<br>
                     Zeile, in eine Spalte oder diagonal<br>
                     setzen kann, gewinnt das Spiel!
                 </p>
+            </div>
 
-                <br>
-
-                <div class="header">
-                    <h1><strong><i class="fa-solid fa-wand-magic-sparkles"></i> Fun Fact</strong></h1>
+            <div class="header wrapper-text">
+                <h1 class="statistic-fix"> Fun Fact</h1>
+                <p> Wusstest du schon, dass bereits<br>
+                    die alten Römer Versionen von<br>
+                    Tic Tac Toe gespielt haben?<br>
                     <br>
-                    <p class="header content-text">
-                        Wusstest du, dass frühe Variationen<br>
-                        von Tic Tac Toe schon von den<br>
-                        Römern gespielt wurden?<br>
-                        <br>
-                        Das Spielprinzip "3 in einer Reihe"<br>
-                        kann sogar bis ins Zeitalter der<br>
-                        Ägypter zurückverfolgt werden!
-                    </p>
-                </div>
+                    Das Spielprinzip "3 in einer Reihe"<br>
+                    kann sogar bis ins Zeitalter der<br>
+                    Ägypter zurückverfolgt werden!
+                </p>
+            </div>
+            <br>
         </section>
     </main>
-
-    <br>
-    <br>
 
     <footer>
         <div id="menu-footer">

@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
                 announcer.innerHTML = 'Spieler <span class="playerX">X</span> gewinnt!';
-                playSound("/assets/sounds/tie.mp3");
+                playSound("/assets/sounds/winX.mp3");
                 break;
             case TIE:
                 tieCount.innerHTML = ++statsTotalTies;

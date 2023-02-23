@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100&display=swap');
 
 /* FONT SPECIAL TEXT*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&display=swap');
 
@@ -14,7 +15,6 @@
 }
 
 .title {
-    /* color: #e74c3c; */
     color: cadetblue;
     font-family: 'Rubik Vinyl', cursive;
     font-size: 43px;
@@ -27,11 +27,14 @@
     font-family: 'Alexandria', sans-serif;
     font-size: 25px;
     text-align: center;
-    margin: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
     background-color: #0f0e0e;
-    font-weight: 900;
+    font-weight: 800;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .hide {
@@ -61,8 +64,7 @@
 
 .playerX {
     font-family: 'Comfortaa', cursive;
-    /* color: aqua; */
-    color:darkkhaki;
+    color: darkkhaki;
 }
 
 .playerO {
@@ -79,7 +81,7 @@
 }
 
 .controls {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -92,7 +94,7 @@
     padding: 8px;
     border-radius: 8px;
     border: none;
-    font-size: 23px;
+    font-size: 21px;
     cursor: pointer;
 }
 
@@ -116,14 +118,36 @@
     font-size: 20px;
     font-weight: bolder;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .stat {
-    margin: 4px;
-    background-color: #111111;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 8px;
+    background-color: #000000;
+    padding-top: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.wrapper {
+    padding: 15px;
+    border-radius: 15px;
+    background: #111111;
+    text-align: center;
+}
+
+.wrapper-text {
+    justify-content: center;
+    background: #111111;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.statistic-fix { 
+    margin-bottom: 10px;
 }
