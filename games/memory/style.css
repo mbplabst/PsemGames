@@ -4,38 +4,27 @@
 /* FONT CARDS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-main * {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .title {
-    /* color: #e74c3c; */
     color: cadetblue;
     font-family: 'Rubik Vinyl', cursive;
     font-size: 47px;
-    display: block;
-    text-align: center;
-
-}
-
-.header {
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     background: #111111;
+    display: inline-block;
+    justify-content: center;
 }
 
 .cards,
@@ -68,7 +57,7 @@ main * {
 }
 
 .card.foundPair>.view {
-    background-color: silver !important;
+    background-color: rgb(143, 236, 171) !important;
 }
 
 .card.shake {
@@ -103,14 +92,13 @@ main * {
     width: 100%;
     height: 100%;
     position: absolute;
-    border-radius: 7px;
+    border-radius: 10px;
     pointer-events: none;
     backface-visibility: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.25s linear;
     background: aliceblue;
     color: #111111;
-    ;
 }
 
 .card .front-view img {
