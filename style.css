@@ -141,6 +141,8 @@ strong::before {
 .header-title {
     font-family: 'Rubik Vinyl', cursive;
     margin: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
     background: #0d0d0d;
     border-radius: 10px;
     font-size: 30px;
@@ -187,7 +189,7 @@ button {
 .game-button {
     background-color: #1a1818;
     padding: 7px;
-    border-color: #000;
+    border-color: #111111;
 }
 
 .button-with-adjust {
