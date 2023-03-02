@@ -187,10 +187,8 @@ button {
 }
 
 .game-button {
-    display: flex;
-    margin-left: 15px;
     background-color: #1a1818;
-    border-color: #111111;
+    /* border-color: #111111; */
 }
 
 .button-with-adjust {
