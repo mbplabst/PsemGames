@@ -135,13 +135,12 @@ strong::before {
     text-align: center;
     max-width: 330px;
     margin: 10px auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
 }
 
 .header-title {
     font-family: 'Rubik Vinyl', cursive;
     margin: 0px;
-    margin-left: 25px;
-    margin-bottom: 5px;
     background: #0d0d0d;
     border-radius: 10px;
     font-size: 30px;
@@ -171,7 +170,7 @@ button {
 
 .card-wrapper {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .card-image {
@@ -182,13 +181,17 @@ button {
 
 .card-image-position {
     display: flex;
-    justify-content: center;
-    justify-self: center;
+    align-items: center;
 }
 
 .game-button {
-    background-color: #e74c3c;
-    /* box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 514); */
+    background-color: #1a1818;
+    padding: 7px;
+    border-color: #000;
+}
+
+.button-with-adjust {
+    margin-left: 8px;
 }
 
 /*****************************************/
@@ -215,8 +218,4 @@ button {
 
 .green {
     color: teal;
-}
-
-.white {
-    color: aliceblue;
 }

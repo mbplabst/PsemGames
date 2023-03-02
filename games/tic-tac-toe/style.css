@@ -87,13 +87,12 @@
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     background-color: #e74c3c;
-    color: whitesmoke;
-    margin-bottom: 10px;
-    padding: 8px;
+    margin-top: 0px;
     border-radius: 8px;
     border: none;
-    font-size: 21px;
+    font-size: 20px;
     cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
 }
 
 @media screen and (min-width: 500px) {
@@ -143,15 +142,9 @@ h1 {
 .wrapper-text {
     background: #111111;
     padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
-
-.statistic-fix {
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    margin-bottom: 15px !important;
 }
 
 .header {
