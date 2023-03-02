@@ -187,8 +187,9 @@ button {
 }
 
 .game-button {
+    display: flex;
+    margin-left: 15px;
     background-color: #1a1818;
-    padding: 7px;
     border-color: #111111;
 }
 
