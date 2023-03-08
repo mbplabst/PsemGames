@@ -60,7 +60,7 @@
 }
 
 .card.shake {
-    animation: shake 0.50s ease-in-out;
+    animation: shake 0.30s ease-in-out;
 }
 
 @keyframes shake {
@@ -75,7 +75,7 @@
     }
 
     40% {
-        transform: translateX(13px);
+        transform: translateX(10px);
     }
 
     60% {

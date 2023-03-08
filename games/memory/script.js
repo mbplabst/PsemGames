@@ -21,11 +21,11 @@ function flipCard({ target: clickedCard }) {
 function matchCards(img1, img2) {
     if (img1 === img2) {
         matched++;
-        if (matched == 12) {
-            setTimeout(() => {
-                return shuffleCard();
-            }, 1000);
-        }
+        // if (matched == 12) {
+        //     setTimeout(() => {
+        //         return shuffleCard();
+        //     }, 1000);
+        // }
         cardOne.removeEventListener("click", flipCard);
         cardOne.classList.add("foundPair");
         cardTwo.removeEventListener("click", flipCard);
@@ -36,7 +36,7 @@ function matchCards(img1, img2) {
     setTimeout(() => {
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
-    }, 400);
+    }, 750);
 
     setTimeout(() => {
         cardOne.classList.remove("shake", "flip");
@@ -46,17 +46,12 @@ function matchCards(img1, img2) {
     }, 1200);
 }
 
-function playSound(audioName) {
-    let audio = new Audio(audioName);
-    audio.play();
-}
-
 function shuffleCard() {
     matched = 0;
     disableDeck = false;
     cardOne = cardTwo = "";
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 125; i++) {
         arr.sort(() => Math.random() > 0.5 ? 1 : -1);
     }
     cards.forEach((card, i) => {
