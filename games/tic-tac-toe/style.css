@@ -19,7 +19,7 @@
     font-family: 'Rubik Vinyl', cursive;
     font-size: 43px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .display {
@@ -113,9 +113,8 @@
 
 .stat {
     background-color: #0d0d0d;
-    padding-top: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
+    margin-top: 5px;
+    padding: 3px;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -139,9 +138,16 @@ h1 {
     margin-bottom: 15px !important;
 }
 
-.content-wrapper-text {
-    font-size: 19px;
-    margin-top: 3px;
+.wrapper-last {
+    margin-bottom: 20px !important;
+}
+
+.content-hightlight {
+    background-color: #0d0d0d;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .header {
