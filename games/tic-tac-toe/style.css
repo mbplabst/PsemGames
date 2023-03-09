@@ -25,14 +25,17 @@
 .display {
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
-    font-size: 25px;
     text-align: center;
-    background-color: #0d0d0d;
-    font-weight: 800;
-    padding: 8px;
-    border-radius: 10px;
-    max-width: 400px;
+    font-size: 25px;
+    max-width: 330px;
     margin: 10px auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    font-weight: 900;
+    background-color: #0d0d0d;
+    padding: 8px;
 }
 
 .hide {
@@ -42,6 +45,7 @@
 .container {
     margin: 0 auto;
     display: grid;
+    padding: 10px;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     max-width: 300px;
@@ -69,13 +73,6 @@
     font-family: 'Comfortaa', cursive;
     color: blueviolet;
 
-}
-
-.announcer {
-    font-weight: 900;
-    background-color: #0d0d0d;
-    padding: 8px;
-    border-radius: 8px;
 }
 
 .controls {
