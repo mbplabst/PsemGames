@@ -26,16 +26,16 @@
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     max-width: 330px;
     margin: 10px auto;
     margin-top: 0px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
-    font-weight: 900;
+    font-weight: 800;
     background-color: #0d0d0d;
-    padding: 8px;
+    padding: 2px;
 }
 
 .hide {
@@ -72,7 +72,6 @@
 .playerO {
     font-family: 'Comfortaa', cursive;
     color: blueviolet;
-
 }
 
 .controls {
@@ -108,10 +107,6 @@
 }
 
 .statistics {
-    color: whitesmoke;
-    font-family: 'Alexandria', monospace;
-    font-size: 20px;
-    font-weight: bolder;
     display: flex;
     justify-content: space-between;
 }
@@ -139,9 +134,14 @@ h1 {
 .wrapper-text {
     background: #111111;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     margin-bottom: 15px !important;
+}
+
+.content-wrapper-text {
+    font-size: 19px;
+    margin-top: 3px;
 }
 
 .header {
