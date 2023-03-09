@@ -274,26 +274,37 @@
         </section>
 
         <section class="controls">
-            <button id="reset" type="button" onclick="shuffleCard()">Zurücksetzen</button>
+            <button id="reset" type="button" onclick="reset()">Zurücksetzen</button>
         </section>
 
         <section class="header wrapper-text">
-            <h1 class="statistic-fix"><i class="fa-solid fa-address-card"></i> Spiel Statistik</h2>
-                <div class="statistics">
-                    <p class="stat">Text <br>
+            <h1><i class="fa-solid fa-address-card"></i> Spiel Statistik</h2>
+
+                <div class="statistic-top">
+                    <p class="stat">Dauer des Spiels<br>
+                        <span class="scoreboard">00:00</span>
+                    </p>
+                </div>
+
+
+                <div class="statistic-bottom">
+                    <p class="stat">Gefunden<br>
                         <span class="scoreboard">0</span>
                     </p>
-                    <p class="stat">Text <br>
+
+                    <p class="stat">Versuche<br>
                         <span class="scoreboard">0</span>
                     </p>
-                    <p class="stat">Text <br>
+
+                    <p class="stat">Gespielt<br>
                         <span class="scoreboard">0</span>
                     </p>
                 </div>
+
         </section>
 
 
-        <!-- <section class="header">
+        <section class="header">
             <div class="header wrapper-text">
                 <h1><i class="fa-solid fa-book"></i> Die Regeln</h1>
                 <p> Zwei Spieler X und O setzen ihre Zeichen abwechselnd in die Felder eines 3 × 3 Rasters.
@@ -311,7 +322,9 @@
                     werden!
                 </p>
             </div>
-        </section> -->
+
+            <!-- https://www.spielregeln-spielanleitungen.de/spiel/natur-memory/ -->
+        </section>
 
     </main>
 
