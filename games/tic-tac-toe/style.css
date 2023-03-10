@@ -74,6 +74,10 @@
     color: blueviolet;
 }
 
+.marked {
+    color: rgb(37, 37, 37);
+}
+
 .controls {
     margin: 15px;
     text-align: center;
@@ -91,13 +95,6 @@
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
 }
 
-@media screen and (min-width: 500px) {
-    .statistics p {
-        justify-content: center;
-        text-align: center;
-    }
-}
-
 .scoreboard {
     font-size: 40px;
     font-family: 'Chivo Mono', cursive;
@@ -113,21 +110,15 @@
 
 .stat {
     background-color: #0d0d0d;
-    margin-top: 5px;
+    margin-top: 2px;
     padding: 3px;
+    padding-bottom: 0px;
     border-radius: 10px;
     font-size: 20px;
 }
 
 h1 {
     font-family: 'Rubik Vinyl', cursive;
-}
-
-.wrapper {
-    padding: 15px;
-    border-radius: 10px;
-    background: #111111;
-    text-align: center;
 }
 
 .wrapper-text {
@@ -144,10 +135,10 @@ h1 {
 
 .content-hightlight {
     background-color: #0d0d0d;
-    margin-top: 5px;
+    margin-top: 4px;
     padding: 3px;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 5px;
+    font-size: 19px;
 }
 
 .header {

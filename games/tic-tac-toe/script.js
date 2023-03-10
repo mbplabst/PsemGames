@@ -13,7 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
     let isGameActive = true;
     let statsTotalWinsX = 0;
     let statsTotalWinsO = 0;
-    let statsTotalFF = -1;
     let statsTotalTies = 0;
 
     const PLAYERX_WON = 'PLAYERX_WON';
@@ -43,12 +42,9 @@ window.addEventListener('DOMContentLoaded', () => {
         audio.play();
     }
 
-    function displayDate() {
-        document.getElementById("background-music").playLoopSound("/assets/sounds/winO.mp3")
-    }
-
     function handleResultValidation() {
         let roundWon = false;
+        let winningCombination = [];
         for (let i = 0; i <= 7; i++) {
             const winCondition = winningConditions[i];
             const a = board[winCondition[0]];
@@ -59,18 +55,36 @@ window.addEventListener('DOMContentLoaded', () => {
             }
             if (a === b && b === c) {
                 roundWon = true;
+                winningCombination = winCondition;
                 break;
             }
         }
 
         if (roundWon) {
             announce(currentPlayer === 'X' ? PLAYERX_WON : PLAYERO_WON);
+            markWinningCombination(winningCombination);
             isGameActive = false;
             return;
         }
 
-        if (!board.includes(''))
+        if (!board.includes('')) {
             announce(TIE);
+            isGameActive = false;
+            tiles.forEach(tile => {
+                tile.classList.add('marked');
+            });
+            return;
+        }
+    }
+
+    function markWinningCombination(combination) {
+        tiles.forEach((tile, index) => {
+            if (combination.includes(index)) {
+                tile.classList.add(`player${currentPlayer}-win`);
+            } else {
+                tile.classList.add('marked');
+            }
+        });
     }
 
     const announce = (type) => {
@@ -99,7 +113,6 @@ window.addEventListener('DOMContentLoaded', () => {
         if (tile.innerText === 'X' || tile.innerText === 'O') {
             return false;
         }
-
         return true;
     };
 
@@ -138,11 +151,11 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.innerText = '';
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
+            tile.classList.remove('marked');
         });
 
         display.innerHTML = 'Spieler <span class="display-player playerX">X</span> ist dran!';
         playerDisplay = document.querySelector('.display-player');
-
         resetButton.innerHTML = "Zurücksetzen";
     }
 
@@ -151,6 +164,5 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     resetButton.addEventListener('click', resetBoard);
-
     resetBoard();
 });
