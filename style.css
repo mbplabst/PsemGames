@@ -164,6 +164,13 @@ strong::before {
     font-size: 17px;
 }
 
+.content-hightlight {
+    background-color: #0d0d0d;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .content-image {
     width: 320px;
     height: 130px;
