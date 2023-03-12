@@ -14,10 +14,6 @@
     padding: 0;
 }
 
-.header {
-    margin: auto;
-}
-
 .title {
     color: cadetblue;
     font-family: 'Rubik Vinyl', cursive;
@@ -184,6 +180,7 @@ h1 {
 }
 
 .wrapper-text {
+    margin: auto;
     background: #111111;
     padding: 10px;
     border-radius: 15px;
@@ -192,14 +189,14 @@ h1 {
     max-width: 315px;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
+.wrapper-last {
+    margin-bottom: 20px !important;
 }
 
-@media screen and (min-width: 500px) {
-    .statistics p {
-        justify-content: center;
-        text-align: center;
-    }
+.content-hightlight {
+    background-color: #0d0d0d;
+    margin-top: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
 }
