@@ -161,13 +161,13 @@ strong::before {
 
 .content-text {
     margin: 0px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .content-hightlight {
     background-color: #0d0d0d;
-    margin-top: 5px;
-    padding: 5px;
+    margin-top: 3px;
+    padding: 4px;
     border-radius: 5px;
 }
 
