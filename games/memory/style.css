@@ -112,7 +112,8 @@
 }
 
 .card .back-view img {
-    max-width: 63px;
+    max-width: 75px;
+    margin-bottom: 3px;
 }
 
 .card .back-view {
