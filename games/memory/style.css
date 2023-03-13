@@ -161,16 +161,14 @@
 
 .statistic-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
 }
 
 .stat {
     background-color: #0d0d0d;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    padding: 5px;
+    margin-top: 4px;
+    padding: 4px;
     border-radius: 10px;
     font-size: 20px;
 }
