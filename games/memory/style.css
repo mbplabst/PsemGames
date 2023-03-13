@@ -112,7 +112,7 @@
 }
 
 .card .back-view img {
-    max-width: 73px;
+    max-width: 70px;
     margin-bottom: 3px;
 }
 
@@ -168,8 +168,9 @@
 
 .stat {
     background-color: #0d0d0d;
-    margin-top: 4px;
-    padding: 4px;
+    margin-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 10px;
     font-size: 20px;
 }
