@@ -28,7 +28,8 @@
     border-radius: 10px;
     background: #111111;
     margin-top: 5px;
-    height: 490px;
+    /* height: 490px; */
+    height: 575px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     max-width: 315px;
 }
