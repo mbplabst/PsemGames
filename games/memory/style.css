@@ -59,6 +59,7 @@
 
 .card.foundPair>.view {
     background-color: rgb(143, 236, 171) !important;
+    background-color: rgb(110, 110, 110) !important;
 }
 
 .card.shake {
@@ -175,9 +176,9 @@ button {
 .stat {
     background-color: #0d0d0d;
     margin-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 7px;
     font-size: 20px;
 }
 

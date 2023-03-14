@@ -1,11 +1,16 @@
 const cards = document.querySelectorAll(".card");
 
+const foundPairs = document.querySelector('.found-pairs');
+const roundPlayed = document.querySelector('.round-played');
+const roundTries = document.querySelector('.round-tries');
+
 let matched = 0;
 let cardOne, cardTwo;
 let disableDeck = false;
 
-let playedGames = 0;
-
+let statsPlayedGames = 0;
+let statsTries = 0;
+let statsPairs = 0;
 
 function flipCard({ target: clickedCard }) {
     if (cardOne !== clickedCard && !disableDeck) {
@@ -24,11 +29,10 @@ function flipCard({ target: clickedCard }) {
 function matchCards(img1, img2) {
     if (img1 === img2) {
         matched++;
-        // if (matched == 12) {
-        //     setTimeout(() => {
-        //         return shuffleCard();
-        //     }, 1000);
-        // }
+        foundPairs.innerHTML = ++statsPairs;
+        if (matched == 14) {
+            roundPlayed.innerHTML = ++statsPlayedGames;
+        }
         cardOne.removeEventListener("click", flipCard);
         cardOne.classList.add("foundPair");
         cardTwo.removeEventListener("click", flipCard);
@@ -37,6 +41,7 @@ function matchCards(img1, img2) {
         return disableDeck = false;
     }
     setTimeout(() => {
+        roundTries.innerHTML = ++statsTries;
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
     }, 750);
@@ -86,4 +91,12 @@ function reset() {
         });
         shuffleCard();
     }, 1200);
+
+    // VERSUCHE RESET [X]
+    statsTries = 0;
+    roundTries.innerHTML = statsTries;
+
+    // GEFUNDENE PAARE RESET
+    statsPairs = 0;
+    foundPairs.innerHTML = statsPairs;
 }
