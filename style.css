@@ -8,6 +8,10 @@
 /*                 BODY                  */
 /*****************************************/
 
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
     background: #1a1818;
@@ -181,12 +185,15 @@ strong::before {
 
 button {
     cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
     color: aliceblue;
     padding: 8px;
     border-radius: 10px;
     margin-top: 8px;
-    background-color: #1a1818;
+    background-color: #111111;
     border-color: #5f5858;
+    margin-top: 10px;
 }
 
 .card-wrapper {
