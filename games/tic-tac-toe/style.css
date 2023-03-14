@@ -26,7 +26,7 @@
     color: whitesmoke;
     font-family: 'Alexandria', sans-serif;
     text-align: center;
-    font-size: 28px;
+    font-size: 23px;
     max-width: 330px;
     margin: 10px auto;
     margin-top: 5px;
@@ -148,4 +148,17 @@ h1 {
 .header {
     max-width: 320px;
     margin: 10px auto;
+}
+
+#back {
+    display: block;
+    border-color: #1d1c1c;
+    background-color: #111111;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button-back-color {
+    color: cadetblue;
 }

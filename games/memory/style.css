@@ -28,8 +28,7 @@
     border-radius: 10px;
     background: #111111;
     margin-top: 5px;
-    /* height: 490px; */
-    height: 575px;
+    height: 570px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     max-width: 315px;
 }
@@ -146,6 +145,12 @@
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
 }
 
+button {
+    background-color: #1a1818;
+    border-color: #5f5858;
+    font-size: 13px;
+}
+
 .scoreboard {
     font-size: 40px;
     font-family: 'Chivo Mono', cursive;
@@ -169,9 +174,9 @@
 
 .stat {
     background-color: #0d0d0d;
-    margin-top: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
+    margin-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -194,10 +199,38 @@ h1 {
     margin-bottom: 20px !important;
 }
 
+.wrapper-content-correction {
+    margin-top: 10px !important;
+    padding: 10px !important;
+}
+
+.wrapper-content-correction-top {
+    padding: 5px !important;
+    margin-top: 2px !important;
+}
+
+.content-text {
+    margin-top: 10px;
+    font-size: 18px !important;
+}
+
 .content-hightlight {
     background-color: #0d0d0d;
     margin-top: 4px;
     padding: 3px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+#back {
+    display: block;
+    border-color: #1d1c1c;
+    background-color: #111111;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button-back-color {
+    color: cadetblue;
 }

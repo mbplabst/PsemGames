@@ -91,18 +91,17 @@ window.addEventListener('DOMContentLoaded', () => {
         switch (type) {
             case PLAYERO_WON:
                 winCountO.innerHTML = ++statsTotalWinsO;
-                announcer.innerHTML = '<i class="fa-solid fa-trophy playerO"></i> Spieler <span class="playerO">O</span> gewinnt! <i class="fa-solid fa-trophy playerO"></i>';
+                announcer.innerHTML = 'Spieler <span class="playerO">O</span> gewinnt!';
                 playSound("/assets/sounds/winO.mp3");
                 break;
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
-                announcer.innerHTML = '<i class="fa-solid fa-trophy playerX"></i> Spieler <span class="playerX">X</span> gewinnt! <i class="fa-solid fa-trophy playerX"></i>';
+                announcer.innerHTML = 'Spieler <span class="playerX">X</span> gewinnt!';
                 playSound("/assets/sounds/winX.mp3");
                 break;
             case TIE:
                 tieCount.innerHTML = ++statsTotalTies;
-                // announcer.innerText = '<i class="fa-solid fa-trophy tie"></i> Spiel endet <span>Unentschieden!</span> <i class="fa-solid fa-rectangle-xmark tie"></i>';
-                announcer.innerHTML = '<i class="fa-solid fa-xmarks-lines tie"></i> Unentschieden <i class="fa-solid fa-xmarks-lines tie"></i>';
+                announcer.innerHTML = 'Unentschieden!';
                 playSound("/assets/sounds/tie.mp3");
         }
         display.innerHTML = 'Das Spiel ist beendet!';

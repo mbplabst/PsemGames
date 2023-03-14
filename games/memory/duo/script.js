@@ -78,9 +78,7 @@ function reset() {
             card.classList.add("flip");
             disableDeck = true;
         });
-    }, 150);
-
-    shuffleCard();
+    }, 300);
 
     setTimeout(() => {
         cards.forEach((card) => {
