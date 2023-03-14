@@ -29,8 +29,10 @@ function flipCard({ target: clickedCard }) {
 function matchCards(img1, img2) {
     if (img1 === img2) {
         matched++;
+        // GEFUNDENE PAARE + 1 
         foundPairs.innerHTML = ++statsPairs;
         if (matched == 14) {
+            // SPIELE GESPIELT + 1 
             roundPlayed.innerHTML = ++statsPlayedGames;
         }
         cardOne.removeEventListener("click", flipCard);
@@ -41,6 +43,7 @@ function matchCards(img1, img2) {
         return disableDeck = false;
     }
     setTimeout(() => {
+        // FEHLVERSUCHE + 1 
         roundTries.innerHTML = ++statsTries;
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
