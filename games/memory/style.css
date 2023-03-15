@@ -189,9 +189,9 @@ button {
 
 .stat {
     background-color: #0d0d0d;
-    margin-top: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
+    margin-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 7px;
     font-size: 20px;
 }
