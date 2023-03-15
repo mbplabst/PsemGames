@@ -3,6 +3,7 @@ const cards = document.querySelectorAll(".card");
 const foundPairs = document.querySelector('.found-pairs');
 const roundPlayed = document.querySelector('.round-played');
 const roundTries = document.querySelector('.round-tries');
+const resetButton = document.querySelector('#reset');
 
 let matched = 0;
 let cardOne, cardTwo;
@@ -33,7 +34,9 @@ function matchCards(img1, img2) {
         foundPairs.innerHTML = ++statsPairs;
         if (matched == 14) {
             // SPIELE GESPIELT + 1 
+            // BUTTON UMBENENNEN
             roundPlayed.innerHTML = ++statsPlayedGames;
+            resetButton.innerHTML = " Neues Spiel";
         }
         cardOne.removeEventListener("click", flipCard);
         cardOne.classList.add("foundPair");
@@ -102,4 +105,6 @@ function reset() {
     // GEFUNDENE PAARE RESET
     statsPairs = 0;
     foundPairs.innerHTML = statsPairs;
+
+    resetButton.innerHTML = "Zurücksetzen";
 }

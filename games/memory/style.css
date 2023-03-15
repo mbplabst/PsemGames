@@ -72,8 +72,7 @@
 }
 
 .card.foundPair>.view {
-    background-color: rgb(143, 236, 171) !important;
-    background-color: rgb(110, 110, 110) !important;
+    background-color: rgb(136, 133, 133) !important;
 }
 
 .card.shake {
@@ -211,7 +210,7 @@ h1 {
 }
 
 .wrapper-last {
-    margin-bottom: 20px !important;
+    margin-bottom: 25px !important;
 }
 
 .wrapper-content-correction {
@@ -244,4 +243,21 @@ h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.stat-correct {
+    background-color: #0d0d0d;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 7px;
+    font-size: 19px;
+}
+
+.player-one {
+    color: darkkhaki;
+}
+
+.player-two {
+    color: blueviolet;
 }
