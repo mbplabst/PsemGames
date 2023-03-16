@@ -30,19 +30,18 @@
     max-width: 330px;
     margin: auto;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
 }
 
 .wrapper-cards {
-    display: flex;
-    justify-content: center;
+    display: block;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
     background: #111111;
     margin-top: 5px;
-    height: 570px;
+    height: 630px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     max-width: 315px;
 }
@@ -165,14 +164,6 @@ button {
     font-size: 13px;
 }
 
-.scoreboard {
-    font-size: 40px;
-    font-family: 'Chivo Mono', cursive;
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-}
-
 .statistic-top {
     background-color: #0d0d0d;
     display: flex;
@@ -186,17 +177,34 @@ button {
     border-radius: 10px;
 }
 
-.stat {
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: right;
+    font-family: 'Chivo Mono', cursive;
+    margin-top: 12px;
+    font-size: 25px;
     background-color: #0d0d0d;
-    margin-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    background-color: #202020;
     border-radius: 7px;
-    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 
 h1 {
     font-family: 'Rubik Vinyl', cursive;
+}
+
+hr {
+    margin-top: 270px;
+    max-width: auto;
+    color: #e74c3c;
 }
 
 .wrapper-text {
@@ -223,11 +231,6 @@ h1 {
     margin-top: 2px !important;
 }
 
-.content-text {
-    margin-top: 10px;
-    font-size: 18px !important;
-}
-
 .content-hightlight {
     background-color: #0d0d0d;
     margin-top: 4px;
@@ -243,15 +246,6 @@ h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     margin-top: 10px;
-}
-
-.stat-correct {
-    background-color: #0d0d0d;
-    margin-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 7px;
-    font-size: 19px;
 }
 
 .player-one {

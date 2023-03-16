@@ -1,7 +1,6 @@
 const cards = document.querySelectorAll(".card");
 
 const foundPairs = document.querySelector('.found-pairs');
-const roundPlayed = document.querySelector('.round-played');
 const roundTries = document.querySelector('.round-tries');
 const resetButton = document.querySelector('#reset');
 
@@ -9,7 +8,6 @@ let matched = 0;
 let cardOne, cardTwo;
 let disableDeck = false;
 
-let statsPlayedGames = 0;
 let statsTries = 0;
 let statsPairs = 0;
 
@@ -33,9 +31,7 @@ function matchCards(img1, img2) {
         // GEFUNDENE PAARE + 1 
         foundPairs.innerHTML = ++statsPairs;
         if (matched == 14) {
-            // SPIELE GESPIELT + 1 
             // BUTTON UMBENENNEN
-            roundPlayed.innerHTML = ++statsPlayedGames;
             resetButton.innerHTML = " Neues Spiel";
         }
         cardOne.removeEventListener("click", flipCard);
@@ -65,7 +61,7 @@ function shuffleCard() {
     disableDeck = false;
     cardOne = cardTwo = "";
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-    for (let i = 0; i < 151; i++) {
+    for (let i = 0; i < 51; i++) {
         arr.sort(() => Math.random() > 0.5 ? 1 : -1);
     }
     cards.forEach((card, i) => {
@@ -98,13 +94,20 @@ function reset() {
         shuffleCard();
     }, 1200);
 
-    // VERSUCHE RESET [X]
-    statsTries = 0;
-    roundTries.innerHTML = statsTries;
+    setTimeout(() => {
+        cards.forEach((card) => {
+            
+            // VERSUCHE RESET [X]
+            statsTries = 0;
+            roundTries.innerHTML = statsTries;
 
-    // GEFUNDENE PAARE RESET
-    statsPairs = 0;
-    foundPairs.innerHTML = statsPairs;
+            // GEFUNDENE PAARE RESET
+            statsPairs = 0;
+            foundPairs.innerHTML = statsPairs;
 
-    resetButton.innerHTML = "Zurücksetzen";
+            resetButton.innerHTML = "Zurücksetzen";
+        });
+        shuffleCard();
+    }, 1200);
+
 }
