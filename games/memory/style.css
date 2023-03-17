@@ -71,7 +71,7 @@
 }
 
 .card.foundPair>.view {
-    background-color: rgb(136, 133, 133) !important;
+    background-color: rgb(162, 255, 166) !important;
 }
 
 .card.shake {
@@ -164,19 +164,6 @@ button {
     font-size: 13px;
 }
 
-.statistic-top {
-    background-color: #0d0d0d;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.statistic-bottom {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-
 .justify-content-space-between {
     display: flex;
     justify-content: space-between;
@@ -187,7 +174,7 @@ button {
     justify-content: right;
     font-family: 'Chivo Mono', cursive;
     margin-top: 12px;
-    font-size: 25px;
+    font-size: 26px;
     background-color: #0d0d0d;
     background-color: #202020;
     border-radius: 7px;
@@ -197,14 +184,14 @@ button {
     padding-bottom: 2px;
 }
 
-h1 {
-    font-family: 'Rubik Vinyl', cursive;
+hr {
+    margin-top: 273px;
+    border: 1.5px solid #3f3e3e;
+    border-radius: 2px;
 }
 
-hr {
-    margin-top: 270px;
-    max-width: auto;
-    color: #e74c3c;
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
 }
 
 .wrapper-text {
@@ -221,31 +208,12 @@ hr {
     margin-bottom: 25px !important;
 }
 
-.wrapper-content-correction {
-    margin-top: 10px !important;
-    padding: 10px !important;
-}
-
-.wrapper-content-correction-top {
-    padding: 5px !important;
-    margin-top: 2px !important;
-}
-
 .content-hightlight {
     background-color: #0d0d0d;
     margin-top: 4px;
     padding: 3px;
     border-radius: 10px;
     font-size: 20px;
-}
-
-#back {
-    display: block;
-    border-color: #1d1c1c;
-    background-color: #111111;
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-    margin-top: 10px;
 }
 
 .player-one {
