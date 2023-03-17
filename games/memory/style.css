@@ -41,7 +41,7 @@
     border-radius: 10px;
     background: #111111;
     margin-top: 5px;
-    height: 630px;
+    height: 635px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     max-width: 315px;
 }
@@ -71,7 +71,7 @@
 }
 
 .card.foundPair>.view {
-    background-color: rgb(162, 255, 166) !important;
+    background-color: rgb(105, 107, 105) !important;
 }
 
 .card.shake {
@@ -167,6 +167,7 @@ button {
 .justify-content-space-between {
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .scoreboard {
@@ -181,7 +182,11 @@ button {
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 3px;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
+}
+
+.icon-correction {
+    margin-top: 2px;
 }
 
 hr {
@@ -214,6 +219,18 @@ h1 {
     padding: 3px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.color-fail {
+    color: #f86060;
+}
+
+.color-pair {
+    color: #67fc80;
+}
+
+.color-time {
+    color: #a3a1a1;
 }
 
 .player-one {

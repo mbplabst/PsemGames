@@ -197,7 +197,7 @@ button {
 
 .card-wrapper {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .card-image {
@@ -225,7 +225,7 @@ button {
 }
 
 .card-bottom-correction {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 /*****************************************/
