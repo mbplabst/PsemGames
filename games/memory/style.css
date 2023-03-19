@@ -71,7 +71,7 @@
 }
 
 .card.foundPair>.view {
-    background-color: rgb(105, 107, 105) !important;
+    background-color: #82fa96 !important;
 }
 
 .card.shake {
@@ -231,6 +231,10 @@ h1 {
 
 .color-time {
     color: #a3a1a1;
+}
+
+.color-wins {
+    color: rgb(255, 214, 78);
 }
 
 .player-one {

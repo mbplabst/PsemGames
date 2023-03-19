@@ -3,6 +3,7 @@ const cards = document.querySelectorAll(".card");
 const foundPairs = document.querySelector('.found-pairs');
 const roundTries = document.querySelector('.round-tries');
 const resetButton = document.querySelector('#reset');
+const timePlaying = document.querySelector('.gameTimePlayed');
 
 let matched = 0;
 let cardOne, cardTwo;
@@ -11,7 +12,15 @@ let disableDeck = false;
 let statsTries = 0;
 let statsPairs = 0;
 
+let timeInterval = null;
+let time = 0;
+
 function flipCard({ target: clickedCard }) {
+    if (timeInterval == null) {
+        timeInterval = setInterval(timaa, 1000);
+        time = 0;
+    }
+
     if (cardOne !== clickedCard && !disableDeck) {
         clickedCard.classList.add("flip");
         if (!cardOne) {
@@ -25,6 +34,15 @@ function flipCard({ target: clickedCard }) {
     }
 }
 
+function timaa() {
+    time++;
+    const seconds = time % 60;
+    const minutes = Math.floor(time / 60);
+
+    timePlaying.innerHTML = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`; 
+
+}
+
 function matchCards(img1, img2) {
     if (img1 === img2) {
         matched++;
@@ -32,7 +50,9 @@ function matchCards(img1, img2) {
         foundPairs.innerHTML = ++statsPairs;
         if (matched == 14) {
             // BUTTON UMBENENNEN
-            resetButton.innerHTML = " Neues Spiel";
+            resetButton.innerHTML = "Neues Spiel";
+            clearInterval(timeInterval);
+            timeInterval = null;
         }
         cardOne.removeEventListener("click", flipCard);
         cardOne.classList.add("foundPair");
@@ -41,6 +61,7 @@ function matchCards(img1, img2) {
         cardOne = cardTwo = "";
         return disableDeck = false;
     }
+
     setTimeout(() => {
         // FEHLVERSUCHE + 1 
         roundTries.innerHTML = ++statsTries;
@@ -80,6 +101,11 @@ cards.forEach(card => {
 
 function reset() {
 
+    if (timeInterval != null) {
+        clearInterval(timeInterval);
+        timeInterval = null;
+    }
+
     setTimeout(() => {
         cards.forEach((card) => {
             card.classList.add("flip");
@@ -96,7 +122,7 @@ function reset() {
 
     setTimeout(() => {
         cards.forEach((card) => {
-            
+
             // VERSUCHE RESET [X]
             statsTries = 0;
             roundTries.innerHTML = statsTries;
@@ -104,6 +130,9 @@ function reset() {
             // GEFUNDENE PAARE RESET
             statsPairs = 0;
             foundPairs.innerHTML = statsPairs;
+
+            time = 0;
+            timePlaying.innerHTML = "00:00";
 
             resetButton.innerHTML = "Zurücksetzen";
         });
