@@ -71,7 +71,7 @@
 }
 
 .card.foundPair>.view {
-    background-color: #82fa96 !important;
+    background-color: #aeffbb !important;
 }
 
 .card.shake {
@@ -227,6 +227,7 @@ h1 {
 
 .color-pair {
     color: #82fa96;
+    /* color: #aeffbb; */
 }
 
 .color-time {
