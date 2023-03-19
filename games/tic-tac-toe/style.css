@@ -43,12 +43,9 @@
 }
 
 .container {
-    margin: 0 auto;
     display: grid;
-    padding: 10px;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
 }
 
 .tile {
@@ -63,16 +60,6 @@
     font-size: 50px;
     cursor: pointer;
 }
-
-/* .wrapper-stats {
-    padding: 10px;
-    border-radius: 15px;
-    background: #111111;
-    text-align: center;
-    max-width: 330px;
-    margin: 10px auto;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
-} */
 
 .playerX {
     font-family: 'Comfortaa', cursive;
@@ -119,13 +106,9 @@
 
 .justify-content-space-between {
     display: flex;
-    justify-content: center;
-    margin-bottom: 0px !important;
-}
-
-.display-flex {
-    display: block;
     justify-content: space-between;
+    margin-bottom: 5px !important;
+    max-width: none !important;
 }
 
 .scoreboard {
@@ -135,12 +118,12 @@
     font-size: 26px;
     background-color: #202020;
     border-radius: 7px;
-    padding-right: 13px;
-    padding-left: 13px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .icon-correction {
@@ -150,7 +133,8 @@
 hr {
     border: 1.5px solid #3f3e3e;
     border-radius: 2px;
-    margin-bottom: 12px;
+    margin-top: 14px;
+    margin-bottom: 15px;
 }
 
 h1 {
