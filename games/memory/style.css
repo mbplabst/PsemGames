@@ -46,6 +46,10 @@
     max-width: 315px;
 }
 
+.wrapper-longer {
+    height: 683px;
+}
+
 .cards,
 .card,
 .view {
@@ -71,9 +75,7 @@
 }
 
 .card.foundPair>.view {
-    /* background-color: #aeffbb !important; */
-    background-color: #80ff80 !important;
-    background-color: #71f571 !important;
+    background-color: #aeffbb !important;
 }
 
 .card.shake {
@@ -127,8 +129,8 @@
 }
 
 .card .back-view img {
-    max-width: 70px;
-    margin-bottom: 3px;
+    max-width: 74px;
+    margin-bottom: 4px;
 }
 
 .card .back-view {
@@ -223,12 +225,15 @@ h1 {
     font-size: 20px;
 }
 
+.button-large-width-adjust {
+    padding-left: 35px;
+}
+
 .color-fail {
     color: #f86060;
 }
 
 .color-pair {
-    /* color: #aeffbb; */
     color: #82fa96;
 }
 
@@ -241,9 +246,9 @@ h1 {
 }
 
 .player-one {
-    color: darkkhaki;
+    color: #e1fb9c;
 }
 
 .player-two {
-    color: blueviolet;
+    color: #c0aeff;
 }
