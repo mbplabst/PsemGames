@@ -71,8 +71,9 @@
 }
 
 .card.foundPair>.view {
-    //background-color: #aeffbb !important;
+    /* background-color: #aeffbb !important; */
     background-color: #80ff80 !important;
+    background-color: #71f571 !important;
 }
 
 .card.shake {
