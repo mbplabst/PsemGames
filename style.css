@@ -170,6 +170,11 @@ strong::before {
     font-size: 15px;
 }
 
+.content-text-impressum {
+    margin: 0px;
+    font-size: 13px;
+}
+
 .content-hightlight {
     background-color: #0d0d0d;
     padding: 4px;
