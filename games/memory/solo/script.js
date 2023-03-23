@@ -39,7 +39,7 @@ function timaa() {
     const seconds = time % 60;
     const minutes = Math.floor(time / 60);
 
-    timePlaying.innerHTML = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`; 
+    timePlaying.innerHTML = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 
 }
 
