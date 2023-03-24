@@ -200,9 +200,25 @@ button {
     margin-top: 10px;
 }
 
+.wrapper-2 {
+    padding: 10px;
+    border-radius: 15px;
+    background: #111111;
+    text-align: center;
+    max-width: 330px;
+    margin: 10px auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+}
+
 .card-wrapper {
     display: flex;
     margin-bottom: 15px;
+}
+
+.card-wrapper-games {
+    display: flex;
+    background-color: #0d0d0d;
+    border-radius: 10px;
 }
 
 .card-image {
