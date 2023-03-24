@@ -200,7 +200,7 @@ button {
     margin-top: 10px;
 }
 
-.wrapper-2 {
+.card-wrapper {
     padding: 10px;
     border-radius: 15px;
     background: #111111;
@@ -208,11 +208,6 @@ button {
     max-width: 330px;
     margin: 10px auto;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
-}
-
-.card-wrapper {
-    display: flex;
-    margin-bottom: 15px;
 }
 
 .card-wrapper-games {
