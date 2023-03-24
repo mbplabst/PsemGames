@@ -71,25 +71,47 @@ function matchCards(img1, img2) {
 
         if (matched == 14) {
             if (statsPairsONE == statsPairsTWO) {
-                playerDisplay.innerHTML = 'Das Spiel endet Unentschieden!';
-            }
-
-            if (statsPairsONE > statsPairsTWO) {
+                playerDisplay.innerHTML = 'Spiel endet Unentschieden!';
+            } else if (statsPairsONE > statsPairsTWO) {
                 playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-one"></i> hat Gewonnen!';
                 statsWinONE++;
                 roundWins_ONE.innerHTML = statsWinONE;
-
             } else if (statsPairsONE < statsPairsTWO) {
                 playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-two"></i> hat Gewonnen!';
                 statsWinTWO++;
                 roundWins_TWO.innerHTML = statsWinTWO;
             }
 
+            // if (statsPairsONE == statsPairsTWO) {
+            //     playerDisplay.innerHTML = 'Das Spiel endet Unentschieden!';
+            // }
+
+            // if (statsPairsONE > statsPairsTWO) {
+            //     playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-one"></i> hat Gewonnen!';
+            //     statsWinONE++;
+            //     roundWins_ONE.innerHTML = statsWinONE;
+
+            // } else if (statsPairsONE < statsPairsTWO) {
+            //     playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-two"></i> hat Gewonnen!';
+            //     statsWinTWO++;
+            //     roundWins_TWO.innerHTML = statsWinTWO;
+            // }
+
             resetButton.innerHTML = "Neues Spiel starten";
         }
     }
 
     setTimeout(() => {
+        if (img1 !== img2) {
+            if (currentPlayer == 'ONE') {
+                statsTriesONE++;
+                roundTries_ONE.innerHTML = statsTriesONE;
+
+            } else if (currentPlayer == 'TWO') {
+                statsTriesTWO++;
+                roundTries_TWO.innerHTML = statsTriesTWO;
+            }
+        }
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
     }, 750);
@@ -124,6 +146,7 @@ function shuffleCard() {
     }
     cards.forEach((card, i) => {
         card.classList.remove("flip");
+        card.classList.remove("player-one-found", "player-two-found");
         let imgTag = card.querySelector(".back-view img");
         imgTag.src = `/assets/images/memory/img-${arr[i]}.png`;
         card.addEventListener("click", flipCard);
@@ -173,11 +196,7 @@ function reset() {
         shuffleCard();
     }, 1200);
 
-    // cardOne.classList.remove(".player-one-found");
-    // cardOne.classList.remove(".player-two-found");
-    // cardTwo.classList.remove(".player-one-found");
-    // cardTwo.classList.remove(".player-two-found");
-
     currentPlayer = 'One';
     playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user player-one"></i> ist dran!';
+
 }
