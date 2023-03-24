@@ -13,6 +13,10 @@ main * {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+}
+
 .title {
     color: cadetblue;
     font-family: 'Rubik Vinyl', cursive;
@@ -34,6 +38,31 @@ main * {
     background: #111111;
     text-align: center;
     margin: 10px;
+}
+
+.wrapper-text {
+    background: #111111;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    margin-bottom: 15px !important;
+}
+
+.wrapper-last {
+    margin-bottom: 20px !important;
+}
+
+.content-hightlight {
+    background-color: #0d0d0d;
+    margin-top: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.header {
+    max-width: 320px;
+    margin: 10px auto;
 }
 
 .question {
@@ -70,42 +99,6 @@ main * {
     grid-template-columns: repeat(2, 1fr);
 }
 
-button {
-    cursor: pointer;
-}
-
 button:hover {
-    color:dimgrey;
-}
-
-@media screen and (min-width: 500px) {
-    .statistics p {
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-.scoreboard {
-    font-size: 40px;
-    font-family: 'Chivo Mono', cursive;
-    display: flex;
-    justify-content: center;
-}
-
-.statistics {
-    color: whitesmoke;
-    font-family: 'Alexandria', monospace;
-    font-size: 20px;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-}
-
-.stat {
-    margin: 4px;
-    background-color: #111111;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 8px;
+    color: dimgrey;
 }
