@@ -34,6 +34,7 @@ h1 {
 
 .wrapper {
     padding: 15px;
+    padding-top: 0px !important;
     border-radius: 15px;
     background: #111111;
     text-align: center;
@@ -72,6 +73,33 @@ h1 {
     font-weight: 400;
     margin-bottom: 15px;
 }
+
+/*++++++++++++++++++++++++ CATEGORY ++++++++++++++++++++++++*/
+
+.category {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+    background: #0d0d0d;
+    padding: 3px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 45px;
+    margin-left: 45px;
+} 
+
+.category-text {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+.category-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .wrapper-questions {
     color: aliceblue;

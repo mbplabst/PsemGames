@@ -55,8 +55,9 @@ function matchCards(img1, img2) {
 
             cardOne = cardTwo = "";
             return disableDeck = false;
+        }
 
-        } else if (currentPlayer == 'TWO') {
+        if (currentPlayer == 'TWO') {
             cardOne.removeEventListener("click", flipCard);
             cardOne.classList.add("player-two-found");
             cardTwo.removeEventListener("click", flipCard);
@@ -69,36 +70,28 @@ function matchCards(img1, img2) {
             return disableDeck = false;
         }
 
-        if (matched == 14) {
-            if (statsPairsONE == statsPairsTWO) {
-                playerDisplay.innerHTML = 'Spiel endet Unentschieden!';
-            } else if (statsPairsONE > statsPairsTWO) {
-                playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-one"></i> hat Gewonnen!';
-                statsWinONE++;
-                roundWins_ONE.innerHTML = statsWinONE;
-            } else if (statsPairsONE < statsPairsTWO) {
-                playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-two"></i> hat Gewonnen!';
-                statsWinTWO++;
-                roundWins_TWO.innerHTML = statsWinTWO;
-            }
+        // if (matched == 14) {
+        //     if (statsPairsONE > statsPairsTWO) {
+        //         // console.log("PLAYER ONE WINS");
 
-            // if (statsPairsONE == statsPairsTWO) {
-            //     playerDisplay.innerHTML = 'Das Spiel endet Unentschieden!';
-            // }
+        //         statsWinONE++;
+        //         roundWins_ONE.innerHTML = statsWinONE;
+        //         playerDisplay.innerHTML = "HIER STEHT, DASS SPIELER UNO GEWONNEN HAT!"
 
-            // if (statsPairsONE > statsPairsTWO) {
-            //     playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-one"></i> hat Gewonnen!';
-            //     statsWinONE++;
-            //     roundWins_ONE.innerHTML = statsWinONE;
 
-            // } else if (statsPairsONE < statsPairsTWO) {
-            //     playerDisplay.innerHTML = 'Spieler <i class="fa-solid fa-user-large player-two"></i> hat Gewonnen!';
-            //     statsWinTWO++;
-            //     roundWins_TWO.innerHTML = statsWinTWO;
-            // }
+        //     } else if (statsPairsTWO > statsPairsONE) {
+        //         // console.log("PLAYER TWO WINS");
+        //         statsWinTWO++;
+        //         roundWins_TWO.innerHTML
+        //         playerDisplay.innerHTML = "HIER STEHT, DASS SPIELER UNO GEWONNEN HAT!"
 
-            resetButton.innerHTML = "Neues Spiel starten";
-        }
+        //     } else if (statsPairsONE == statsPairsTWO) {
+        //         // console.log("UNENTSCHIEDEN");
+        //         playerDisplay.innerHTML = "HIER STEHT, DASS UNENTSCHIEDEN IST"
+
+        //     }
+        // }
+
     }
 
     setTimeout(() => {
