@@ -103,12 +103,13 @@ h1 {
     padding: 15px;
     border-radius: 10px;
     background: #2b2b2b;
+    background: #202020;
     margin: 5px;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
 }
 
 .question {
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
@@ -153,6 +154,9 @@ hr {
     display: flex;
     background: #302f2f;
     margin-left: auto;
+    margin-top: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .grid-container {
