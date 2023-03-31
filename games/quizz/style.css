@@ -41,7 +41,6 @@ h1 {
     text-align: center;
     margin: auto !important;
     margin-bottom: 15px !important;
-    /* max-width: 320px; */
 }
 
 .wrapper-text {
@@ -76,6 +75,7 @@ h1 {
     justify-content: center;
     background: #0d0d0d;
     background: #0c0c0c;
+    background: #0a0a0a;
     padding: 3px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -87,6 +87,12 @@ h1 {
     font-family: 'Raleway', sans-serif;
     color: aliceblue;
     font-size: 18px;
+}
+
+.category-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -106,7 +112,7 @@ h1 {
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
