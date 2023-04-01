@@ -109,13 +109,11 @@ h1 {
 }
 
 .question {
-    font-size: 19px;
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
-    margin-top: 5px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
 .justify-content-space-between {
@@ -163,7 +161,7 @@ hr {
     align-content: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 button:hover {
@@ -178,9 +176,13 @@ button:hover {
 
 .color-streak {
     color: #f7d360;
+    color: #ffbc56;
 }
 
 .color-right {
-    /* color: #9ff3ad; */
     color: #89ff9d;
+}
+
+.color-time {
+    color: #a3a1a1;
 }
