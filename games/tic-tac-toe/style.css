@@ -29,11 +29,11 @@
     font-size: 23px;
     max-width: 330px;
     margin: 10px auto;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 0px;
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     background-color: #111111;
+    border: 3px solid #141414;
     padding: 5px;
     font-weight: 900;
 }
@@ -50,7 +50,7 @@
 
 .tile {
     background-color: #131212;
-    border: 1px solid rgb(196, 194, 194);
+    border: 1px solid rgb(156, 156, 156);
     min-width: 100px;
     min-height: 100px;
     font-weight: bolder;
@@ -63,20 +63,21 @@
 
 .playerX {
     font-family: 'Comfortaa', cursive;
-    color: darkkhaki;
+    color: #e1fb9c;
 }
 
 .playerO {
     font-family: 'Comfortaa', cursive;
-    color: blueviolet;
+    color: #c0aeff;
+    color: #8361ff;
 }
 
 .player-x {
-    color: darkkhaki;
+    color: #e1fb9c;
 }
 
 .player-o {
-    color: blueviolet;
+    color: #8361ff;
 }
 
 .tie {
@@ -102,6 +103,7 @@
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    border: 3px solid #141414;
 }
 
 .justify-content-space-between {
@@ -123,8 +125,6 @@
     padding-left: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
-    margin-left: 3px;
-    margin-right: 3px;
 }
 
 .icon-correction {
@@ -144,6 +144,7 @@ h1 {
 
 .wrapper-text {
     background: #111111;
+    border: 3px solid #141414;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
