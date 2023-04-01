@@ -41,13 +41,13 @@
     border-radius: 10px;
     background: #111111;
     margin-top: 5px;
-    height: 635px;
+    height: 640px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     max-width: 315px;
 }
 
 .wrapper-longer {
-    height: 683px;
+    height: 695px;
 }
 
 .cards,
@@ -180,7 +180,7 @@ button {
     font-family: 'Chivo Mono', cursive;
     margin-top: 12px;
     font-size: 26px;
-    background-color: #0d0d0d;
+    border: 2px solid #141414;
     background-color: #202020;
     border-radius: 7px;
     padding-right: 10px;
