@@ -208,12 +208,12 @@ button {
     max-width: 330px;
     margin: 10px auto;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
-    border: 2px solid #141414;
+    border: 3px solid #141414;
 }
 
 .card-wrapper-games {
     display: flex;
-    /* background-color: #0d0d0d; */
+    background-color: #0d0d0d;
     border-radius: 10px;
 }
 
