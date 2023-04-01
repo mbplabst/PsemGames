@@ -101,10 +101,8 @@ h1 {
 .wrapper-questions {
     color: aliceblue;
     padding: 15px;
-    border-radius: 10px;
-    background: #2b2b2b;
     background: #202020;
-    margin: 5px;
+    margin: 2px;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
 }
 
@@ -146,6 +144,20 @@ hr {
     margin-top: 10px;
     border: 1.5px solid #3f3e3e;
     border-radius: 2px;
+}
+
+.time-bar {
+    border: 2px solid #141414;
+    width: 300px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2c2b2b;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
 
 .next-question {
