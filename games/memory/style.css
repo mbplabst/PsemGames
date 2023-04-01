@@ -229,20 +229,22 @@ h1 {
     padding-left: 35px;
 }
 
-/* COLORS FOR STATISTICS */
+/****************************************************************/
+
 .color-fail {
     color: #f86060;
 }
 
 .color-pair {
-    color: #9ff3ad;
+    color: #89ff9d;
 }
 
 .color-time {
     color: #a3a1a1;
 }
 
-/* PLAYER COLORS */
+/****************************************************************/
+
 .player-one {
     color: #e1fb9c;
 }
@@ -250,6 +252,8 @@ h1 {
 .player-two {
     color: #c0aeff;
 }
+
+/****************************************************************/
 
 .card.player-one-found>.view {
     background-color: #e1fb9c !important;
