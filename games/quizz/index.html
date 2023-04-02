@@ -54,8 +54,9 @@
 
             <div class="category">
                 <p class="category-text">Kategorie</p>
-                <img class="category-image" src="/assets/images/quiz/genres.png" alt="img">
+                <img class="category-image" src="/assets/images/quiz/genres.png" alt="img" draggable="false">
             </div>
+
             <div>
                 <h1 class="question content-hightlight">Hier steht die zu beantwortende Quiz-Frage</h1>
             </div>
@@ -82,19 +83,15 @@
             <div>
                 <hr>
 
-                <!-- <div class="scoreboard">
-                    <div class="time-bar"></div>
-                </div> -->
-
                 <div class="time-bar"></div>
 
                 <div class="justify-content-space-between">
+
                     <p class="scoreboard color-fail"><span class="">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-square-xmark icon-correction"></i></p>
 
                     <p class="scoreboard color-streak"><span class="">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-fire icon-correction"></i></p>
-
 
                     <p class="scoreboard color-right"><span class="">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-square-check icon-correction"></i></p>
@@ -106,26 +103,60 @@
 
         <section class="header wrapper-text">
             <h1><i class="fa-solid fa-book"></i> Die Regeln</h1>
-            <p class="content-hightlight"> Zwei Spieler (<span class="display-player playerX">X</span>
-                und <span class="display-player playerO">O</span>) setzen ihr Zeichen jeweils abwechselnd in die
-                Felder eines 3 × 3 Rasters.</p>
-            <p class="content-hightlight">Wer zuerst drei seiner Zeichen in eine Zeile, in eine Spalte oder diagonal
-                setzen kann, gewinnt!
+            <p class="content-hightlight">Du hast 15 Sekunden pro Frage. Hast du eine Antwort ausgewählt kannst du deine
+                Entscheidung nicht mehr rückgängig machen!</p>
+            <p class="content-hightlight">Beantwortest du eine Frage richtig, erhältst du einen
+                <span class="color-right" style="font-weight: 900">Punkt</span> und deine
+                <span class="color-streak" style="font-weight: 900">Streak</span> erhöht sich.
             </p>
+
         </section>
 
         <section class="header wrapper-text wrapper-last">
-            <h1><i class="fa-solid fa-graduation-cap"></i> Fun Fact</h1>
-            <p class="content-hightlight"> Wusstest du bereits, dass schon die alten Römer Versionen von Tic Tac Toe
-                gespielt haben? </p>
-            <p class="content-hightlight">Das Spielprinzip "3 in einer Reihe" kann sogar bis zu den alten Ägyptern
-                zurückverfolgt werden!
+            <h1><i class="fa-regular fa-folder-open"></i> Kategorien</h1>
+            <p class="content-hightlight">Derzeit gibt es 0 verschiedene Fragen zu folgenden Kategorien:
+                <li class="content-hightlight">
+                    <div class="justify-content-center">
+                        <p>Musik-Genres</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/genres.png" alt="img">
+                    </div>
+                    
+                    <div class="justify-content-center">
+                        <p>Instrumente</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/instruments.png" alt="img">
+                    </div>
+
+                    <div class="justify-content-center">
+                        <p>Filmmusik</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/filmmusic.png" alt="img">
+                    </div>
+
+                    <div class="justify-content-center">
+                        <p>Klassische Musik</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/classic.png" alt="img">
+                    </div>
+
+                    <div class="justify-content-center">
+                        <p>Musik-Streaming</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/streaming.png" alt="img">
+                    </div>
+
+                    <div class="justify-content-center">
+                        <p>HipHop / Rap</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/hiphop.png" alt="img">
+                    </div>
+
+                    <div class="justify-content-center">
+                        <p>Musiker, Bands & Hits</p>
+                        <img class="wrapper-content-image" src="/assets/images/quiz/hits.png" alt="img">
+                    </div>
+
+                </li>
             </p>
+
         </section>
 
     </main>
-
-
 
     <script src="questions.js"></script>
     <script src="script.js"></script>

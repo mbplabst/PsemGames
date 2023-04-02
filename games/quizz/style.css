@@ -120,6 +120,11 @@ h1 {
     margin: 0;
 }
 
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
 .scoreboard {
     display: flex;
     justify-content: right;
@@ -146,9 +151,15 @@ hr {
     margin: 2px;
     margin-top: 10px;
     height: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #141414;
     background-color: #202020;
+}
+
+.wrapper-content-image {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
 }
 
 .display-flex {
@@ -184,8 +195,7 @@ button:hover {
 }
 
 .color-streak {
-    color: #ffbc56;
-    color: #ffb648;
+    color: #ffdd6d;
 }
 
 .color-right {
