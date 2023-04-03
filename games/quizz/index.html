@@ -52,54 +52,52 @@
 
         <section class="wrapper">
 
-            <div class="category">
+            <div class="category hide">
                 <p class="category-text">Kategorie</p>
                 <img class="category-image" src="/assets/images/quiz/genres.png" alt="img" draggable="false">
             </div>
 
             <div>
-                <h1 class="question content-hightlight">Hier steht die zu beantwortende Quiz-Frage</h1>
+                <h1 class="question content-hightlight hide">Hier steht die zu beantwortende Quiz-Frage</h1>
             </div>
 
-            <div class="grid-container">
-                <button type="button" class="wrapper-questions">
-                    <p class="answer">Antwort</p>
+            <div class="grid-container hide">
+                <button type="button" class="wrapper-questions" onclick="selectAnswer();">
+                    <p class="answer_A">Antwort</p>
                 </button>
-                <button type="button" class="wrapper-questions">
-                    <p class="answer">Antwort</p>
+                <button type="button" class="wrapper-questions" onclick="selectAnswer();">
+                    <p class="answer_B">Antwort</p>
                 </button>
-                <button type="button" class="wrapper-questions">
-                    <p class="answer">Antwort</p>
+                <button type="button" class="wrapper-questions" onclick="selectAnswer();">
+                    <p class="answer_C">Antwort</p>
                 </button>
-                <button type="button" class="wrapper-questions">
-                    <p class="answer">Antwort</p>
+                <button type="button" class="wrapper-questions" onclick="selectAnswer();">
+                    <p class="answer_D">Antwort</p>
                 </button>
             </div>
 
-            <button type="button" class="next-question">
+            <button type="button" class="next-question hide" onclick="loadNewQuestion();">
                 <p>Weiter</p>
             </button>
 
-            <div>
+            <button type="button" class="start-game" onclick="startQuiz();">
+                <p>Quiz starten</p>
+            </button>
+
+            <div class="container-statistics hide">
+
                 <hr>
 
                 <div class="time-bar-container">
-
-                    <div class="time-bar">
-                        
-                    </div>
-
+                    <div class="time-bar"></div>
                 </div>
 
                 <div class="justify-content-space-between">
-
-                    <p class="scoreboard color-fail"><span class="">0</span><span class="button-with-adjust"></span><i
+                    <p class="scoreboard color-fail"><span class="questions_wrong">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-square-xmark icon-correction"></i></p>
-
-                    <p class="scoreboard color-streak"><span class="">0</span><span class="button-with-adjust"></span><i
+                    <p class="scoreboard color-streak"><span class="questions_streak">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-fire icon-correction"></i></p>
-
-                    <p class="scoreboard color-right"><span class="">0</span><span class="button-with-adjust"></span><i
+                    <p class="scoreboard color-right"><span class="questions_right">0</span><span class="button-with-adjust"></span><i
                             class="fa-solid fa-square-check icon-correction"></i></p>
                 </div>
 
@@ -124,37 +122,44 @@
                 <li class="content-hightlight">
                     <div class="justify-content-center">
                         <p>Genres</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/genres.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/genres.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>Instrumente</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/instruments.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/instruments.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>Filmmusik</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/filmmusic.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/filmmusic.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>Klassische Musik</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/classic.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/classic.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>Streaming</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/streaming.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/streaming.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>HipHop</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/hiphop.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/hiphop.png" alt="img"
+                            draggable="false">
                     </div>
 
                     <div class="justify-content-center">
                         <p>Musiker und Hits</p>
-                        <img class="wrapper-content-image" src="/assets/images/quiz/hits.png" alt="img" draggable="false">
+                        <img class="wrapper-content-image" src="/assets/images/quiz/hits.png" alt="img"
+                            draggable="false">
                     </div>
 
                 </li>
