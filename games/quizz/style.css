@@ -109,7 +109,7 @@ h1 {
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 10px;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
@@ -140,7 +140,7 @@ h1 {
 }
 
 hr {
-    margin-top: 15px;
+    margin-top: 25px;
     border: 1.5px solid #3f3e3e;
     border-radius: 2px;
 }
