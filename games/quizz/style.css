@@ -124,8 +124,8 @@ h1 {
 }
 
 .scoreboard {
-    display: flex;
-    justify-content: right;
+    /* display: flex;
+    justify-content: right; */
     font-family: 'Chivo Mono', cursive;
     font-size: 26px;
     background-color: #202020;
@@ -170,8 +170,9 @@ hr {
     background: #302f2f;
     border-radius: 11px;
     margin-top: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 12px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 
 .grid-container {
