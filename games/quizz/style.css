@@ -83,9 +83,8 @@ h1 {
 
 .category-text {
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Alexandria', sans-serif; */
     color: silver;
-    /* font-size: 18px; */
+    font-size: 17px;
 }
 
 .category-image {
@@ -99,9 +98,9 @@ h1 {
 
 .wrapper-questions {
     color: aliceblue;
-    padding: 15px;
+    padding: 20px;
     background: #202020;
-    margin: 2px;
+    margin: 3px;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
 }
 
@@ -168,19 +167,19 @@ hr {
 }
 
 .next-question {
-    display: flex;
     background: #302f2f;
-    margin-left: auto;
-    margin-top: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-radius: 11px;
+    margin-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .grid-container {
     align-content: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 button:hover {
