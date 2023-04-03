@@ -1,12 +1,10 @@
 /* FONT HEADER*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 
-/* FONT FANCY */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100&display=swap');
+/* FONT QUESTION*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-/* FONT SPECIAL TEXT*/
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+/* FONT SCOREBOARD NUMBERS*/
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&display=swap');
 
 main * {
@@ -75,7 +73,7 @@ h1 {
 .category {
     display: flex;
     justify-content: center;
-    background: #0c0c0c;
+    background: #0c0c0c; 
     padding: 3px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -85,7 +83,9 @@ h1 {
 
 .category-text {
     font-family: 'Raleway', sans-serif;
-    color: #c0c0c0;
+    font-family: 'Alexandria', sans-serif;
+    color: aliceblue;
+    font-size: 19px;
 }
 
 .category-image {
@@ -106,9 +106,7 @@ h1 {
 }
 
 .question {
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Alexandria', sans-serif; 
+    font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
     padding-top: 5px !important;
