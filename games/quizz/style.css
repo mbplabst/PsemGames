@@ -124,8 +124,6 @@ h1 {
 }
 
 .scoreboard {
-    /* display: flex;
-    justify-content: right; */
     font-family: 'Chivo Mono', cursive;
     font-size: 26px;
     background-color: #202020;
@@ -145,13 +143,23 @@ hr {
     border-radius: 2px;
 }
 
-.time-bar {
+.time-bar-container {
     margin: 2px;
     margin-top: 10px;
     height: 25px;
     border-radius: 10px;
     border: 2px solid #141414;
     background-color: #202020;
+}
+
+.time-bar {
+    background-color: #ffffff !important; 
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+
 }
 
 .wrapper-content-image {
@@ -167,7 +175,7 @@ hr {
 }
 
 .next-question {
-    background: #383838;
+    background: #363636;
     border-radius: 11px;
     margin-top: 0px;
     padding: 12px;
@@ -199,6 +207,7 @@ button:hover {
 
 .color-right {
     color: #89ff9d;
+    color: #4fff85;
 }
 
 .color-time {
