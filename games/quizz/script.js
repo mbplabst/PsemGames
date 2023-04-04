@@ -7,8 +7,8 @@ const question = document.querySelector('.question');
 const category = document.querySelector('.category')
 const statistics = document.querySelector('.container-statistics');
 const questionContainer = document.querySelector('.grid-container');
-const startGameButton = document.querySelector('.start-game');
 const nextQuestionButton = document.querySelector('.next-question');
+const startGameButton = document.querySelector('.start-game');
 
 const optionA = document.querySelector('.answer_A');
 const optionB = document.querySelector('.answer_B');
@@ -19,6 +19,8 @@ const optionD = document.querySelector('.answer_D');
 let statsRight = 0;
 let statsStreak = 0;
 let statsWrong = 0;
+
+/*********************** FUNKTIONEN ***********************/
 
 function startQuiz() {
 
@@ -31,19 +33,16 @@ function startQuiz() {
 
 }
 
-function checkQuestion() {
+function loadNewQuestion() {
+    nextQuestionButton.classList.add('hide');
+}
+
+
+function showQuestion() {
 
 }
+
 
 function selectAnswer() {
     nextQuestionButton.classList.remove('hide');
-    // questionContainer.removeEventListener(selectAnswer());
-    questionContainer.removeEventListener("click", null);
-
-    questions_wrong.innerHTML = ++statsWrong;
-
-}
-
-function loadNewQuestion() {
-    nextQuestionButton.classList.add('hide');
 }

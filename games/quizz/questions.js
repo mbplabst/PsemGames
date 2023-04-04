@@ -11,17 +11,20 @@ let questions = [
             "Hyper Tool Multi Language"
         ]
     },
+
     {
-        numb: 2,
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        id: 2,
+        category: "Kategorie",
+        img: "/assets/images/quiz/classic.png",
+        question: "Hier steht Frage #1",
+        answer: "pepo",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "uno", 
+            "due", 
+            "tre", 
+            "fiaare"
         ]
-    },
+    }
 
     // you can uncomment the below codes and make duplicate as more as you want to add question
     // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
