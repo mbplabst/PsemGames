@@ -189,10 +189,10 @@ hr {
 
 .start-game {
     background: #363636;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 25px;
 }
 
 .grid-container {
@@ -210,13 +210,13 @@ hr {
 .answer-correct {
     background-color: #55f386 !important;
     border-color: #00950d !important;
-    color: #000000;
+    /* color: #000000; */
 }
 
 .answer-wrong {
     background-color: #ff6363 !important;
     border-color: #863030 !important;
-    color: #000000; 
+    /* color: #000000;  */
 }
 
 /*++++++++++++++++++++++++ COLORS ++++++++++++++++++++++++*/
