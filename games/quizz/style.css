@@ -73,7 +73,9 @@ h1 {
 .category {
     display: flex;
     justify-content: center;
-    background: #0c0c0c; 
+    background: #0c0c0c;
+    color: #a9a7a7;
+    font-family: 'Raleway', sans-serif;
     padding: 3px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -155,7 +157,7 @@ hr {
 }
 
 .time-bar {
-    background-color: #ffffff !important; 
+    background-color: #ffffff !important;
     border-radius: 5px;
     height: 15px;
     margin-top: 5px;
@@ -207,6 +209,18 @@ button:hover {
 
 .hide {
     display: none;
+}
+
+.answer-correct {
+    background-color: #55f386 !important;
+    border-color: #00950d !important;
+    color: #000000;
+}
+
+.answer-wrong {
+    background-color: #ff6363 !important;
+    border-color: #863030 !important;
+    color: #000000; 
 }
 
 /*++++++++++++++++++++++++ COLORS ++++++++++++++++++++++++*/
