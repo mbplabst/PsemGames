@@ -26,7 +26,8 @@ let currentQuestion = null;
 let allQuestions = [];
 let answeredQuestions = [];
 let countaaa = 0;
-const maxCountaaa = 30;
+// const maxCountaaa = 9;
+const maxCountaaa = 9;
 
 // WERTE DER EINZELNEN STATISTIKEN
 let statsRight = 0;
@@ -36,8 +37,9 @@ let statsWrong = 0;
 /*********************** FUNKTIONEN ***********************/
 
 async function startQuiz() {
-    
+
     startGameButton.classList.add("hide");
+    timeBar.style.width = "100%";
 
     question.classList.remove('hide');
     category.classList.remove('hide');
@@ -49,7 +51,7 @@ async function startQuiz() {
     await fetchQuestionpool();
     loadNewQuestion();
 
-    setInterval(timaa, 500);
+    setInterval(timaa, 2000);
 
 }
 
@@ -94,17 +96,24 @@ function selectAnswer(button) {
     allButtons.forEach(b => {
         b.disabled = true;
         if (currentQuestion.answer === b.innerText) {
+            if(button)
+
             b.classList.add('answer-correct');
         }
     });
 
-    if (currentQuestion.answer === button.innerText) {
-        console.log("richtig");
+    if (button !== null) {
+        if (currentQuestion.answer === button.innerText) {
+            console.log("richtig");
 
-    } else {
-        console.log("falsch");
-        button.classList.add('answer-wrong')
+        } else {
+            console.log("falsch");
+            button.classList.add('answer-wrong');
+        }
     }
+
+    timeBar.style.width = "100%";
+
 }
 
 allButtons.forEach((button) => {
@@ -112,12 +121,16 @@ allButtons.forEach((button) => {
 });
 
 function timaa() {
-    if(countaaa == -1) {
+    if (countaaa == -1) {
         return;
-    } 
+    }
     countaaa--;
     let percent = Math.round(100 * countaaa / maxCountaaa);
     console.log(percent);
 
     timeBar.style.width = percent + "%";
+
+    if (countaaa == -1) {
+        selectAnswer(null);
+    }
 }
