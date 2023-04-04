@@ -154,6 +154,7 @@ hr {
     border-radius: 10px;
     border: 2px solid #141414;
     background-color: #202020;
+    overflow: hidden;
 }
 
 .time-bar {
@@ -163,6 +164,10 @@ hr {
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
 
 }
 
@@ -192,7 +197,8 @@ hr {
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 15px;
-    font-size: 25px;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
 }
 
 .grid-container {
@@ -210,13 +216,13 @@ hr {
 .answer-correct {
     background-color: #55f386 !important;
     border-color: #00950d !important;
-    /* color: #000000; */
+    color: #202020;
+    ;
 }
 
 .answer-wrong {
     background-color: #ff6363 !important;
     border-color: #863030 !important;
-    /* color: #000000;  */
 }
 
 /*++++++++++++++++++++++++ COLORS ++++++++++++++++++++++++*/

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "one",
-        "img": "/assets/images/quiz/classic.png",
+        "img": "/assets/images/quiz/hiphop.png",
         "question": "Hier steht Frage #1",
         "answer": "one",
         "options": [
@@ -15,7 +15,7 @@
     {
         "id": 2,
         "category": "Akaupe",
-        "img": "/assets/images/quiz/classic.png",
+        "img": "/assets/images/quiz/hits.png",
         "question": "Hier steht Frage #2",
         "answer": "Akaupe",
         "options": [
@@ -28,7 +28,7 @@
     {
         "id": 3,
         "category": "penis",
-        "img": "/assets/images/quiz/classic.png",
+        "img": "/assets/images/quiz/instruments.png",
         "question": "Hier steht Frage #3",
         "answer": "penis",
         "options": [
@@ -49,6 +49,19 @@
             "pesippanissaaasa",
             "pesippanisasdasdasd",
             "penis"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "In welchem Jahrzehnt wurde das Genre 'Punk Rock' populär?",
+        "answer": "1970er Jahre",
+        "options": [
+            "1960er Jahre",
+            "1970er Jahre",
+            "1980er Jahre",
+            "1990er Jahre"
         ]
     }
 ]
