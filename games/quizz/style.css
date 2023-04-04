@@ -203,10 +203,6 @@ hr {
     margin-bottom: 10px;
 }
 
-button:hover {
-    color: dimgrey;
-}
-
 .hide {
     display: none;
 }

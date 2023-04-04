@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "category": "PEIS",
+        "category": "one",
         "img": "/assets/images/quiz/classic.png",
         "question": "Hier steht Frage #1",
         "answer": "one",
@@ -14,22 +14,22 @@
     },
     {
         "id": 2,
-        "category": "BIRKENTISCH",
+        "category": "Akaupe",
         "img": "/assets/images/quiz/classic.png",
-        "question": "WELCHE BIRKENFARBE HAT LUSCHO",
+        "question": "Hier steht Frage #2",
         "answer": "Akaupe",
         "options": [
-            "Akaupe",
+            "Akasd",
             "sadsdasddsasda",
-            "dricker",
+            "Akaupe",
             "penis"
         ]
     },
     {
         "id": 3,
-        "category": "QKJBASDFJHKDAS",
+        "category": "penis",
         "img": "/assets/images/quiz/classic.png",
-        "question": "lorem",
+        "question": "Hier steht Frage #3",
         "answer": "penis",
         "options": [
             "luschp",
@@ -40,9 +40,9 @@
     },
     {
         "id": 4,
-        "category": "asdasd",
+        "category": "pesippanis",
         "img": "/assets/images/quiz/classic.png",
-        "question": "asdasdasdasdad",
+        "question": "Hier steht Frage #4",
         "answer": "pesippanis",
         "options": [
             "pesippanis",
