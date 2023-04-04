@@ -26,8 +26,8 @@ let currentQuestion = null;
 let allQuestions = [];
 let answeredQuestions = [];
 let countaaa = 0;
-// const maxCountaaa = 9;
-const maxCountaaa = 9;
+const maxCountaaa = 14;
+
 
 // WERTE DER EINZELNEN STATISTIKEN
 let statsRight = 0;
@@ -39,7 +39,7 @@ let statsWrong = 0;
 async function startQuiz() {
 
     startGameButton.classList.add("hide");
-    timeBar.style.width = "100%";
+    timeBar.style.width = "100%;";
 
     question.classList.remove('hide');
     category.classList.remove('hide');
@@ -51,8 +51,7 @@ async function startQuiz() {
     await fetchQuestionpool();
     loadNewQuestion();
 
-    setInterval(timaa, 2000);
-
+    setInterval(timaa, 1000);
 }
 
 function loadNewQuestion() {
@@ -90,15 +89,16 @@ async function fetchQuestionpool() {
 function selectAnswer(button) {
 
     countaaa = -1;
+    timeBar.style.width = "97%";
 
     nextQuestionButton.classList.remove('hide');
 
     allButtons.forEach(b => {
         b.disabled = true;
         if (currentQuestion.answer === b.innerText) {
-            if(button)
-
-            b.classList.add('answer-correct');
+            if (button)
+                b.classList.add('answer-correct');
+                
         }
     });
 
@@ -111,9 +111,6 @@ function selectAnswer(button) {
             button.classList.add('answer-wrong');
         }
     }
-
-    timeBar.style.width = "100%";
-
 }
 
 allButtons.forEach((button) => {
@@ -124,13 +121,10 @@ function timaa() {
     if (countaaa == -1) {
         return;
     }
+
     countaaa--;
     let percent = Math.round(100 * countaaa / maxCountaaa);
     console.log(percent);
 
     timeBar.style.width = percent + "%";
-
-    if (countaaa == -1) {
-        selectAnswer(null);
-    }
 }
