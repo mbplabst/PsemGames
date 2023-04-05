@@ -88,7 +88,7 @@ async function fetchQuestionpool() {
 
 function selectAnswer(button) {
 
-    countaaa = -1;
+    countaaa = null;
     timeBar.style.width = "97%";
 
     nextQuestionButton.classList.remove('hide');
@@ -96,24 +96,27 @@ function selectAnswer(button) {
     allButtons.forEach(b => {
         b.disabled = true;
         if (currentQuestion.answer === b.innerText) {
-            if (button)
-                b.classList.add('answer-correct');
-                
+            b.classList.add('answer-correct');
+
+        } else if (button === null) {
+            b.classList.add('answer-wrong');
         }
     });
 
     if (button !== null) {
         if (currentQuestion.answer === button.innerText) {
-            console.log("richtig");
             questions_right.innerText = ++statsRight;
             questions_streak.innerText = ++statsStreak;
         } else {
-            console.log("falsch");
             button.classList.add('answer-wrong');
             questions_wrong.innerText = ++statsWrong;
             statsStreak = 0;
             questions_streak.innerText = statsStreak;
         }
+    } else {
+        questions_wrong.innerText = ++statsWrong;
+        statsStreak = 0;
+        questions_streak.innerText = statsStreak;
     }
 }
 
@@ -122,7 +125,10 @@ allButtons.forEach((button) => {
 });
 
 function timaa() {
-    if (countaaa == -1) {
+    if (countaaa == null) {
+        return;
+    } else if (countaaa == -1) {
+        selectAnswer(null);
         return;
     }
 

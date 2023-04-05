@@ -1,61 +1,308 @@
 [
     {
-        "id": 1,
-        "category": "HipHop & Rap",
-        "img": "/assets/images/quiz/hiphop.png",
-        "question": "Hier steht Frage #1",
-        "answer": "one",
-        "options": [
-            "one",
-            "two",
-            "three",
-            "four"
-        ]
-    },
-    {
-        "id": 2,
-        "category": "Musiker & Hits",
-        "img": "/assets/images/quiz/hits.png",
-        "question": "Hier steht Frage #2",
-        "answer": "Akaupe",
-        "options": [
-            "Akasd",
-            "sadsdasddsasda",
-            "Akaupe",
-            "0"
-        ]
-    },
-    {
-        "id": 3,
-        "category": "Instrumente",
-        "img": "/assets/images/quiz/instruments.png",
-        "question": "Hier steht Frage #3",
-        "answer": "0",
-        "options": [
-            "luschp",
-            "luscha",
-            "lusches",
-            "0"
-        ]
-    },
-    {
-        "id": 4,
-        "category": "Klassische Musik",
-        "img": "/assets/images/quiz/classic.png",
-        "question": "Hier steht Frage #4",
-        "answer": "pesippanis",
-        "options": [
-            "pesippanis",
-            "pesippan",
-            "pesipp",
-            "pessiZERO"
-        ]
-    },
-    {
-        "id": 5,
         "category": "Musikgenres",
         "img": "/assets/images/quiz/genres.png",
-        "question": "In welchem Jahrzehnt wurde das Genre 'Punk Rock' populär?",
+        "question": "Welches Genre aus Amerika verwendet oft Banjo, Gitarre und Mundharmonika?",
+        "answer": "Country",
+        "options": [
+            "Reggae",
+            "Funk",
+            "Country",
+            "Folklore"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Musikgenre wird oft mit Bob Marley und Jamaika in Verbindung gebracht?",
+        "answer": "Reggae",
+        "options": [
+            "Reggae",
+            "Heavy Metal",
+            "Country",
+            "Hip-Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Musikgenre prägte Elvis Presley?",
+        "answer": "Rock 'n' Roll",
+        "options": [
+            "Jazz",
+            "Blues",
+            "Rock 'n' Roll",
+            "Hip-Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre hat schnelle Rhythmen, elektronische Instrumente und minimalistische Melodien?",
+        "answer": "Techno",
+        "options": [
+            "Rock",
+            "Pop",
+            "Techno",
+            "Country"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch jazzige Harmonien, komplexe Rhythmen und improvisierte Soli gekennzeichnet?",
+        "answer": "Jazz",
+        "options": [
+            "Rock",
+            "Blues",
+            "Jazz",
+            "Metal"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "In welchem Genre dominieren tiefe Bässe, schnelle Rhythmen und aggressive Texte?",
+        "answer": "Rap",
+        "options": [
+            "Rap",
+            "Reggae",
+            "Folk",
+            "Klassik"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch akustische Instrumente, harmonische Gesänge und melodische Rhythmen gekennzeichnet?",
+        "answer": "Klassik",
+        "options": [
+            "Pop",
+            "Klassik",
+            "Heavy Metal",
+            "Hip Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre liebt Gitarrenriffs, harte Schlagzeug-Beats und aggressive Texte?",
+        "answer": "Punk",
+        "options": [
+            "Punk",
+            "Pop",
+            "Soul",
+            "Reggae"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch eingängige Melodien, einfach strukturierte Songs und oft romantische Texte gekennzeichnet?",
+        "answer": "Country",
+        "options": [
+            "Reggae",
+            "Country",
+            "Blues",
+            "Hip Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre zeichnet sich durch elektronische Klänge, abstrakte Rhythmen und unkonventionelle Kompositionen aus?",
+        "answer": "Experimental",
+        "options": [
+            "Experimental",
+            "Rock",
+            "Funk",
+            "Soul"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch akustische Gitarren, einfache Melodien und oft melancholische Texte gekennzeichnet?",
+        "answer": "Folk",
+        "options": [
+            "Blues",
+            "Folk",
+            "Funk",
+            "Reggae"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch Gospel-Gesänge, Soul-Einflüsse und funkige Rhythmen gekennzeichnet?",
+        "answer": "Funk",
+        "options": [
+            "Jazz",
+            "Blues",
+            "Funk",
+            "Hip Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist durch schnelle Gitarrensoli, hohe Gesangsparts und theatralische Bühnenshows gekennzeichnet?",
+        "answer": "Metal",
+        "options": [
+            "Metal",
+            "Pop",
+            "Reggae",
+            "Country"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "In welchem Land ist der Reggae entstanden?",
+        "answer": "Jamaika",
+        "options": [
+            "Jamaika",
+            "USA",
+            "Großbritannien",
+            "Kuba"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist eng mit der Stadt Detroit verbunden?",
+        "answer": "Techno",
+        "options": [
+            "Blues",
+            "Jazz",
+            "Techno",
+            "Hip Hop"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Musikgenre ist vom traditionellen Blues abgeleitet und wurde in Chicago populär?",
+        "answer": "Chicago Blues",
+        "options": [
+            "Funk",
+            "Jazz",
+            "Soul",
+            "Chicago Blues"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist in den 1970er Jahren in New York entstanden und gilt als Vorläufer des Hip Hop?",
+        "answer": "Disco",
+        "options": [
+            "Funk",
+            "Disco",
+            "Soul",
+            "Reggae"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist mit dem Namen Bob Marley eng verbunden?",
+        "answer": "Reggae",
+        "options": [
+            "Ska",
+            "Rocksteady",
+            "Dub",
+            "Reggae"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "In welchem Jahrzehnt ist das Genre Heavy Metal entstanden?",
+        "answer": "1970er Jahre",
+        "options": [
+            "1950er Jahre",
+            "1960er Jahre",
+            "1970er Jahre",
+            "1980er Jahre"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welcher Künstler ist für seine Fusion aus Jazz und Hip Hop bekannt?",
+        "answer": "Herbie Hancock",
+        "options": [
+            "Herbie Hancock",
+            "Miles Davis",
+            "John Coltrane",
+            "Charlie Parker"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre ist in Brasilien entstanden und vereint Elemente von Jazz, Funk und Soul?",
+        "answer": "MPB",
+        "options": [
+            "Forró",
+            "Samba",
+            "MPB",
+            "Bossa Nova"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Wie viele Haupt-Subgenres des Metal gibt es?",
+        "answer": "6",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches dieser Metal Genres gibt es nicht?",
+        "answer": "Dark Metal",
+        "options": [
+            "Dark Metal",
+            "Thrash Metal",
+            "Doom Metal",
+            "Black Metal"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Aus welchem Land stammt das Musikgenre Flamenco?",
+        "answer": "Spanien",
+        "options": [
+            "Italien",
+            "Spanien",
+            "Portugal",
+            "Mexiko"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Wie viele Stile gibt es im Jazz?",
+        "answer": "4 ",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "In welchem Jahrzehnt wurde das Genre Punk Rock populär?",
         "answer": "1970er Jahre",
         "options": [
             "1960er Jahre",
@@ -65,42 +312,51 @@
         ]
     },
     {
-        "id": 6,
-        "category": "Streaming",
-        "img": "/assets/images/quiz/streaming.png",
-        "question": "Hier steht Frage #6",
-        "answer": "pesippanis",
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches der folgenden Subgenres des Rap ist durch seine aggressive, wütende Ausdrucksweise bekannt?",
+        "answer": "Horrorcore",
         "options": [
-            "pesippanis",
-            "pesippan",
-            "pesipp",
-            "pessiZERO"
+            "Conscious",
+            "Horrorcore",
+            "Jazz-Rap",
+            "Alternative Hip-Hop"
         ]
     },
     {
-        "id": 7,
-        "category": "Instrumente",
-        "img": "/assets/images/quiz/instruments.png",
-        "question": "Hier steht Frage #7",
-        "answer": "pesippanis",
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches der folgenden Rap-Genres zeichnet sich durch seine langsame, basslastige Musik aus?",
+        "answer": "Trap",
         "options": [
-            "pesippanis",
-            "pesippan",
-            "pesipp",
-            "pessiZERO"
+            "Crunk",
+            "G-Funk",
+            "Trap",
+            "Hyphy"
         ]
     },
     {
-        "id": 8,
-        "category": "Filmmusik",
-        "img": "/assets/images/quiz/filmmusic.png",
-        "question": "Hier steht Frage #8",
-        "answer": "pesippanis",
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches der Rap-Genres ist für politischen, sozialkritischen Inhalt und der afroamerikanischen Betonung bekannt?",
+        "answer": "Conscious Rap",
         "options": [
-            "pesippanis",
-            "pesippan",
-            "pesipp",
-            "pessiZERO"
+            "Mumble Rap",
+            "Drill",
+            "Gangsta Rap",
+            "Conscious Rap"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welcher dieser Flüsse gilt als die \"Wiege des Blues\"?",
+        "answer": "Mississippi",
+        "options": [
+            "Missouri",
+            "Amazonas",
+            "Mississippi",
+            "Rio Grande"
         ]
     }
 ]
