@@ -22,20 +22,20 @@
             "Akasd",
             "sadsdasddsasda",
             "Akaupe",
-            "penis"
+            "0"
         ]
     },
     {
         "id": 3,
-        "category": "penis",
+        "category": "0",
         "img": "/assets/images/quiz/instruments.png",
         "question": "Hier steht Frage #3",
-        "answer": "penis",
+        "answer": "0",
         "options": [
             "luschp",
             "luscha",
             "lusches",
-            "penis"
+            "0"
         ]
     },
     {
@@ -48,7 +48,7 @@
             "pesippanis",
             "pesippanissaaasa",
             "pesippanisasdasdasd",
-            "penis"
+            "0"
         ]
     },
     {

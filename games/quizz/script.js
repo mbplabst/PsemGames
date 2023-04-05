@@ -105,10 +105,14 @@ function selectAnswer(button) {
     if (button !== null) {
         if (currentQuestion.answer === button.innerText) {
             console.log("richtig");
-
+            questions_right.innerText = ++statsRight;
+            questions_streak.innerText = ++statsStreak;
         } else {
             console.log("falsch");
             button.classList.add('answer-wrong');
+            questions_wrong.innerText = ++statsWrong;
+            statsStreak = 0;
+            questions_streak.innerText = statsStreak;
         }
     }
 }
