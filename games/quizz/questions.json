@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "category": "one",
+        "category": "HipHop & Rap",
         "img": "/assets/images/quiz/hiphop.png",
         "question": "Hier steht Frage #1",
         "answer": "one",
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "category": "Akaupe",
+        "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Hier steht Frage #2",
         "answer": "Akaupe",
@@ -27,7 +27,7 @@
     },
     {
         "id": 3,
-        "category": "0",
+        "category": "Instrumente",
         "img": "/assets/images/quiz/instruments.png",
         "question": "Hier steht Frage #3",
         "answer": "0",
@@ -40,15 +40,15 @@
     },
     {
         "id": 4,
-        "category": "pesippanis",
+        "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
         "question": "Hier steht Frage #4",
         "answer": "pesippanis",
         "options": [
             "pesippanis",
-            "pesippanissaaasa",
-            "pesippanisasdasdasd",
-            "0"
+            "pesippan",
+            "pesipp",
+            "pessiZERO"
         ]
     },
     {
@@ -62,6 +62,45 @@
             "1970er Jahre",
             "1980er Jahre",
             "1990er Jahre"
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Hier steht Frage #6",
+        "answer": "pesippanis",
+        "options": [
+            "pesippanis",
+            "pesippan",
+            "pesipp",
+            "pessiZERO"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Hier steht Frage #7",
+        "answer": "pesippanis",
+        "options": [
+            "pesippanis",
+            "pesippan",
+            "pesipp",
+            "pessiZERO"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Hier steht Frage #8",
+        "answer": "pesippanis",
+        "options": [
+            "pesippanis",
+            "pesippan",
+            "pesipp",
+            "pessiZERO"
         ]
     }
 ]
