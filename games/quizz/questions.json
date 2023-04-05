@@ -291,7 +291,7 @@
         "category": "Musikgenres",
         "img": "/assets/images/quiz/genres.png",
         "question": "Wie viele Stile gibt es im Jazz?",
-        "answer": "4 ",
+        "answer": "4",
         "options": [
             "2",
             "3",
@@ -357,6 +357,738 @@
             "Amazonas",
             "Mississippi",
             "Rio Grande"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Was heißt ein Social-Media-Netzwerks, bei dem sich alles um Musik dreht?",
+        "answer": "Last.fm",
+        "options": [
+            "Music.fm",
+            "Big.fm",
+            "Sound.fm",
+            "Last.fm"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welcher Musik-Streaming-Dienst hat die meisten zahlenden Abonnenten weltweit?",
+        "answer": "Spotify",
+        "options": [
+            "Spotify",
+            "Apple Music",
+            "Amazon Music",
+            "Tidal"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welches Format wird von den meisten Musik-Streaming-Diensten verwendet?",
+        "answer": "AAC",
+        "options": [
+            "MP3",
+            "WAV",
+            "FLAC",
+            "AAC"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welches Land hat den höchsten Anteil an Musik-Streaming-Abonnenten pro Einwohner?",
+        "answer": "Schweden",
+        "options": [
+            "USA",
+            "Schweden",
+            "Großbritannien",
+            "Japan"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viel kostet ein durchschnittliches Musik-Streaming-Abonnement pro Monat?",
+        "answer": "$10",
+        "options": [
+            "$5",
+            "$10",
+            "$15",
+            "$20"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welches ist der älteste Musik-Streaming-Dienst?",
+        "answer": "Pandora",
+        "options": [
+            "Deezer",
+            "Apple Music",
+            "Pandora",
+            "Tidal"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Stunden Musik werden täglich auf Spotify gestreamt?",
+        "answer": "1 Milliarde Stunden",
+        "options": [
+            "10 Millionen Stunden",
+            "100 Millionen Stunden",
+            "1 Milliarde Stunden",
+            "10 Milliarden Stunden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Musik-Streaming-Dienste gibt es weltweit?",
+        "answer": "Über 500",
+        "options": [
+            "Über 100",
+            "Über 500",
+            "Über 1000",
+            "Über 5000"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welcher Künstler hat die meisten Streams auf Spotify?",
+        "answer": "Drake",
+        "options": [
+            "Ed Sheeran",
+            "Drake",
+            "Ariana Grande",
+            "Post Malone"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welche Musik-Streaming-Plattform wurde von Amazon im Jahr 2014 übernommen?",
+        "answer": "Rdio",
+        "options": [
+            "Tidal",
+            "Pandora",
+            "Rdio",
+            "Deezer"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welcher Musik-Streaming-Dienst ist in China am beliebtesten?",
+        "answer": "QQ Music",
+        "options": [
+            "Spotify",
+            "Apple Music",
+            "QQ Music",
+            "NetEase Cloud Music"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele zahlende Abonnenten hatte Spotify im Jahr 2020?",
+        "answer": "200 Millionen",
+        "options": [
+            "100 Millionen",
+            "150 Millionen",
+            "200 Millionen",
+            "250 Millionen"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Nutzer hat YouTube Music im Jahr 2021?",
+        "answer": "500 Millionen",
+        "options": [
+            "10 Millionen",
+            "50 Millionen",
+            "100 Millionen",
+            "500 Millionen"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams benötigt ein Song auf Spotify, um als \"Stream-Einheit\" zu gelten?",
+        "answer": "100",
+        "options": [
+            "10",
+            "50",
+            "100",
+            "200"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams hat der meistgestreamte Song auf Spotify (Februar 2023)?",
+        "answer": "15 Milliarden",
+        "options": [
+            "10 Milliarden",
+            "15 Milliarden",
+            "20 Milliarden",
+            "25 Milliarden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams hat Drake, der meistgestreamte Künstler auf Spotify (Stand: Februar 2023)?",
+        "answer": "200 Milliarden",
+        "options": [
+            "100 Milliarden",
+            "150 Milliarden",
+            "200 Milliarden",
+            "250 Milliarden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams benötigt ein Künstler auf Spotify, um als \"meistgestreamt\" des Jahres zu gelten?",
+        "answer": "4 Milliarden",
+        "options": [
+            "1 Milliarde",
+            "2 Milliarden",
+            "3 Milliarden",
+            "4 Milliarden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie hoch ist der Anteil der Musik-Streams am gesamten Streaming-Aufkommen (Musik + Video) auf YouTube?",
+        "answer": "90%",
+        "options": [
+            "50%",
+            "70%",
+            "90%",
+            "100%"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Nutzer hatte Apple Music im Jahr 2021?",
+        "answer": "150 Millionen",
+        "options": [
+            "30 Millionen",
+            "60 Millionen",
+            "100 Millionen",
+            "150 Millionen"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie hoch ist die Vergütung pro Stream für einen Künstler auf Spotify?",
+        "answer": "0,001 US-Dollar",
+        "options": [
+            "0,001 US-Dollar",
+            "0,005 US-Dollar",
+            "0,01 US-Dollar",
+            "0,05 US-Dollar"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams hatte der meistgestreamte Song auf Spotify im Jahr 2021?",
+        "answer": "über 4 Milliarden",
+        "options": [
+            "über 2 Milliarden",
+            "über 3 Milliarden",
+            "über 4 Milliarden",
+            "über 5 Milliarden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Stunden Musik wurden 2020 auf Spotify gestreamt?",
+        "answer": "1 Milliarde Stunden",
+        "options": [
+            "1 Million Stunden",
+            "10 Millionen Stunden",
+            "100 Millionen Stunden",
+            "1 Milliarde Stunden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welches ist der meistgestreamte Künstler auf Spotify aller Zeiten?",
+        "answer": "Drake",
+        "options": [
+            "Drake",
+            "Ed Sheeran",
+            "Post Malone",
+            "Justin Bieber"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Spotify-Abonnenten gibt es weltweit?",
+        "answer": "über 200 Millionen",
+        "options": [
+            "über 100 Millionen",
+            "über 200 Millionen",
+            "über 300 Millionen",
+            "über 400 Millionen"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams hat der meistgestreamte Song auf YouTube im Jahr 2021?",
+        "answer": "über 4 Milliarden",
+        "options": [
+            "über 1 Milliarde",
+            "über 2 Milliarden",
+            "über 3 Milliarden",
+            "über 4 Milliarden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele monatliche Zuhörer hatte der meistgestreamte Künstler auf Spotify in 2021?",
+        "answer": "über 500 Millionen",
+        "options": [
+            "über 50 Millionen",
+            "über 100 Millionen",
+            "über 200 Millionen",
+            "über 500 Millionen"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele Streams muss ein Song haben, um auf Spotify als \"Platin\" ausgezeichnet zu werden?",
+        "answer": "10 Millionen Streams",
+        "options": [
+            "1 Million Streams",
+            "10 Millionen Streams",
+            "100 Millionen Streams",
+            "1 Milliarde Streams"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie viele verschiedene Songs kann man insgesammt in GTA V hören?",
+        "answer": "392",
+        "options": [
+            "420",
+            "392",
+            "518",
+            "480"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welches europäische Land gilt als Geburtsort des HipHop in Europa?",
+        "answer": "Frankreich",
+        "options": [
+            "Deutschland",
+            "Frankreich",
+            "Großbritannien",
+            "Schweden"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt das dritte Studioalbum von Cro, das 2017 veröffentlicht wurde?",
+        "answer": "tru.",
+        "options": [
+            "Raop",
+            "Melodie",
+            "tru.",
+            "Mtv unplugged"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Was versteht man unter \"Freestyle Rap\"?",
+        "answer": "Spontan improvisiertes Rappen",
+        "options": [
+            "Spontan improvisiertes Rappen",
+            "Rappen von vorbereiteten Texten",
+            "Rappen von Texten anderer Künstler",
+            "Rappen von Texten, die von einem Team geschrieben wurden"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wer gewann das \"VBT Splash!-Edition\" Battle im Jahr 2012?",
+        "answer": "Aytee",
+        "options": [
+            "T-Jey",
+            "Aytee",
+            "Weekend",
+            "Persteasy"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher dieser Rapper war früher auch unter dem Namen „SpongeBOZZ“ bekannt?",
+        "answer": "Sun Diego",
+        "options": [
+            "EstA",
+            "Tierstar",
+            "Sido",
+            "Sun Diego"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Was war das sogenannte JBB?",
+        "answer": "Ein Battle-Rap Turnier",
+        "options": [
+            "Ein Battle-Rap Turnier",
+            "ein Musiklabel",
+            "Ein Musik Programm",
+            "Eine Plattform für Musikvertrieb"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher Rapper blamierte sich live auf dem Splash Konzert im Juni 2022?",
+        "answer": "t-low",
+        "options": [
+            "Cro",
+            "EstA",
+            "Kool Savas",
+            "t-low"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Mit welchem Album meldete sich der Rapper Eminem nach einem Drogenentzug zurück?",
+        "answer": "Relapse",
+        "options": [
+            "Relapse",
+            "The Marshal Mathers LP 2",
+            "The Real Slim Shady",
+            "Slaughter House"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher dieser Musiker feierte nach 14 Jahren im Oktober 2022 sein Comeback?",
+        "answer": "Peter Fox",
+        "options": [
+            "Peter Fox",
+            "Deichkind",
+            "Parka (MrWissen2Go)",
+            "Elton John"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher Rapper ist auch unter dem Synonym „Slim Shady“ bekannt?",
+        "answer": "Eminem",
+        "options": [
+            "Bushido",
+            "Eminem",
+            "Dr Dre",
+            "50 Cent"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welchen Namen trägt ein bekannter Rapper aus Offenbach?",
+        "answer": "Haftbefehl",
+        "options": [
+            "Strafanzeige",
+            "Raubmord",
+            "Strafbefehl",
+            "Haftbefehl"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher Song von Eminem endet mit den Worten „Why be a king when you can be a god“?",
+        "answer": "Rapgod",
+        "options": [
+            "Without me",
+            "Rap God",
+            "Legacy",
+            "Loose Yourself"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt ein Hit von Bausa - \"Was du ... nennst\"?",
+        "answer": "Liebe",
+        "options": [
+            "Liebe",
+            "Freunde",
+            "Luxus",
+            "Freiheit"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Unter welchem Künstlernamen ist Curtis Jackson besser bekannt?",
+        "answer": "50 Cent",
+        "options": [
+            "Dr. Dre",
+            "2Pac",
+            "50 Cent",
+            "Eminem"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer hat das Lied \"Can't Stop the Feeling!\" veröffentlicht?",
+        "answer": "Justin Timberlake",
+        "options": [
+            "Bruno Mars",
+            "Justin Timberlake",
+            "The Weeknd",
+            "Drake"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer hat das Lied \"Billie Jean\" veröffentlicht?",
+        "answer": "Michael Jackson",
+        "options": [
+            "Michael Jackson",
+            "Prince",
+            "Stevie Wonder",
+            "Lionel Richie"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welches Album hat Adele im Jahr 2011 veröffentlicht?",
+        "answer": "21",
+        "options": [
+            "\"21\"",
+            "\"25\"",
+            "\"19\"",
+            "\"Adele\""
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welches ist das meistverkaufte Album aller Zeiten?",
+        "answer": "Michael Jackson - Thriller",
+        "options": [
+            "Beatles - \"Abbey Road\"",
+            "Michael Jackson - \"Thriller\"",
+            "AC/DC - \"Back in Black\"",
+            "Pink Floyd - \"The Dark Side of the Moon\""
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wann gründete sich die Band \"Die Ärzte\"?",
+        "answer": "1982",
+        "options": [
+            "1980",
+            "1982",
+            "1984",
+            "1986"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Um welches Fahrzeug geht es in einem der Songs von Electric Callboy auf ihrem Album \"TEKKNO\"?",
+        "answer": "\"Tekkno Train\"",
+        "options": [
+            "Tekkno Truck",
+            "Tekkno Train",
+            "Tekkno Tesla",
+            "Tekkno Tank"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welche dieser \"Affenbands\" gibt es NICHT?",
+        "answer": "The Moneymonkees",
+        "options": [
+            "The Moneymonkees",
+            "Arctic Monkeys",
+            "Gorillaz",
+            "The Monkees"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welche dieser Bands ist eine Metal-Band?",
+        "answer": "Prong",
+        "options": [
+            "Kong",
+            "Trong)",
+            "Prong",
+            "Strong"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Musiker wurde durch Songs wie \"Bezos\" oder \"Welcome to the internet\" bekannt?",
+        "answer": "Bo Burnham",
+        "options": [
+            "NF",
+            "Rio Romeo",
+            "Will Wood",
+            "Bo Burnham"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welche Berliner Musikgruppe hatte ihren ersten Nummer-eins-Hit 2007 mit \"Hamma\"?",
+        "answer": "Culcha Candela",
+        "options": [
+            "Söhne Mannheims",
+            "Culcha Candela",
+            "Fantastischen Vier",
+            "Modern Talking"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Von wem stammt das Lied, welches am häufigsten kommerziell gecovered wurde?",
+        "answer": "The Beatles",
+        "options": [
+            "The Beatles",
+            "Michael Jackson",
+            "The Rolling Stones",
+            "Elvis Presley"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer sang die Songs \"Marry you\",\"Locked out of Heaven\",\"Treasure\" und \"Grenade\"?",
+        "answer": "Bruno Mars",
+        "options": [
+            "Olly Murs",
+            "Bruno Mars",
+            "Pink",
+            "Lady Gaga"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer geht in einem bekannten Lied des verstorbenen Sängers \"Falco\" angeblich um?",
+        "answer": "Der Kommissar",
+        "options": [
+            "Der Derrick",
+            "Der Kojak",
+            "Der Alte",
+            "Der Kommissar"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welche Band veröffentlichte sowohl den Song als auch das Album \"Wish You Were Here\"?",
+        "answer": "Pink Floyd",
+        "options": [
+            "Rolling Stones",
+            "U2",
+            "Pink Floyd",
+            "Coldplay"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Nach welchem Herrscher ist eine Schweizer Band benannt?",
+        "answer": "Bonaparte",
+        "options": [
+            "Attila",
+            "Bonaparte",
+            "Mussolini",
+            "Nero"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie hieß einer der größten Hits der Gruppe Village People?",
+        "answer": "YMCA",
+        "options": [
+            "AMYC",
+            "YMCA",
+            "MYCA",
+            "CAMY"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Künstler steckt hinter den Liedern \"Budapest\" und \"Shotgun\"?",
+        "answer": "George Ezra",
+        "options": [
+            "George Ezra",
+            "Post Malone",
+            "James Blunt",
+            "Burna Boy"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welche Dame besang Neil Diamond 1969?",
+        "answer": "Sweet Caroline",
+        "options": [
+            "Dirty Diana",
+            "Jolene",
+            "Sweet Caroline",
+            "Cecilia"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Band verdanken wir Hits wie \"Take On Me\"?",
+        "answer": "A-ha",
+        "options": [
+            "A-ha",
+            "A-ua",
+            "Ju-hu",
+            "Ne-e"
         ]
     }
 ]

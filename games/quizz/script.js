@@ -4,7 +4,6 @@ const questions_streak = document.querySelector('.questions_streak');
 const questions_wrong = document.querySelector('.questions_wrong');
 
 const question = document.querySelector('.question');
-
 const category = document.querySelector('.category');
 const categoryText = document.querySelector('.category-text');
 const categoryImage = document.querySelector('.category-image');
@@ -21,13 +20,11 @@ const optionC = document.querySelector('.answer_C');
 const optionD = document.querySelector('.answer_D');
 
 const allButtons = document.querySelectorAll('.wrapper-questions');
-
 let currentQuestion = null;
 let allQuestions = [];
 let answeredQuestions = [];
 let countaaa = 0;
 const maxCountaaa = 14;
-
 
 // WERTE DER EINZELNEN STATISTIKEN
 let statsRight = 0;
@@ -39,7 +36,7 @@ let statsWrong = 0;
 async function startQuiz() {
 
     startGameButton.classList.add("hide");
-    timeBar.style.width = "100%;";
+    // timeBar.style.width = "100%;";
 
     question.classList.remove('hide');
     category.classList.remove('hide');
@@ -60,11 +57,9 @@ function loadNewQuestion() {
     let index = Math.floor(Math.random() * allQuestions.length);
 
     currentQuestion = allQuestions[index];
-
     question.innerText = currentQuestion.question;
     categoryText.innerText = currentQuestion.category;
     categoryImage.src = currentQuestion.img;
-
     optionA.innerText = currentQuestion.options[0];
     optionB.innerText = currentQuestion.options[1];
     optionC.innerText = currentQuestion.options[2];
@@ -86,23 +81,53 @@ async function fetchQuestionpool() {
     allQuestions = jsonData;
 }
 
+// function selectAnswer(button) {
+
+//     countaaa = null;
+//     timeBar.style.width = "97%";
+//     nextQuestionButton.classList.remove('hide');
+
+//     allButtons.forEach(b => {
+//         b.disabled = true;
+//         if (currentQuestion.answer === b.innerText) {
+//             b.classList.add('answer-correct');
+
+//         } else if (button === null) {
+//             b.classList.add('answer-wrong');
+//         }
+//     });
+
+//     if (button !== null) {
+//         if (currentQuestion.answer === button.innerText) {
+//             questions_right.innerText = ++statsRight;
+//             questions_streak.innerText = ++statsStreak;
+//         } else {
+//             button.classList.add('answer-wrong');
+//             questions_wrong.innerText = ++statsWrong;
+//             statsStreak = 0;
+//             questions_streak.innerText = statsStreak;
+//         }
+//     } else {
+//         questions_wrong.innerText = ++statsWrong;
+//         statsStreak = 0;
+//         questions_streak.innerText = statsStreak;
+//     }
+// }
+
 function selectAnswer(button) {
-
     countaaa = null;
-    timeBar.style.width = "97%";
-
+    timeBar.classList.add('animation-paused');
+    timeBar.style.background = "green";
     nextQuestionButton.classList.remove('hide');
-
     allButtons.forEach(b => {
         b.disabled = true;
         if (currentQuestion.answer === b.innerText) {
             b.classList.add('answer-correct');
-
         } else if (button === null) {
             b.classList.add('answer-wrong');
         }
     });
-
+    timeBar.style.background = "green";
     if (button !== null) {
         if (currentQuestion.answer === button.innerText) {
             questions_right.innerText = ++statsRight;
@@ -118,6 +143,13 @@ function selectAnswer(button) {
         statsStreak = 0;
         questions_streak.innerText = statsStreak;
     }
+    timeBar.style.background = "green";
+    setTimeout(() => {
+        timeBar.classList.remove('animation-paused');
+        timeBar.style.width = "97%";
+        timeBar.style.background = "green";
+    }, 0);
+    timeBar.style.background = "green";
 }
 
 allButtons.forEach((button) => {
@@ -134,7 +166,5 @@ function timaa() {
 
     countaaa--;
     let percent = Math.round(100 * countaaa / maxCountaaa);
-    console.log(percent);
-
     timeBar.style.width = percent + "%";
 }
