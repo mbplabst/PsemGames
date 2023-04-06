@@ -360,6 +360,18 @@
         ]
     },
     {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Wer ist der bekannteste Vertreter des Bossa Nova?",
+        "answer": "João Gilberto",
+        "options": [
+            "Tom Jobim",
+            "Gilberto Gil",
+            "Caetano Veloso",
+            "João Gilberto"
+        ]
+    },
+    {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
         "question": "Was heißt ein Social-Media-Netzwerks, bei dem sich alles um Musik dreht?",
@@ -686,13 +698,25 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Wie viele verschiedene Songs kann man insgesammt in GTA V hören?",
+        "question": "Wie viele verschiedene Songs kann man insgesamt in GTA V hören?",
         "answer": "392",
         "options": [
             "420",
             "392",
             "518",
             "480"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welche dieser offiziellen Spotify-Playlists hat die meisten Follower?",
+        "answer": "Today's Top Hits",
+        "options": [
+            "Viva Latino",
+            "RapCaviar",
+            "Today's Top Hits",
+            "Rock Classics"
         ]
     },
     {
@@ -861,6 +885,18 @@
             "2Pac",
             "50 Cent",
             "Eminem"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Von wem stammt das Lied \"Willst du (mit mir Drogen nehmen)\"?",
+        "answer": "Alligatoah",
+        "options": [
+            "Sierra Kidd",
+            "Sido",
+            "Alligatoah",
+            "Cro"
         ]
     },
     {
@@ -1263,12 +1299,12 @@
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
         "question": "Wie viele Akkorde gibt es in der Musiktheorie?",
-        "answer": "7 ",
+        "answer": "7",
         "options": [
             "4",
             "5",
             "7",
-            "9 "
+            "9"
         ]
     },
     {
@@ -1353,6 +1389,186 @@
             "Ludwig van Beethoven",
             "Robert Schumann",
             "Johannes Brahms"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches Musikinstrument ist das dominante in einer typischen Blaskapelle?",
+        "answer": "Trompete",
+        "options": [
+            "Gitarre",
+            "Schlagzeug",
+            "Trompete",
+            "Bass"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches Instrument hat eine Glockenform und erzeugt Töne durch das Schlagen von Metallsaiten?",
+        "answer": "Dulcimer",
+        "options": [
+            "Harfe",
+            "Mandoline",
+            "Dulcimer",
+            "Banjo"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches Instrument wird mit den Fingern anstatt mit einem Plektrum gespielt und hat oft sechs Saiten?",
+        "answer": "Gitarre",
+        "options": [
+            "Mandoline",
+            "Ukulele",
+            "Banjo",
+            "Gitarre"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches dieser Instrument hat eine Birnenform und wird oft in der klassischen Musik eingesetzt?",
+        "answer": "Cello",
+        "options": [
+            "Geige",
+            "Cello",
+            "Bratsche",
+            "Kontrabass"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches der folgenden Instrumente gibt es nicht?",
+        "answer": "Brandolin",
+        "options": [
+            "Marimba",
+            "Bongo",
+            "Brandolin",
+            "Timpani"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie viele Tasten hat ein standardmäßiges Klavier?",
+        "answer": "88",
+        "options": [
+            "69",
+            "81",
+            "88",
+            "73"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie viele Seiten hat eine akustische Gitarre?",
+        "answer": "6",
+        "options": [
+            "6",
+            "4",
+            "8",
+            "5"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie viele Oktaven hat ein Klavier?",
+        "answer": "5",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie viele Saiten hat eine Violine?",
+        "answer": "4",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches der folgenden ist ein Blasinstrument?",
+        "answer": "Schalmei",
+        "options": [
+            "Ukulele",
+            "Busuki",
+            "Schalmei",
+            "Banjo"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Was bezeichnet man als Crescendo in der Musik?",
+        "answer": "Ansteigende Lautstärke",
+        "options": [
+            "Falscher Ton",
+            "Geigenbogen",
+            "Chorwerk",
+            "Ansteigende Lautstärke"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie nennt man ein Instrument, das besonders häufig bei Gottesdiensten eingesetzt wird?",
+        "answer": "Orgel",
+        "options": [
+            "Klavier,",
+            "Harfe",
+            "Timpani",
+            "Orgel"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Woraus wird der Ton bei einer Zither erzeugt?",
+        "answer": "Saiten",
+        "options": [
+            "Espenholzplatten",
+            "Saiten",
+            "Edelstahlplatten",
+            "Schlagfelle"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wieviel kostet ein neues Klavier im Durchschnitt?",
+        "answer": "ca. 3500€",
+        "options": [
+            "ca. 3500€",
+            "ca. 4000€",
+            "ca. 4500€",
+            "ca. 5000€"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches ist das am häufigste gespielte und beliebteste Instrument?",
+        "answer": "Klavier",
+        "options": [
+            "Klavier",
+            "Geige",
+            "Gitarre",
+            "Flöte"
         ]
     }
 ]
