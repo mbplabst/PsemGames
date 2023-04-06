@@ -50,7 +50,7 @@
     {
         "category": "Musikgenres",
         "img": "/assets/images/quiz/genres.png",
-        "question": "Welches Genre ist durch jazzige Harmonien, komplexe Rhythmen und improvisierte Soli gekennzeichnet?",
+        "question": "Welches Genre liebt das Sxophon, komplexe Rhythmen und improvisierte Solo-Parts?",
         "answer": "Jazz",
         "options": [
             "Rock",
@@ -386,7 +386,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Welches Format wird von den meisten Musik-Streaming-Diensten verwendet?",
+        "question": "Welches Dateiformat verwenden die meisten Musik-Streaming-Dienste?",
         "answer": "AAC",
         "options": [
             "MP3",
@@ -398,7 +398,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Welches Land hat den höchsten Anteil an Musik-Streaming-Abonnenten pro Einwohner?",
+        "question": "Welches Land hat den höchsten Anteil an Musik Streaming Abonnenten pro Einwohner?",
         "answer": "Schweden",
         "options": [
             "USA",
@@ -470,7 +470,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Welche Musik-Streaming-Plattform wurde von Amazon im Jahr 2014 übernommen?",
+        "question": "Welche Streaming Plattform wurde von Amazon im Jahr 2014 übernommen?",
         "answer": "Rdio",
         "options": [
             "Tidal",
@@ -554,7 +554,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Wie viele Streams benötigt ein Künstler auf Spotify, um als \"meistgestreamt\" des Jahres zu gelten?",
+        "question": "Wie viele Streams benötigt ein Künstler auf Spotify im Jahr, um als \"meistgestreamtester\" zu gelten?",
         "answer": "4 Milliarden",
         "options": [
             "1 Milliarde",
@@ -590,7 +590,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Wie hoch ist die Vergütung pro Stream für einen Künstler auf Spotify?",
+        "question": "Wie hoch ist die Vergütung pro Stream für einen Künstler bei Spotify?",
         "answer": "0,001 US-Dollar",
         "options": [
             "0,001 US-Dollar",
@@ -775,7 +775,7 @@
         "options": [
             "Cro",
             "EstA",
-            "Kool Savas",
+            "Mois",
             "t-low"
         ]
     },
@@ -794,7 +794,7 @@
     {
         "category": "HipHop & Rap",
         "img": "/assets/images/quiz/hiphop.png",
-        "question": "Welcher dieser Musiker feierte nach 14 Jahren im Oktober 2022 sein Comeback?",
+        "question": "Welcher dieser Musiker feierte nach 14 Jahren im Oktober 2022 sein musikalisches Comeback?",
         "answer": "Peter Fox",
         "options": [
             "Peter Fox",
@@ -831,7 +831,7 @@
         "category": "HipHop & Rap",
         "img": "/assets/images/quiz/hiphop.png",
         "question": "Welcher Song von Eminem endet mit den Worten „Why be a king when you can be a god“?",
-        "answer": "Rapgod",
+        "answer": "Rap God",
         "options": [
             "Without me",
             "Rap God",
@@ -891,7 +891,7 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Welches Album hat Adele im Jahr 2011 veröffentlicht?",
-        "answer": "21",
+        "answer": "\"21\"",
         "options": [
             "\"21\"",
             "\"25\"",
@@ -903,7 +903,7 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Welches ist das meistverkaufte Album aller Zeiten?",
-        "answer": "Michael Jackson - Thriller",
+        "answer": "Michael Jackson - \"Thriller\"",
         "options": [
             "Beatles - \"Abbey Road\"",
             "Michael Jackson - \"Thriller\"",
@@ -927,7 +927,7 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Um welches Fahrzeug geht es in einem der Songs von Electric Callboy auf ihrem Album \"TEKKNO\"?",
-        "answer": "\"Tekkno Train\"",
+        "answer": "Tekkno Train",
         "options": [
             "Tekkno Truck",
             "Tekkno Train",
@@ -954,7 +954,7 @@
         "answer": "Prong",
         "options": [
             "Kong",
-            "Trong)",
+            "Trong",
             "Prong",
             "Strong"
         ]
@@ -1074,9 +1074,9 @@
         "answer": "Sweet Caroline",
         "options": [
             "Dirty Diana",
-            "Jolene",
+            "Lucky Jolene",
             "Sweet Caroline",
-            "Cecilia"
+            "Happy Cecilia"
         ]
     },
     {
@@ -1089,6 +1089,270 @@
             "A-ua",
             "Ju-hu",
             "Ne-e"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Töne gibt es in einer chromatischen Tonleiter?",
+        "answer": "12",
+        "options": [
+            "7",
+            "8",
+            "12",
+            "16"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Akkorde gibt es in einer Dur-Tonleiter?",
+        "answer": "7",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Notenwerte gibt es in der Musiknotation?",
+        "answer": "4",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Tonarten gibt es insgesamt?",
+        "answer": "12",
+        "options": [
+            "12",
+            "24",
+            "36",
+            "48"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Takte hat eine typische klassische Sonate?",
+        "answer": "4",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Sinfonien hat Ludwig van Beethoven komponiert?",
+        "answer": "9",
+        "options": [
+            "5",
+            "7",
+            "9",
+            "12"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Oktaven kann ein menschlicher Sänger normalerweise singen?",
+        "answer": "2 - 3",
+        "options": [
+            "1",
+            "2 - 3",
+            "4 - 5",
+            "6 - 7"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Hertz hat der Ton A440?",
+        "answer": "440 Hertz",
+        "options": [
+            "0,4 Hertz",
+            "4 Hertz",
+            "44 Hertz",
+            "440 Hertz"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welche Kategorie hat die meisten Musiker in einem typischen Orchester?",
+        "answer": "Streicher",
+        "options": [
+            "Streicher",
+            "Blechbläser",
+            "Holzbläser",
+            "Schlagzeuger"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welches dieser Instrumente findet man in einem Orchester normalerweise nicht?",
+        "answer": "Gitarre ",
+        "options": [
+            "Orgel",
+            "Gitarre",
+            "Harfe",
+            "Piano"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie lange dauert eine typische Opernaufführung?",
+        "answer": "3-4 Stunden",
+        "options": [
+            "3-4 Stunden",
+            "1 Stunde",
+            "2 Stunden",
+            "5 Stunden"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Takte hat eine typische klassische Symphonie?",
+        "answer": "30-40 Takte pro Satz",
+        "options": [
+            "10-20 Takte pro Satz",
+            "20-30 Takte pro Satz",
+            "30-40 Takte pro Satz",
+            "40-50 Takte pro Satz"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welches war das erste aufgeführte Musical?",
+        "answer": "\"The Black Crook\"",
+        "options": [
+            "\"Die Zauberflöte\"",
+            "\"The Black Crook\"",
+            "\"Show Boat\"",
+            "\"Chicago\""
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Sänger sind normalerweise in einem Chor?",
+        "answer": "30 bis 40",
+        "options": [
+            "5 bis 10",
+            "10 bis 20",
+            "30 bis 40",
+            "über 50"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Akkorde gibt es in der Musiktheorie?",
+        "answer": "7 ",
+        "options": [
+            "4",
+            "5",
+            "7",
+            "9 "
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Was heißt die berühmten Oper von Georges Bizet, die im spanischen Sevilla von 1820 spielt?",
+        "answer": "Carmen",
+        "options": [
+            "Die Zauberflöte",
+            "Aida",
+            "Carmen",
+            "Romana"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welches dieser Werk komponierte Antonio Vivaldi?",
+        "answer": "\"Vier Jahreszeiten\"",
+        "options": [
+            "\"Vier Jahreszeiten\"",
+            "\"Sonate Nr. 14 Frühling\"",
+            "\"Der Sommer\"",
+            "\"Nach Morgen\""
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wer ist der Komponist des \"Mondscheinsonate\"?",
+        "answer": "Ludwig van Beethoven",
+        "options": [
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Antonio Vivaldi"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wer ist der Komponist der Oper \"Die Hochzeit des Figaro\"?",
+        "answer": "Wolfgang Amadeus Mozart",
+        "options": [
+            "Johann Strauss II",
+            "Giuseppe Verdi",
+            "Wolfgang Amadeus Mozart",
+            "Franz Schubert"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wer ist der Komponist der \"Brandenburgischen Konzerte\"?",
+        "answer": "Johann Sebastian Bach",
+        "options": [
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart",
+            "Franz Liszt"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welches Instrument war während der Barockzeit das beliebteste Tasteninstrument?",
+        "answer": "Cembalo",
+        "options": [
+            "Klavier",
+            "Orgel",
+            "Cembalo",
+            "Akkordeon"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welcher Komponist schrieb das bekannte Klavierstück \"Für Elise\"?",
+        "answer": "Ludwig van Beethoven",
+        "options": [
+            "Franz Schubert",
+            "Ludwig van Beethoven",
+            "Robert Schumann",
+            "Johannes Brahms"
         ]
     }
 ]

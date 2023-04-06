@@ -13,13 +13,13 @@ const questionContainer = document.querySelector('.grid-container');
 const nextQuestionButton = document.querySelector('.next-question');
 const startGameButton = document.querySelector('.start-game');
 const timeBar = document.querySelector('.time-bar')
+const allButtons = document.querySelectorAll('.wrapper-questions');
 
 const optionA = document.querySelector('.answer_A');
 const optionB = document.querySelector('.answer_B');
 const optionC = document.querySelector('.answer_C');
 const optionD = document.querySelector('.answer_D');
 
-const allButtons = document.querySelectorAll('.wrapper-questions');
 let currentQuestion = null;
 let allQuestions = [];
 let answeredQuestions = [];
@@ -36,7 +36,6 @@ let statsWrong = 0;
 async function startQuiz() {
 
     startGameButton.classList.add("hide");
-    // timeBar.style.width = "100%;";
 
     question.classList.remove('hide');
     category.classList.remove('hide');
@@ -47,9 +46,9 @@ async function startQuiz() {
 
     await fetchQuestionpool();
     loadNewQuestion();
-
     setInterval(timaa, 1000);
 }
+
 
 function loadNewQuestion() {
     nextQuestionButton.classList.add('hide');
@@ -66,6 +65,8 @@ function loadNewQuestion() {
     optionD.innerText = currentQuestion.options[3];
 
     countaaa = maxCountaaa;
+    answeredQuestions.push(currentQuestion);
+    timeBar.classList.add('time-bar-colored');
 
     allButtons.forEach(b => {
         b.disabled = false;
@@ -81,44 +82,13 @@ async function fetchQuestionpool() {
     allQuestions = jsonData;
 }
 
-// function selectAnswer(button) {
-
-//     countaaa = null;
-//     timeBar.style.width = "97%";
-//     nextQuestionButton.classList.remove('hide');
-
-//     allButtons.forEach(b => {
-//         b.disabled = true;
-//         if (currentQuestion.answer === b.innerText) {
-//             b.classList.add('answer-correct');
-
-//         } else if (button === null) {
-//             b.classList.add('answer-wrong');
-//         }
-//     });
-
-//     if (button !== null) {
-//         if (currentQuestion.answer === button.innerText) {
-//             questions_right.innerText = ++statsRight;
-//             questions_streak.innerText = ++statsStreak;
-//         } else {
-//             button.classList.add('answer-wrong');
-//             questions_wrong.innerText = ++statsWrong;
-//             statsStreak = 0;
-//             questions_streak.innerText = statsStreak;
-//         }
-//     } else {
-//         questions_wrong.innerText = ++statsWrong;
-//         statsStreak = 0;
-//         questions_streak.innerText = statsStreak;
-//     }
-// }
 
 function selectAnswer(button) {
     countaaa = null;
     timeBar.classList.add('animation-paused');
-    timeBar.style.background = "green";
+    timeBar.classList.remove('time-bar-colored');
     nextQuestionButton.classList.remove('hide');
+
     allButtons.forEach(b => {
         b.disabled = true;
         if (currentQuestion.answer === b.innerText) {
@@ -127,7 +97,7 @@ function selectAnswer(button) {
             b.classList.add('answer-wrong');
         }
     });
-    timeBar.style.background = "green";
+
     if (button !== null) {
         if (currentQuestion.answer === button.innerText) {
             questions_right.innerText = ++statsRight;
@@ -138,18 +108,18 @@ function selectAnswer(button) {
             statsStreak = 0;
             questions_streak.innerText = statsStreak;
         }
+
     } else {
         questions_wrong.innerText = ++statsWrong;
         statsStreak = 0;
         questions_streak.innerText = statsStreak;
     }
-    timeBar.style.background = "green";
+
     setTimeout(() => {
         timeBar.classList.remove('animation-paused');
+        // timeBar.classList.add('time-bar-colored');
         timeBar.style.width = "97%";
-        timeBar.style.background = "green";
     }, 0);
-    timeBar.style.background = "green";
 }
 
 allButtons.forEach((button) => {

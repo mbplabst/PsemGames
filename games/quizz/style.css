@@ -157,37 +157,38 @@ hr {
 }
 
 .time-bar {
-    background-color: green;
+    background-color: rgb(1, 168, 1);
     border-radius: 5px;
     height: 15px;
     width: 97%;
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
-
     -webkit-transition: width 2s linear;
     -moz-transition: width 2s linear;
     -o-transition: width 2s linear;
     transition: width 2s linear;
-
-    animation: countdown 15s linear forwards !important;
-    animation-play-state: running;
 }
 
 .time-bar.animation-paused {
     animation-play-state: paused;
 }
 
+.time-bar-colored {
+    animation: countdown 15s linear forwards !important;
+    animation-play-state: running;
+}
+
 @keyframes countdown {
     0% {
-        background-color: green;
+        background-color: rgb(1, 168, 1);
     }
 
     50% {
-        background-color: rgb(78, 224, 78);
+        background-color: rgb(144, 223, 91);
     }
 
-    65% {
+    75% {
         background-color: rgb(245, 228, 81);
     }
 
@@ -254,14 +255,17 @@ hr {
 
 .color-fail {
     color: #f86060;
+    color: #e24242;
 }
 
 .color-streak {
     color: #ffdd6d;
+    color: rgb(255, 196, 0);
 }
 
 .color-right {
     color: #4fff85;
+    color: #1ce759;
 }
 
 .color-time {
