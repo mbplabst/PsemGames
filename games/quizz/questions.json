@@ -50,7 +50,7 @@
     {
         "category": "Musikgenres",
         "img": "/assets/images/quiz/genres.png",
-        "question": "Welches Genre liebt das Sxophon, komplexe Rhythmen und improvisierte Solo-Parts?",
+        "question": "Welches Genre liebt das Saxophon, komplexe Rhythmen und improvisierte Solo-Parts?",
         "answer": "Jazz",
         "options": [
             "Rock",
@@ -662,13 +662,13 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Wie viele monatliche Zuhörer hatte der meistgestreamte Künstler auf Spotify in 2021?",
-        "answer": "über 500 Millionen",
+        "question": "Wie viele Streams hatte der meistgestreamte Künstler \"Bad Bunny\" in 2021?",
+        "answer": "9,1 Milliarden",
         "options": [
-            "über 50 Millionen",
-            "über 100 Millionen",
-            "über 200 Millionen",
-            "über 500 Millionen"
+            "7,4 Milliarden",
+            "9,1 Milliarden",
+            "11,2 Milliarden",
+            "19,5 Milliarden"
         ]
     },
     {
@@ -903,12 +903,12 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Welches ist das meistverkaufte Album aller Zeiten?",
-        "answer": "Michael Jackson - \"Thriller\"",
+        "answer": "Michael Jackson - Thriller",
         "options": [
-            "Beatles - \"Abbey Road\"",
-            "Michael Jackson - \"Thriller\"",
-            "AC/DC - \"Back in Black\"",
-            "Pink Floyd - \"The Dark Side of the Moon\""
+            "Beatles - Abbey Road",
+            "Michael Jackson - Thriller",
+            "AC/DC - Back in Black",
+            "Pink Floyd - The Dark Side of the Moon"
         ]
     },
     {
@@ -939,9 +939,9 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Welche dieser \"Affenbands\" gibt es NICHT?",
-        "answer": "The Moneymonkees",
+        "answer": "The Moneymonks",
         "options": [
-            "The Moneymonkees",
+            "The Moneymonks",
             "Arctic Monkeys",
             "Gorillaz",
             "The Monkees"
@@ -1203,7 +1203,7 @@
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
         "question": "Welches dieser Instrumente findet man in einem Orchester normalerweise nicht?",
-        "answer": "Gitarre ",
+        "answer": "Gitarre",
         "options": [
             "Orgel",
             "Gitarre",
@@ -1239,12 +1239,12 @@
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
         "question": "Welches war das erste aufgeführte Musical?",
-        "answer": "\"The Black Crook\"",
+        "answer": "The Black Crook",
         "options": [
-            "\"Die Zauberflöte\"",
-            "\"The Black Crook\"",
-            "\"Show Boat\"",
-            "\"Chicago\""
+            "Die Zauberflöte",
+            "The Black Crook",
+            "Show Boat",
+            "Chicago"
         ]
     },
     {

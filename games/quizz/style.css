@@ -84,7 +84,7 @@ h1 {
 
 .category-text {
     font-family: 'Raleway', sans-serif;
-    color: rgb(131, 130, 130);
+    color: silver;
     font-size: 17px;
 }
 
@@ -175,13 +175,13 @@ hr {
 }
 
 .time-bar-colored {
-    animation: countdown 15s linear forwards !important;
+    animation: countdown 17s linear forwards !important;
     animation-play-state: running;
 }
 
 @keyframes countdown {
     0% {
-        background-color: rgb(1, 168, 1);
+        background-color: green
     }
 
     50% {

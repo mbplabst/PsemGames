@@ -34,9 +34,8 @@ let statsWrong = 0;
 /*********************** FUNKTIONEN ***********************/
 
 async function startQuiz() {
-
+    
     startGameButton.classList.add("hide");
-
     question.classList.remove('hide');
     category.classList.remove('hide');
     categoryText.classList.remove('hide');
@@ -108,7 +107,6 @@ function selectAnswer(button) {
             statsStreak = 0;
             questions_streak.innerText = statsStreak;
         }
-
     } else {
         questions_wrong.innerText = ++statsWrong;
         statsStreak = 0;
@@ -117,7 +115,6 @@ function selectAnswer(button) {
 
     setTimeout(() => {
         timeBar.classList.remove('animation-paused');
-        // timeBar.classList.add('time-bar-colored');
         timeBar.style.width = "97%";
     }, 0);
 }
