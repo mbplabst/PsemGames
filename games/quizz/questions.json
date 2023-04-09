@@ -698,7 +698,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Wie viele verschiedene Songs kann man insgesamt in GTA V hören?",
+        "question": "Wie viele verschiedene Songs kann man insgesamt im Videospiel GTA V hören?",
         "answer": "392",
         "options": [
             "420",
@@ -750,9 +750,9 @@
         "answer": "Spontan improvisiertes Rappen",
         "options": [
             "Spontan improvisiertes Rappen",
-            "Rappen von vorbereiteten Texten",
+            "Rappen vorbereiteter Texte",
             "Rappen von Texten anderer Künstler",
-            "Rappen von Texten, die von einem Team geschrieben wurden"
+            "Stilloses Rappen"
         ]
     },
     {
@@ -926,13 +926,13 @@
     {
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
-        "question": "Welches Album hat Adele im Jahr 2011 veröffentlicht?",
-        "answer": "\"21\"",
+        "question": "Wie heißt das Album welches Adele 2011 veröffentlicht hat?",
+        "answer": "21",
         "options": [
-            "\"21\"",
-            "\"25\"",
-            "\"19\"",
-            "\"Adele\""
+            "11",
+            "19",
+            "21",
+            "30"
         ]
     },
     {
@@ -965,10 +965,10 @@
         "question": "Um welches Fahrzeug geht es in einem der Songs von Electric Callboy auf ihrem Album \"TEKKNO\"?",
         "answer": "Tekkno Train",
         "options": [
-            "Tekkno Truck",
-            "Tekkno Train",
-            "Tekkno Tesla",
-            "Tekkno Tank"
+            "TEKKNO TRUCK",
+            "TEKKNO TRAIN",
+            "TEKKNO TESLA",
+            "TEKKNO TANK"
         ]
     },
     {
