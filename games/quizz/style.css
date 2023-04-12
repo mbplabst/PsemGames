@@ -84,7 +84,7 @@ h1 {
 
 .category-text {
     font-family: 'Raleway', sans-serif;
-    color: #747474;
+    color: #9c9c9c;
     font-size: 17px;
 }
 
@@ -243,7 +243,7 @@ hr {
 }
 
 .answer-wrong {
-    background-color: #ff4d4d !important;
+    background-color: #ff5454 !important;
     border-color: #9e1a1a !important;
 }
 
@@ -255,7 +255,6 @@ hr {
 
 .color-streak {
     color: rgb(255, 196, 0);
-    color: rgb(255 177 79);
 }
 
 .color-right {
