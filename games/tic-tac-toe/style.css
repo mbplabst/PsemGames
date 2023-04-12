@@ -63,17 +63,16 @@
 
 .playerX {
     font-family: 'Comfortaa', cursive;
-    color: #e1fb9c;
+    color: #f0ff72;;
 }
 
 .playerO {
     font-family: 'Comfortaa', cursive;
-    color: #c0aeff;
     color: #8361ff;
 }
 
 .player-x {
-    color: #e1fb9c;
+    color: #f0ff72;;
 }
 
 .player-o {
@@ -81,7 +80,7 @@
 }
 
 .tie {
-    color: rgb(92, 92, 92);
+    color: #4b4a4a;
 }
 
 .marked {

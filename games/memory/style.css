@@ -236,21 +236,21 @@ h1 {
 /****************************************************************/
 
 .color-fail {
-    color: #f86060;
+    color: #fd4747;
 }
 
 .color-pair {
-    color: #a4fdb3;
+    color: #3be970;
 }
 
 .color-time {
-    color: #a3a1a1;
+    color: #767676;
 }
 
 /****************************************************************/
 
 .player-one {
-    color: #e1fb9c;
+    color: #f0ff72;;
 }
 
 .player-two {
@@ -260,7 +260,7 @@ h1 {
 /****************************************************************/
 
 .card.player-one-found>.view {
-    background-color: #e1fb9c !important;
+    background-color: #f0ff72 !important;
 }
 
 .card.player-two-found>.view {

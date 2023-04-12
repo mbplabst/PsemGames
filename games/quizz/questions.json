@@ -963,21 +963,21 @@
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Um welches Fahrzeug geht es in einem der Songs von Electric Callboy auf ihrem Album \"TEKKNO\"?",
-        "answer": "Tekkno Train",
+        "answer": "TEKKNO Train",
         "options": [
-            "TEKKNO TRUCK",
-            "TEKKNO TRAIN",
-            "TEKKNO TESLA",
-            "TEKKNO TANK"
+            "TEKKNO Truck",
+            "TEKKNO Train",
+            "TEKKNO Tesla",
+            "TEKKNO Tank"
         ]
     },
     {
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
         "question": "Welche dieser \"Affenbands\" gibt es NICHT?",
-        "answer": "The Moneymonks",
+        "answer": "Moneymonks",
         "options": [
-            "The Moneymonks",
+            "Moneymonks",
             "Arctic Monkeys",
             "Gorillaz",
             "The Monkees"
@@ -1034,7 +1034,7 @@
     {
         "category": "Musiker & Hits",
         "img": "/assets/images/quiz/hits.png",
-        "question": "Wer sang die Songs \"Marry you\",\"Locked out of Heaven\",\"Treasure\" und \"Grenade\"?",
+        "question": "Wer sang die Songs \"Marry you\", \"Treasure\" und \"Grenade\"?",
         "answer": "Bruno Mars",
         "options": [
             "Olly Murs",
@@ -1253,16 +1253,16 @@
         "question": "Wie lange dauert eine typische Opernaufführung?",
         "answer": "3-4 Stunden",
         "options": [
+            "1-2 Stunden",
+            "2-3 Stunde",
             "3-4 Stunden",
-            "1 Stunde",
-            "2 Stunden",
-            "5 Stunden"
+            "4-5 Stunden"
         ]
     },
     {
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
-        "question": "Wie viele Takte hat eine typische klassische Symphonie?",
+        "question": "Wie viele Takte hat eine klassische Symphonie pro Satz?",
         "answer": "30-40 Takte pro Satz",
         "options": [
             "10-20 Takte pro Satz",
@@ -1323,18 +1323,18 @@
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
         "question": "Welches dieser Werk komponierte Antonio Vivaldi?",
-        "answer": "\"Vier Jahreszeiten\"",
+        "answer": "Vier Jahreszeiten",
         "options": [
-            "\"Vier Jahreszeiten\"",
-            "\"Sonate Nr. 14 Frühling\"",
-            "\"Der Sommer\"",
-            "\"Nach Morgen\""
+            "Vier Jahreszeiten",
+            "Im Mondschein",
+            "Sommerkonzert",
+            "Morgenstunden"
         ]
     },
     {
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
-        "question": "Wer ist der Komponist des \"Mondscheinsonate\"?",
+        "question": "Welcher dieser Komponisten erschuf die \"Mondscheinsonate\"?",
         "answer": "Ludwig van Beethoven",
         "options": [
             "Wolfgang Amadeus Mozart",

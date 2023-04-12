@@ -84,7 +84,7 @@ h1 {
 
 .category-text {
     font-family: 'Raleway', sans-serif;
-    color: silver;
+    color: #747474;
     font-size: 17px;
 }
 
@@ -99,17 +99,18 @@ h1 {
 
 .wrapper-questions {
     color: aliceblue;
-    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background: #202020;
     margin: 3px;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
 }
 
 .question {
     font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 10px;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -134,10 +135,6 @@ h1 {
     border-radius: 7px;
     padding: 4px 15px 4px 15px;
     margin: 10px 3px 0px 3px;
-}
-
-.icon-correction {
-    margin-top: 2px;
 }
 
 hr {
@@ -194,7 +191,7 @@ hr {
 
     100% {
         background-color: red;
-    }
+    }  
 }
 
 .wrapper-content-image {
@@ -214,8 +211,8 @@ hr {
     border-radius: 11px;
     margin-top: 0px;
     padding: 12px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .start-game {
@@ -224,7 +221,7 @@ hr {
     margin-bottom: 20px;
     padding: 15px;
     font-size: 20px;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.50);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
 }
 
 .grid-container {
@@ -240,10 +237,9 @@ hr {
 }
 
 .answer-correct {
-    background-color: #55f386 !important;
-    border-color: #00950d !important;
+    background-color: #1ce759 !important;
+    border-color: #056e0e !important;
     color: #202020;
-    ;
 }
 
 .answer-wrong {
@@ -254,18 +250,16 @@ hr {
 /*++++++++++++++++++++++++ COLORS ++++++++++++++++++++++++*/
 
 .color-fail {
-    color: #f86060;
     color: #e24242;
 }
 
 .color-streak {
-    color: #ffdd6d;
     color: rgb(255, 196, 0);
+    color: rgb(255 177 79);
 }
 
 .color-right {
-    color: #4fff85;
-    color: #1ce759;
+    color: #1ce759;;
 }
 
 .color-time {
