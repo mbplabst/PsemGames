@@ -854,7 +854,7 @@
     {
         "category": "Streaming",
         "img": "/assets/images/quiz/streaming.png",
-        "question": "Welcher Song hält den Rekord für die längste Chartplatzierung in DE?",
+        "question": "Welcher Song hält den Rekord für die längste Chartplatzierung in Deutschland?",
         "answer": "Apache207 - Roller",
         "options": [
             "Apache207 - Roller",
@@ -2369,7 +2369,7 @@
         "question": "Wie nennt man ein Instrument, das besonders häufig bei Gottesdiensten eingesetzt wird?",
         "answer": "Orgel",
         "options": [
-            "Klavier,",
+            "Klavier",
             "Harfe",
             "Timpani",
             "Orgel"
@@ -2492,7 +2492,7 @@
             "Speak Now",
             "Fight for You",
             "Husavik",
-            "(Seen)"
+            "Seen"
         ]
     },
     {
