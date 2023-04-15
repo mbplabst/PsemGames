@@ -134,7 +134,7 @@
     {
         "category": "Musikgenres",
         "img": "/assets/images/quiz/genres.png",
-        "question": "Welches Genre ist durch Gospel-Gesänge, Soul-Einflüsse und funkige Rhythmen gekennzeichnet?",
+        "question": "Welches Genre ist durch Gospel-Gesänge und Soul-Einflüsse geprägt?",
         "answer": "Funk",
         "options": [
             "Jazz",
@@ -369,6 +369,114 @@
             "Gilberto Gil",
             "Caetano Veloso",
             "João Gilberto"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welchem Musikstil sind \"The Lurkers\", \"999\" und \"The Dead Kennedys\" zuzuordnen?",
+        "answer": "Punk",
+        "options": [
+            "Hip Hop",
+            "Heavy Metal",
+            "Punk",
+            "Soul"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre erfand und prägte Alexander Marcus für sich selbst?",
+        "answer": "Elektrolore",
+        "options": [
+            "Electrotonic",
+            "Elektrolore",
+            "Elektrodance",
+            "Elektrotrance"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welchem Genre ist das Duo \"Daft Punk\" zuzuordnen?",
+        "answer": "French House",
+        "options": [
+            "French House",
+            "Trap",
+            "Trance",
+            "Dance"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Für welche Musikrichtung erhielt Elvis Presley dreimal den Grammy Award?",
+        "answer": "Gospel",
+        "options": [
+            "Rock'n Roll",
+            "Gospel",
+            "Country Music",
+            "Rhythm & Blues"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welchem Genre ist der Song \"I have Got the Power\" von Snap! zuzuordnen?",
+        "answer": "Dance",
+        "options": [
+            "Trance",
+            "Dance",
+            "Trap",
+            "Disco"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Mit welchem neu interpretierten amerikanischen Folksong landeten Rednex 1994 ihren größten Hit?",
+        "answer": "Cotton Eye Joe",
+        "options": [
+            "Cotton Eye Joe",
+            "She'll Be Coming",
+            "Round the Mountain",
+            "Scarborough Fair"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Wann entstand etwa das Genre des Dixieland?",
+        "answer": "1910",
+        "options": [
+            "1910",
+            "1930",
+            "1940",
+            "1970"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Wovon handet der sogenannte Backwater-Blues?",
+        "answer": "Überschwemmungen",
+        "options": [
+            "Dampfschiffen",
+            "seltener Regen",
+            "Überschwemmungen",
+            "großen Ozeanen"
+        ]
+    },
+    {
+        "category": "Musikgenres",
+        "img": "/assets/images/quiz/genres.png",
+        "question": "Welches Genre verfolgt das Prinzip des \"Call and Response\"?",
+        "answer": "Gospel",
+        "options": [
+            "Funk",
+            "Blues",
+            "Indie",
+            "Gospel"
         ]
     },
     {
@@ -720,6 +828,66 @@
         ]
     },
     {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Das Album \"Best Of\" welcher Sängerin stellte mit 345 Wochen in den Top 100 der deutschen Charts einen Rekord auf?",
+        "answer": "Andrea Berg",
+        "options": [
+            "Lena Meyer-Landrut",
+            "Nena",
+            "Andrea Berg",
+            "Helene Fischer"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Was ist eine sogenannte \"EP\"?",
+        "answer": "Ein kurzes Album mit 4-6 Songs",
+        "options": [
+            "Ein kurzes Album mit 4-6 Songs",
+            "Ein Synthesizer",
+            "Mix/Mastering Verfahren",
+            "Dateiformat für Song-Lyrics"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Welcher Song hält den Rekord für die längste Chartplatzierung in DE?",
+        "answer": "Apache207 - Roller",
+        "options": [
+            "Apache207 - Roller",
+            "DJ Schürze - Layla",
+            "Helene Fischer - Atemlos",
+            "Sido - Bilder im Kopf"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Ab wann gilt ein Song auf Spotify als \"gehört\"? bzw. als \"gestreamt\"?",
+        "answer": "30 Sekunden",
+        "options": [
+            "30 Sekunden",
+            "45 Sekunden",
+            "60 Sekunden",
+            "100 Sekunden"
+        ]
+    },
+    {
+        "category": "Streaming",
+        "img": "/assets/images/quiz/streaming.png",
+        "question": "Wie nennt man ein Lied, dessen Melodie einem nicht mehr aus dem Kopf geht?",
+        "answer": "Ohrwurm",
+        "options": [
+            "Ohrwurm",
+            "Augenmücke",
+            "Nasenfalter",
+            "Mundkäfer"
+        ]
+    },
+    {
         "category": "HipHop & Rap",
         "img": "/assets/images/quiz/hiphop.png",
         "question": "Welches europäische Land gilt als Geburtsort des HipHop in Europa?",
@@ -897,6 +1065,198 @@
             "Sido",
             "Alligatoah",
             "Cro"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welche Rapper kämpfen auf einem gemeinsamen Song gegeneinander?",
+        "answer": "Bausa vs. Apache207",
+        "options": [
+            "Kollegah vs. Farid Bang",
+            "Sun Diego vs. Juri",
+            "Sido vs. Cro",
+            "Bausa vs. Apache207"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie hieß eine katastrophale Show, bei der die besten Rapper 2019 kührt werden sollten?",
+        "answer": "Hype Awards",
+        "options": [
+            "Hype Awards",
+            "Rap Awards",
+            "HipHop Awards",
+            "MusiX Awards"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher dieser Musiker hatte Hits wie \"Schwarz zu Blau\", \"Alles neu\" und \"Haus am See\"?",
+        "answer": "Peter Fox",
+        "options": [
+            "Eko Fresh",
+            "Sido",
+            "Peter Fox",
+            "Samy Deluxe"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wer landete mit dem Song \"Du\" 2012 einen Hit?",
+        "answer": "Cro",
+        "options": [
+            "Fanta 4",
+            "Ferris MC",
+            "Sido",
+            "Cro"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt der neue Song von Apache207 und Udo Lindenberg?",
+        "answer": "Komet",
+        "options": [
+            "Sonne",
+            "Komet",
+            "Mond",
+            "Asteroid"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "In welchem New Yorker Stadtviertel entstand der HipHop?",
+        "answer": "Bronx",
+        "options": [
+            "Manhattan",
+            "Queens",
+            "Bronx",
+            "Brooklyn"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wer veröffentlichte das Album \"Urlaub fürs Gehirn\" (2011)?",
+        "answer": "K.I.Z.",
+        "options": [
+            "Eko Fresh",
+            "Sido",
+            "Sammy Deluxe",
+            "K.I.Z."
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt ein Song von Marteria?",
+        "answer": "Lila Wolken",
+        "options": [
+            "Graue Wolken",
+            "Rote Wolken",
+            "Weiße Wolken",
+            "Lila Wolken"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt das künstlerische Alter Ego von Rapper Marteria?",
+        "answer": "Marsimoto",
+        "options": [
+            "Slim Shady",
+            "Ziggy Stardust",
+            "Marsimoto",
+            "Sasha Fierce"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher deutsche Rapper hatte seinen Hit \"Türlich, Türlich\" im Jahr 2000?",
+        "answer": "Das Bo",
+        "options": [
+            "Hey Ho",
+            "Das Bo",
+            "High Low",
+            "Mr. Toe"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher dieser Künstler ist ein bekannter englischer Rapper?",
+        "answer": "NF",
+        "options": [
+            "NF",
+            "VW",
+            "YY",
+            "AZ"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Von welchem Rapper stammt der Track \"Mockingbird\"?",
+        "answer": "Eminem",
+        "options": [
+            "2Pac",
+            "Eminem",
+            "50 Cent",
+            "Drake"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Vom wem stammt der Track \"Wünsch dir was\"?",
+        "answer": "Genetikk",
+        "options": [
+            "Sido",
+            "Kollegah",
+            "Genetikk",
+            "Eko Fresh"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wie heißt das Battle-Rap alter Ego von GReeeN?",
+        "answer": "Grinch Hill",
+        "options": [
+            "Grinch Hill",
+            "Giym",
+            "starr",
+            "absolute"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Welcher dieser Rapper veröffentlichte das Album \"Free Spirit\"?",
+        "answer": "Kollegah",
+        "options": [
+            "Sido",
+            "Kollegah",
+            "Bonez MC",
+            "Genetikk"
+        ]
+    },
+    {
+        "category": "HipHop & Rap",
+        "img": "/assets/images/quiz/hiphop.png",
+        "question": "Wessen neuestes Album heißt \"Paul\"?",
+        "answer": "Sido",
+        "options": [
+            "Eko Fresh",
+            "Bushido",
+            "Cro",
+            "Sido"
         ]
     },
     {
@@ -1125,6 +1485,354 @@
             "A-ua",
             "Ju-hu",
             "Ne-e"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie heißt eine spanische Girlgroup, die 2002 ihren größten Sommerhit landete?",
+        "answer": "Las Ketchup",
+        "options": [
+            "Las Mayo",
+            "Las BBO",
+            "Las Mustard",
+            "Las Ketchup"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer steckt hinter Songs wie \"Titanium\", \"Without You\" und \"Love Don't Let Me Go\"?",
+        "answer": "David Guetta",
+        "options": [
+            "Pitbull",
+            "Flo Rida",
+            "David Guetta",
+            "Swedish House Mafia"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "In welchem Jahr veröffentlichten Pink Floyd ihr Album \"The Wall\"?",
+        "answer": "1979",
+        "options": [
+            "1973",
+            "1988",
+            "1979",
+            "1981"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Von welcher Band stammen Songs wie \"Goin' Blind\", \"Detroit Rock City\" und \"Strutter\"?",
+        "answer": "Kiss",
+        "options": [
+            "Kiss",
+            "Dio",
+            "Black Sabbath",
+            "Twisted Sister"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer landete den Hit \"Moviestar\" (1975)?",
+        "answer": "Harpo",
+        "options": [
+            "Harpo",
+            "Paul Young",
+            "Leonard Cohen",
+            "ABBA"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Aus welchem Land kommt die Band \"The BossHoss\"?",
+        "answer": "Deutschland",
+        "options": [
+            "USA",
+            "Deutschland",
+            "Schweden",
+            "Finnland"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Boy George war der Sänger welcher Band?",
+        "answer": "Culture Club",
+        "options": [
+            "Culture Club",
+            "Culture Beat",
+            "Culture Band",
+            "Culture House"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welchen Sommerhit sang die Band \"Righeira\" im Jahr 1983?",
+        "answer": "Vamos a la Playa",
+        "options": [
+            "Vamos a la Playa",
+            "Let's go to the Beach",
+            "Das Blech",
+            "Carbonara"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Von welcher Band stammt der Song \"Come as you are\"?",
+        "answer": "Nirvana",
+        "options": [
+            "Led Zeppelin",
+            "U2",
+            "Guns N' Roses",
+            "Nirvana"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wer sang den Hit \"Holding Out for a Hero\"?",
+        "answer": "Bonnie Tyler",
+        "options": [
+            "Kate Bush",
+            "Olivia Newton-John",
+            "Bonnie Tyler",
+            "Cher"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Beatle läuft barfuß über den Zebrastreifen der \"Abbey Road\" auf dem Titelbild des gleichnamigen Albums?",
+        "answer": "Paul McCartney",
+        "options": [
+            "Ringo Starr",
+            "Paul McCartney",
+            "John Lennon",
+            "George Harrison"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welches Gewächs besangen Fools Garden 1995?",
+        "answer": "Lemon Tree",
+        "options": [
+            "Palm Tree",
+            "Lemon Tree",
+            "Apple Tree",
+            "Olive Tree"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie heißt ein Hit der Band \"Unheilig\" (2010)?",
+        "answer": "Geboren um zu leben",
+        "options": [
+            "Geboren um zu leben",
+            "Gestorben um zu leben",
+            "Gefallen um zu leben",
+            "Gekommen um zu leben"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "\"Simply the Best\" war einer der größten Hits welcher Sängerin?",
+        "answer": "Tina Turner",
+        "options": [
+            "Adele",
+            "Madonna",
+            "Lady Gaga",
+            "Tina Turner"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Künstler hatte einen Hit mit dem Lied \"Major Tom (völlig losgelöst)\"?",
+        "answer": "Peter Schilling",
+        "options": [
+            "Hubert Kah",
+            "Markus",
+            "Joachim Witt",
+            "Peter Schilling"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Mit welchem Lied schaffte Markus Becker 2008 einen Hit?",
+        "answer": "Das rote Pferd",
+        "options": [
+            "Die blaue Biene",
+            "Das rote Pferd",
+            "Das schwarze Rind",
+            "Das gelbe Schaf"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie enden diese Liedzeilen von Wolfgang Petrys: \"Wahnsinn, warum schickst du mich in die ...\"?",
+        "answer": "Hölle",
+        "options": [
+            "Ewigkeit",
+            "Hölle",
+            "Schule",
+            "Ecke"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Von wem stammt der Klassiker \"Sonderzug nach Pankow\" (1983)?",
+        "answer": "Udo Lindenberg",
+        "options": [
+            "Rainhard Fendrich",
+            "Marius Müller-Westernhagen",
+            "Herbert Grönemeyer",
+            "Udo Lindenberg"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher Sänger wurde durch seinen Song \"I need a Dollar\" im Jahr 2010 weltberühmt?",
+        "answer": "Aloe Blacc",
+        "options": [
+            "Aloe Whitt",
+            "Aloe Broww",
+            "Aloe Blacc",
+            "Aloe Purpp"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Aus welchem Land kommt die Band ABBA?",
+        "answer": "Schweden",
+        "options": [
+            "Niederlande",
+            "Finnland",
+            "Schweden",
+            "Norwegen"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Welcher deutsche Sänger schrieb eine Hymne über die Stadt Bochum?",
+        "answer": "Herbert Grönemeyer",
+        "options": [
+            "Herbert Grönemeyer",
+            "Marius Müller-Westernhagen",
+            "Udo Lindenberg",
+            "Farin Urlaub"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie heißt eine 1986 gegründete Rockband mit Gwen Stefani als Sängerin?",
+        "answer": "No Doubt",
+        "options": [
+            "No Trouble",
+            "No Plan",
+            "No Doubt",
+            "No Problem"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie hieß ein deutsches Popmusik-Duo, bestehend aus Dieter Bohlen und Thomas Anders?",
+        "answer": "Modern Talking",
+        "options": [
+            "Kraftwerk",
+            "D.I.S.C.O.",
+            "Modern Talking",
+            "Extrabreit"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Mit welcher Band verbindet man die Spitznamen \"Smudo\" und \"Dee Jot Hausmarke\"?",
+        "answer": "Die Fantastischen Vier",
+        "options": [
+            "Spider Murphy Gang",
+            "Die Ärzte",
+            "Söhne Mannheims",
+            "Die Fantastischen Vier"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Von welcher Band stammt der Hit \"Mamma Mia\"?",
+        "answer": "ABBA",
+        "options": [
+            "The Beatles",
+            "Rolling Stones",
+            "Wham!",
+            "ABBA"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Wie heißt ein Hit der Band \"Die Toten Hosen\" (2012)?",
+        "answer": "Tage wie diese",
+        "options": [
+            "Monate wie diese",
+            "Wochen wie diese",
+            "Jahre wie diese",
+            "Tage wie diese"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Ein Lied der Sportfreunde Stiller trägt den Namen \"New York, Rio, … \"?",
+        "answer": "Rosenheim",
+        "options": [
+            "Hannover",
+            "Baden-Baden",
+            "Flensburg",
+            "Rosenheim"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "In welchem Hit der Neuen Deutschen Welle wird eine Nervenklinik besungen?",
+        "answer": "Der Goldene Reiter",
+        "options": [
+            "Der Goldene Reiter",
+            "Blaue Augen",
+            "Kleine Taschenlampe",
+            "Major Tom"
+        ]
+    },
+    {
+        "category": "Musiker & Hits",
+        "img": "/assets/images/quiz/hits.png",
+        "question": "Mit welchem Song gewann \"Abba\" den Eurovision Song Contest 1974?",
+        "answer": "Waterloo",
+        "options": [
+            "Dancing Queen",
+            "Waterloo",
+            "Knowing Me, Knowing You",
+            "SOS"
         ]
     },
     {
@@ -1392,6 +2100,138 @@
         ]
     },
     {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welches dieser klassischen Werke wird gerne zu Ostern aufgeführt?",
+        "answer": "\"Johannes-Passion\" von Bach",
+        "options": [
+            "\"Johannes-Passion\" von Bach",
+            "\"Requiem in d-Moll\" von Mozart",
+            "\"Wassermusik\" von Händel",
+            "\"Ein deutsches Requiem\" von Brahms"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie nennt man es, wenn zwei Personen einen musikalischen Vortrag leisten?",
+        "answer": "Duett",
+        "options": [
+            "Terzett",
+            "Duett",
+            "Enklave",
+            "Duosono"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie nennt man einen Akkord, dessen Noten einzeln angeschlagen werden?",
+        "answer": "Arpeggio",
+        "options": [
+            "Harmonisch",
+            "Powerchord",
+            "Staccato",
+            "Arpeggio"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Wie viele Achtel passen in einen Dreivierteltakt?",
+        "answer": "6",
+        "options": [
+            "3",
+            "4",
+            "6",
+            "12"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Was bedeutet \"Staccato\" in der Musiklehre?",
+        "answer": "Note wird kurz gespielt",
+        "options": [
+            "Note wird kurz gespielt",
+            "Note wird lang gespielt",
+            "Note wird schnell gespielt",
+            "Note wird gebunden gespielt"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welcher Epoche gehörte der Komponist Béla Bartók an?",
+        "answer": "Klassische Moderne",
+        "options": [
+            "Wiener Klassik",
+            "Klassische Moderne",
+            "Romantik",
+            "Renaissance"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welcher Künstler gilt als der Wegbereiter der Wiener Klassik?",
+        "answer": "Joseph Haydn",
+        "options": [
+            "Ludwig van Beethoven",
+            "Georg Friedrich Händel",
+            "Johannes Brahms",
+            "Joseph Haydn"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welcher Komponist schrieb das Oratorium \"Die Schöpfung\"?",
+        "answer": "Joseph Haydn",
+        "options": [
+            "Joseph Haydn",
+            "Robert Schuhmann",
+            "Georg Friedrich Händel",
+            "Franz Liszt"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Von welchem Komponisten stammt die Nationalhymne Deutschlands? -",
+        "answer": "Joseph Haydn",
+        "options": [
+            "Ludwig van Beethoven",
+            "Joseph Haydn",
+            "Franz Schubert",
+            "Georg Friedrich Händel"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Was ist in der klassischen Musiktheorie ein \"Oratorium\"?",
+        "answer": "stark religiöses Orchesterwerk",
+        "options": [
+            "stark religiöses Orchesterwerk",
+            "Violinen-Konzert",
+            "Dirigentenstab",
+            "Originale Partitur"
+        ]
+    },
+    {
+        "category": "Klassische Musik",
+        "img": "/assets/images/quiz/classic.png",
+        "question": "Welchen dieser Notenschlüssel gibt es nicht?",
+        "answer": "Klarinettenschlüssel",
+        "options": [
+            "Violinenschlüssel",
+            "Bassschlüssel",
+            "Bratschenschlüssel",
+            "Klarinettenschlüssel"
+        ]
+    },
+    {
         "category": "Instrumente",
         "img": "/assets/images/quiz/instruments.png",
         "question": "Welches Musikinstrument ist das dominante in einer typischen Blaskapelle?",
@@ -1569,6 +2409,258 @@
             "Geige",
             "Gitarre",
             "Flöte"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie heißt das einzige verbreitete Musikinstrument, das berührungslos gespielt wird und dabei direkt Töne erzeugt?",
+        "answer": "Theremin",
+        "options": [
+            "Theremin",
+            "Trautonium",
+            "Querflöte",
+            "Akkordeon"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Wie viele schwarze Tasten befinden sich auf einem Klavier zwischen zwei C-Noten?",
+        "answer": "5",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches der folgenden Instrumente ist KEIN Saiteninstrument?",
+        "answer": "Euphonium",
+        "options": [
+            "Euphonium",
+            "Mandoline",
+            "Banjo",
+            "Balalaika"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Mit welchem Musikinstrument sind Marimba und Balafon verwandt?",
+        "answer": "Xylophon",
+        "options": [
+            "Flöte",
+            "Xylophon",
+            "Harfe",
+            "Geige"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Welches Instrument wird im Jazz gerne für Improvisationen verwendet?",
+        "answer": "Saxophon",
+        "options": [
+            "Gitarre",
+            "Saxophon",
+            "Flügel",
+            "Trommeln"
+        ]
+    },
+    {
+        "category": "Instrumente",
+        "img": "/assets/images/quiz/instruments.png",
+        "question": "Was ist nicht Teil eines Schlagzeuges?",
+        "answer": "LowHat",
+        "options": [
+            "Base Drum",
+            "Becken",
+            "HiHat",
+            "LowHat"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Welches Lied gewann den Oscar für den besten Filmsong im Jahr 2021?",
+        "answer": "Fight for You",
+        "options": [
+            "Speak Now",
+            "Fight for You",
+            "Husavik",
+            "(Seen)"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wer komponierte die Filmmusik für den Film \"Harry Potter und der Stein der Weisen\"?",
+        "answer": "Hans Zimmer",
+        "options": [
+            "Hans Zimmer",
+            "John Williams",
+            "Alan Silvestri",
+            "Danny Elfman"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wer komponierte die Filmmusik für den Film Jurassic Park?",
+        "answer": "John Williams",
+        "options": [
+            "James Horner",
+            "Danny Elfman",
+            "Alan Silvestri",
+            "John Williams"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wer komponierte die Filmmusik für die Star Wars Filme?",
+        "answer": "John Williams",
+        "options": [
+            "John Williams",
+            "Hans Zimmer",
+            "Alan Silvestri",
+            "Danny Elfman"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wer sang den Titelsong des James-Bond-Films \"Skyfall\"?",
+        "answer": "Adele",
+        "options": [
+            "Adele",
+            "Lady Gaga",
+            "Katy Perry",
+            "Beyoncé"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "In welchem dieser Filme wurde Céline Dions \"My Heart Will Go On\" weltberühmt?",
+        "answer": "Titanic",
+        "options": [
+            "Titanic",
+            "Ghost",
+            "König der Löwen",
+            "Dirty Dancing"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wer komponierte die Filmmusik für den Film \"Fluch der Karibik\"?",
+        "answer": "Hans Zimmer",
+        "options": [
+            "James Horner",
+            "Hans Zimmer",
+            "Alan Silvestri",
+            "John Williams"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wofür sorgt ein \"Tempo-Metronom\" bei der Komposition von Filmmusik?",
+        "answer": "Sorgt für gleichmäßiges Tempo",
+        "options": [
+            "Sorgt für gleichmäßiges Tempo",
+            "Korrigiert die Tonhöhen",
+            "Erhöht die Dynamik",
+            "Verbessert die Klangqualität"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Was versteht man in der Filmmusik unter \"Mickey Mousing\"?",
+        "answer": "gleicher Rhythmus von Bewegungen der Charaktere im Film",
+        "options": [
+            "gleiche Tonhöhe von Dialogen und Charakteren",
+            "gleicher Rhythmus von Bewegungen der Charaktere im Film",
+            "extrem kindliche Musik",
+            "sehr leicht zu merkende Musik"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Was ist in der Theorie der Filmmusik ein \"Leitmotiv\"?",
+        "answer": "Wiederkehrende Melodie für Charaktere oder Handlungen",
+        "options": [
+            "Musikstück für nur einen Film",
+            "Wiederkehrende Melodie für Charaktere oder Handlungen",
+            "Liste aller Instrumenten der Filmmusik",
+            "Besonders lange Musik Komposition"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Was ist der \"Film Score\" in der Filmmusik?",
+        "answer": "Partitur mit allen Instrumenten und Gesang",
+        "options": [
+            "Liste aller im Film verwendeten Songs",
+            "Vollständige Aufnahme der Filmmusik",
+            "Partitur mit allen Instrumenten und Gesang",
+            "Liste aller an der Filmmusik beteiligten"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wie lange hat der Komponist Howard Shore an der Filmmusik der Herr der Ringe Trilogie insgesamt gearbeitet?",
+        "answer": "Etwa 18 Monate",
+        "options": [
+            "Etwa 12 Monate",
+            "Etwa 14 Monate",
+            "Etwa 16 Monate",
+            "Etwa 18 Monate"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Wie viele Minuten Musik hat der Komponist Alan Silvestri für den Film \"Avengers: Endgame\" geschrieben?",
+        "answer": "Etwa 105 Minuten",
+        "options": [
+            "Etwa 69 Minuten",
+            "Etwa 74 Minuten",
+            "Etwa 67 Minuten",
+            "Etwa 105 Minuten"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": " Wer komponierte die Filmmusik für den Film \"Doctor Strange\" aus dem Jahr 2016?",
+        "answer": "Michael Giacchino",
+        "options": [
+            "Alan Silvestri",
+            "Michael Giacchino",
+            "John Williams",
+            "Hans Zimmer"
+        ]
+    },
+    {
+        "category": "Filmmusik",
+        "img": "/assets/images/quiz/filmmusic.png",
+        "question": "Welcher Song von AC/DC wird im Film \"Iron Man 2\" verwendet?",
+        "answer": "Shoot to Thrill",
+        "options": [
+            "Shoot to Thrill",
+            "T.N.T.",
+            "Back In Black",
+            "Thunderstruck"
         ]
     }
 ]
