@@ -202,7 +202,7 @@ button {
 }
 
 .card-wrapper {
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     background: #111111;
     text-align: center;
@@ -230,16 +230,13 @@ button {
 }
 
 .game-button {
-    margin-top: 5px;
     background-color: #1a1818;
     color: #e74c3c;
     font-size: 17px;
-    margin-left: 3px;
-    margin-right: 3px;
 }
 
 .button-with-adjust {
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 .card-bottom-correction {
