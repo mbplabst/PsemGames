@@ -176,6 +176,7 @@ strong::before {
     background-color: #0d0d0d;
     padding: 4px;
     border-radius: 5px;
+    margin-top: 4px;
 }
 
 .content-image {
@@ -212,6 +213,7 @@ button {
     display: flex;
     background-color: #0d0d0d;
     border-radius: 10px;
+    margin-top: 4px;
 }
 
 .card-image {
@@ -229,6 +231,11 @@ button {
     background-color: #1a1818;
     color: #e74c3c;
     font-size: 17px;
+}
+
+.button-size {
+    width: 200px;
+    margin: 2.5px 0px 2.5px 0px;
 }
 
 .button-with-adjust {
