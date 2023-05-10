@@ -5,5 +5,31 @@
     display: block;
     text-align: center;
     padding: 5px;
-    padding-bottom: 0px;
+}
+
+.iframe {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    border: 3px solid #141414;
+}
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.text {
+    margin-top: 4px !important;
+}
+
+.image-wrapper {
+    margin-top: 0px !important;
+}
+
+.card-bottom-correction {
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 500px) {
+    .image-wrapper {
+        max-width: 800px !important;
+    }
 }

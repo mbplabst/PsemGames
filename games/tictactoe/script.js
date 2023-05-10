@@ -37,10 +37,10 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6]
     ];
 
-    function playSound(audioName) {
-        let audio = new Audio(audioName);
-        audio.play();
-    }
+    // function playSound(audioName) {
+    //     let audio = new Audio(audioName);
+    //     audio.play();
+    // }
 
     function handleResultValidation() {
         let roundWon = false;
@@ -92,17 +92,14 @@ window.addEventListener('DOMContentLoaded', () => {
             case PLAYERO_WON:
                 winCountO.innerHTML = ++statsTotalWinsO;
                 announcer.innerHTML = 'Spieler <span class="playerO">O</span> gewinnt!';
-                playSound("/assets/sounds/winO.mp3");
                 break;
             case PLAYERX_WON:
                 winCountX.innerHTML = ++statsTotalWinsX;
                 announcer.innerHTML = 'Spieler <span class="playerX">X</span> gewinnt!';
-                playSound("/assets/sounds/winX.mp3");
                 break;
             case TIE:
                 tieCount.innerHTML = ++statsTotalTies;
                 announcer.innerHTML = 'Unentschieden!';
-                playSound("/assets/sounds/tie.mp3");
         }
         display.innerHTML = 'Das Spiel ist beendet!';
         announcer.classList.remove('hide');
@@ -134,7 +131,6 @@ window.addEventListener('DOMContentLoaded', () => {
             updateBoard(index);
             handleResultValidation();
             changePlayer();
-            playSound("/assets/sounds/click.mp3");
         }
     }
 
