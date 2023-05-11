@@ -162,6 +162,10 @@ strong::before {
     font-size: 35px;
 }
 
+.header-image {
+    width: 100px;
+}
+
 .content-text {
     margin: 0px;
     font-size: 15px;
