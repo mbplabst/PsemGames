@@ -1,21 +1,8 @@
-/*RewriteEngine on
-
-
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
-
-RewriteCond %{REQUEST_FILENAME}.html -f */
-
-/* RewriteEngine on
-RewriteCond % { REQUEST_FILENAME }! - d
-RewriteCond % { REQUEST_FILENAME }\.html - f
-RewriteRule ^ (.*)$ $1.html[NC, L] */
-
-<IfModule mod_rewrite.c>         
-    RewriteEngine On 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
     RewriteBase /
-    RewriteCond %{REQUEST_FILENAME} !-f 
-    RewriteRule ^([^\.]+)$ $1.html [NC,L] 
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^\.]+)$ $1.html [NC,L]
 </IfModule>
 
-
+Errordocument 404 /error/404.html
