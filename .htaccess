@@ -4,5 +4,3 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^([^\.]+)$ $1.html [NC,L]
 </IfModule>
-
-Errordocument 404 /errors/404.html
