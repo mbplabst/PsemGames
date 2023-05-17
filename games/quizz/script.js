@@ -34,7 +34,7 @@ let statsWrong = 0;
 /*********************** FUNKTIONEN ***********************/
 
 async function startQuiz() {
-    
+
     startGameButton.classList.add("hide");
     question.classList.remove('hide');
     category.classList.remove('hide');
@@ -52,6 +52,11 @@ async function startQuiz() {
 function loadNewQuestion() {
     nextQuestionButton.classList.add('hide');
 
+    if (allQuestions.length === 0) {
+        // console.log("ALLE FRAGEN SIND DURCH")
+        allQuestions = [...answeredQuestions];
+    }
+
     let index = Math.floor(Math.random() * allQuestions.length);
 
     currentQuestion = allQuestions[index];
@@ -65,6 +70,8 @@ function loadNewQuestion() {
 
     countaaa = maxCountaaa;
     answeredQuestions.push(currentQuestion);
+    allQuestions = allQuestions.filter(question => question !== currentQuestion);
+    // console.log("Alle Fragen noch insg. " + allQuestions.length);
     timeBar.classList.add('time-bar-colored');
 
     allButtons.forEach(b => {
