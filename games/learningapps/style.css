@@ -46,3 +46,32 @@ h1 {
     margin-top: 4px;
     font-size: 20px;
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 8px;
+    border-color: #5f5858;
+    margin-top: 10px;
+}
+
+#reset {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background-color: #e74c3c;
+    margin-top: 0px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
+    /* border: 3px solid #141414; */
+    border: 3px solid #5c3636;
+}
