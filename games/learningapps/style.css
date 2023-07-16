@@ -10,10 +10,15 @@
 .iframe {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     border: 3px solid #141414;
+    border-radius: 5px;
 }
 
 h1 {
     font-family: 'Rubik Vinyl', cursive;
+}
+
+.header-title {
+    font-size: 31px;
 }
 
 .text {

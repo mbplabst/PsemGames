@@ -2198,7 +2198,7 @@
     {
         "category": "Klassische Musik",
         "img": "/assets/images/quiz/classic.png",
-        "question": "Von welchem Komponisten stammt die Nationalhymne Deutschlands? -",
+        "question": "Von welchem Komponisten stammt die Nationalhymne Deutschlands?",
         "answer": "Joseph Haydn",
         "options": [
             "Ludwig van Beethoven",
