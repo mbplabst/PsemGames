@@ -10,7 +10,7 @@
 .iframe {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
     border: 3px solid #141414;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -27,6 +27,7 @@ h1 {
 
 .image-wrapper {
     margin-top: 0px !important;
+    padding: 4px 4px 4px 4px!important;
 }
 
 .card-bottom-correction {
@@ -72,6 +73,7 @@ button {
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.514), 0 20px 20px 0 rgba(0, 0, 0, 0);
-    /* border: 3px solid #141414; */
-    border: 3px solid #5c3636;
+    border: 3px solid #141414;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
